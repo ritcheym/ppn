@@ -1,0 +1,31 @@
+---
+title: "Programming for Psychology and Neuroscience"
+sidebar: false
+---
+
+## Welcome
+
+This is the course website for *Programming for Psychology and Neuroscience*, developed and taught by [Dr. Maureen Ritchey](https://www.thememolab.org/people/ritchey/) at Boston College. This course will be taught in Spring 2025.
+
+::: callout-caution
+This website is currently under construction.
+:::
+
+## Course description
+
+This course will provide an introduction to computer programming and its applications to psychology and neuroscience. The goal will be to provide you with the skillset to program experiments and data analyses, as well as an understanding of how these tools are used to facilitate modern research. We will begin with the basics of how to develop algorithms and implement them with programming logic. In a series of hands-on projects, students will learn to program web-based interactive experiments and to analyze psychology and neuroscience datasets using JavaScript and R. Additional topics will include data management, version control, strategies for code debugging, data visualization, and an introduction to machine learning and natural language processing techniques. This course is ideal for students with little to no programming experience, although prior training in statistics is strongly recommended.
+
+## Website information
+
+On this website, you can find the course [syllabus](syllabus.html) as well as the details for the course [modules](modules/index.html) and assignments. We will also use the [Canvas](http://www.bc.edu/lms) site for managing quizzes and grading.
+
+## Acknowledgments
+
+This course incorporates open-access materials that have been generously shared by researchers around the world, including:
+
+-   Emily Nordmann and Lisa DeBruine. [*Applied Data Skills*](https://psyteachr.github.io/ads-v3/). doi:10.5281/zenodo.6365077
+-   Danielle Navarro. [*R for Psychological Science*](https://psyr.djnavarro.net/).
+
+Some content and assignments were inspired by Matt Crump's similar [course](https://www.crumplab.com/psyc3470/). The syllabus includes language recommended by the Boston College [Center for Teaching Excellence](https://cteresources.bc.edu/).
+
+Course development was supported by a CAREER Award from the National Science Foundation ([BCS-2047415](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047415)).

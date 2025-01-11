@@ -1,0 +1,22 @@
+---
+title: "Programming Foundations Part 2"
+---
+
+## Objectives
+
+This week, we'll expand on last week's module by discussing how to chain together commands to create functions and programs. We will discuss how to develop an algorithm, which is the list of steps required to solve a problem. Writing an algorithm is like writing a recipe for someone who has never cooked before: you have to be very specific about what ingredients to use, and when and how to add them. We'll learn how to build these algorithms into our own custom functions and full-fledged programs.
+
+## Readings
+
+You should read these chapters before you come to class:
+
+-   *R for Psychological Science -* [Functions](https://psyr.djnavarro.net/variables.html)
+-   *R for Psychological Science -* [Programming](https://psyr.djnavarro.net/variables.html)
+
+## In-class exercises
+
+We will follow along with the examples given in the textbook. Open the R project called `programming-foundations`, and save today's work in a notebook called `part-2.Rmd`.
+
+## Weekly assignment
+
+Here's the weekly assignment.

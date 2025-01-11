@@ -1,0 +1,19 @@
+---
+title: "Statistical Analysis in R"
+---
+
+## Objectives
+
+Here's the objective for this week.
+
+## Readings
+
+Link to textbook chapter
+
+## In-class exercises
+
+In-class exercises
+
+## Weekly assignment
+
+Here's the weekly assignment.

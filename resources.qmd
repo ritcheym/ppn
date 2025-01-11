@@ -1,0 +1,37 @@
+---
+title: "Resources"
+sidebar: false
+---
+
+For many topics in this class, we are going to be only scratching the surface. Below you can find some links that can help you learn more.
+
+### R cheatsheets
+
+-   Official cheatsheets from [Posit](https://posit.co/resources/cheatsheets/)
+
+### Version control with git
+
+-   [Git, GitHub, and Version Control](https://www.crumplab.com/psyc3470/compendium/version_control.html) by Matt Crump
+-   [Happy Git with R](https://happygitwithr.com/) by Jenny Bryan
+
+### Statistical analysis with R
+
+-   [Learning Statistics with R](https://learningstatisticswithr.com/book/) by Danielle Navarro
+-   [Answering Questions with Data](https://www.crumplab.com/statistics/) by Matt Crump, Danielle Navarro, and Jeffrey Suzuki
+
+### Data visualization
+
+-   [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/) by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen
+
+### Similar ideas, different language: Resources for learning Python
+
+-   [Python vs R: What's the Difference?](https://www.ibm.com/think/topics/python-vs-r)
+-   [Lab in Cognition and Perception](https://cims.nyu.edu/~brenden/courses/labincp/intro.html) by Todd Gureckis
+
+### Natural language processing with R
+
+-   [Tidy Text Mining](https://www.tidytextmining.com/) by Julia Silge and David Robinson
+
+### Advanced programming with R
+
+-   [Advanced R](https://adv-r.hadley.nz/) by Hadley Wickham

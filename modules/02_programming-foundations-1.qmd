@@ -1,0 +1,27 @@
+---
+title: "Programming Foundations Part 1"
+---
+
+## Objectives
+
+This week, we'll learn the building blocks of programming: How do we represent text, numbers, and vectors in a way that a machine can understand? How do we tell the computer what to do with those variables? In other words, we're going to learn how to "speak" the computer's language. Although here we'll focus specifically on the R language, many of these concepts are shared across programming languages.
+
+## Readings
+
+You should read these chapters before you come to class:
+
+-   *R for Psychological Science -* [Variables](https://psyr.djnavarro.net/variables.html)
+-   *R for Psychological Science -* [Scripts](https://psyr.djnavarro.net/variables.html)
+-   *R for Psychological Science -* [Vectors](https://psyr.djnavarro.net/variables.html)
+-   *R for Psychological Science -* [Loops](https://psyr.djnavarro.net/variables.html)
+-   *R for Psychological Science -* [Branches](https://psyr.djnavarro.net/variables.html)
+
+Don't worry, each chapter is short!
+
+## In-class exercises
+
+We will follow along with the examples given in the textbook. Create an R project called `programming-foundations` for this section of the course, and save today's work in a notebook called `part-1.Rmd`.
+
+## Weekly assignment
+
+Here's the weekly assignment.

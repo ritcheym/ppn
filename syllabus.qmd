@@ -1,0 +1,130 @@
+---
+title: "Syllabus"
+sidebar: false
+---
+
+## **PSYC4425: Programming for Psychology and Neuroscience**
+
+**Instructor:** Maureen Ritchey, PhD (she/her)\
+**Contact info & office hours:** See [Canvas](http://www.bc.edu/lms) site for more info
+
+## Course description
+
+This course will provide an introduction to computer programming and its applications to psychology and neuroscience. The goal will be to provide you with the skillset to program experiments and data analyses, as well as an understanding of how these tools are used to facilitate modern research. We will begin with the basics of how to develop algorithms and implement them with programming logic. In a series of hands-on projects, students will learn to program web-based interactive experiments and to analyze psychology and neuroscience datasets using JavaScript and R. Additional topics will include data management, version control, strategies for code debugging, data visualization, and an introduction to machine learning and natural language processing techniques. This course is ideal for students with little to no programming experience, although prior training in statistics is strongly recommended.
+
+## Course objectives
+
+The primary objectives of this course are to:
+
+-   Understand key concepts in computer programming, such as how to develop an algorithm and how to implement it using programming logic.
+-   Learn how these tools may be used to facilitate psychology and neuroscience research.
+-   Develop skills in data science techniques, including data wrangling, visualization, and statistical analysis, and apply these skills to psychology and neuroscience datasets.
+-   Develop skills in experiment programming and learn how to collect, process, analyze, and present primary research data.
+-   Communicate ideas about scientific research in oral, written, and visual forms.
+
+## Assigned readings
+
+This course incorporates open-access textbook materials that have been generously shared by researchers around the world, including:
+
+-   Emily Nordmann and Lisa DeBruine. [*Applied Data Skills*](https://psyteachr.github.io/ads-v3/). doi:10.5281/zenodo.6365077
+-   Danielle Navarro. [*R for Psychological Science*](https://psyr.djnavarro.net/).
+
+Other readings will be assigned as necessary and posted under the corresponding module.
+
+## Software
+
+-   [R](https://www.r-project.org/), the statistical computing language
+-   [RStudio](https://posit.co/download/rstudio-desktop/)
+-   [Visual Studio Code](https://code.visualstudio.com/)
+-   [git](https://git-scm.com/)
+
+::: callout-note
+In order to participate during class, you must bring a laptop with you. If you don't have one, please let me know and I will try my best to help you access one.
+:::
+
+## Schedule
+
+| **Week** | **Date** | **Module** | **Description** |
+|:----------------:|:----------------:|------------------|------------------|
+| 1 | Jan 16 | [Intro to Programming with R](modules/01_intro.html) | Installation and familiarization with R and RStudio interface; Data organization, reproducible scientific programming |
+| 2 | Jan 23 | [Programming Foundations Part 1](modules/02_programming-foundations-1.html) | Variables, vectors, loops, branches |
+| 3 | Jan 30 | [Programming Foundations Part 2](modules/03_programming-foundations-2.html) | Functions and algorithms |
+| 4 | Feb 6 | [Data Visualization](modules/04_data-visualization.html) | Exploratory data visualization with ggplot, customizing plots |
+| 5 | Feb 13 | [Data Summaries & Data Relations](modules/05_data-summaries-relations.html) | Importing and summarizing data, tidyverse pipes; Combining datasets |
+| 6 | Feb 20 | [Data Tidying & Data Wrangling](modules/06_data-tidying-wrangling.html) | What is “tidy data” and how do we get it; Selecting and filtering data, creating new variables |
+| 7 | Feb 27 | [Intro to jsPsych](modules/07_intro-jspsych.html) | **Midterm projects due**; Implementing a simple experiment using jsPsych |
+| 8 | Mar 13 | [Experiment Design and Data Collection](modules/08_experiment-design.html) | Designing more complex experiments with jsPsych, collecting data |
+| 9 | Mar 20 | [Statistical Analysis in R](modules/09_statistical-analysis.html) | Basic statistical analysis in R, including t-tests, ANOVAs, and regression analyses on sample datasets |
+| 10 | Mar 27 | [Intro to Machine Learning](modules/10_machine-learning.html) | Simple machine learning models for classifying or predicting psychological outcomes |
+| 11 | Apr 3 | [Intro to Natural Language Processing](modules/11_nlp.html) | Text processing using NLP tools, sentiment analysis |
+| 12 | Apr 10 | [Advanced Visualization Techniques](modules/12_advanced-visualization.html) | Interactive visualizations and web-based tools, visualization of complex data types |
+| 13 | Apr 24 | Project Presentations | **Final projects due** |
+| 14 | May 1 | Project Presentations |  |
+
+## Course requirements
+
+In this course, you will complete a series of hands-on exercises and assessments. For the exercises, you will have **weekly assignments** in addition to a [**midterm project**](projects/midterm-project.html) and [**final project**](projects/final-project.html). You will also present your final project to the class. For the other assessments, you will complete **weekly quizzes** as well as a **final exam**. The weekly assignments and quizzes are low-stakes opportunities to build your skills and test your knowledge. The projects and final exam are designed to showcase what you have learned.
+
+Boston College defines credit hours in terms of how much in- and out-of-class time is spent on a course per week. You should expect to spend a minimum of 6 out-of-class hours per week on this 3-credit course.
+
+Your **active participation** during class will be an important way of demonstrating your learning. You will receive full participation credit if you make, on average, one substantive contribution per class discussion and actively participate in all of the in-class activities.
+
+::: callout-note
+**Absence policy:** If you must miss a class due to illness or other serious reasons, you are responsible for familiarizing yourself with that week's material and completing any in-class exercises on your own. In order to make up your attendance credit, you must submit for review any code that steps through these exercises. If you miss more than 2 classes without a dean's letter excusing your absences, you will no longer be able to make up your attendance credit.
+:::
+
+## Grading
+
+-   Participation & attendance: 10%
+-   Weekly assignments: 20% (i.e., about 2% per assignment)
+-   Midterm project: 12%
+-   Final project: 20%
+-   Project presentation: 5%
+-   Weekly quizzes: 10% (i.e., about 1% per quiz)
+-   Final exam: 23%
+
+Final grades will be based on your total points, rounded to the nearest whole number: A: 94-100, A-: 90-93, B+: 87-89, B: 84-86, B-: 80-83, C+: 77-79, C: 74-76, C-: 70-73, D+: 67-69, D: 64-66, D-: 60-63, F: below 60.
+
+Assignments are subject to a 5%-per-day penalty for each day that they are late. Every student will be allowed one "free" late turn-in that they can use for any of the weekly assignments. Assignments will generally be due by noon the day before class.
+
+Grading for the weekly assignments will be based on satisfactory completion. In other words, you will get full credit as long as you have completed the assignment on time and, by my assessment, would have earned at least a 70% on it. Note that the midterm project and final project will be fully graded following a separate rubric.
+
+Quizzes will be taken in class unless otherwise arranged with the instructor. Your final quiz grade will drop your lowest 2 quiz scores over the course of the semester.
+
+## Academic Integrity
+
+Academic integrity is central to the mission of higher education. Please review the standards and procedures that are published in the university catalog and on the web, at [www.bc.edu/integrity](http://www.bc.edu/integrity). Plagiarism is defined as “the act of taking the words, ideas, data, illustrations, or statements of another person or source, and presenting them as one's own. Each student is responsible for learning and using proper methods of paraphrasing and footnoting, quotation, and other forms of citation, to ensure that the original author, speaker, illustrator, or source of the material used is clearly acknowledged.” Plagiarism and other breaches of academic integrity will be taken seriously. If you have any questions about proper use of citations or avoiding plagiarism in your papers, please consult with me before turning in your assignment.
+
+## Acceptable (and unacceptable) use of generative AI
+
+Artificial intelligence (AI) tools, such as ChatGPT and Microsoft Copilot, can be useful for generating and understanding computer code. However, they have the potential to interfere with learning when they are used indiscriminately. Learning requires making mistakes. Learning requires critical thinking about the process, not just finding the solution. In this course, you will be permitted to use AI tools in most cases, but you are strongly encouraged to use them in ways that facilitate your own learning.
+
+What does this mean? Most importantly, it means trying to solve the problem first on your own. If you can't remember the exact syntax you want to use, write out what you can remember. Get the structure of your code in place. Use the help function in R to look at examples of how different functions can be used. Find examples online, and then figure out how to adapt them to your own code. If it still doesn't work, then an AI tool can help you debug the problem.
+
+Another way that AI tools can facilitate your learning is by annotating computer code. If you come across some code that you do not fully understand, have the AI tool explain it to you.
+
+A few caveats: For some assignments, I may explicitly forbid the use of AI tools as part of the learning exercise. In addition, you will not be able to use AI tools to complete your quizzes or final exam. For this reason, it is all the more important that you do not let AI tools interfere with your learning. Finally, you are expected to be able to explain all of your code, whether or not you used an AI tool, and I may ask you to do so.
+
+Any and all use of AI tools should be described in a **disclosure statement** included in your assignment (e.g., “ChatGPT was used to debug lines 15-20,” or “Microsoft Copilot was used to help figure out the tricky bit of syntax on line 17.”). This can be included in-line with your code or as a separate statement at the end.
+
+If any part of this is confusing or uncertain, please reach out to me for a conversation before submitting your work. Also, please be aware that other instructors may have different policies regarding the acceptable use of AI.
+
+## Accommodations
+
+I am committed to supporting the learning of all students in my class. If you are a student with a documented learning disability seeking reasonable accommodations in this course, please contact the Connors Family Learning Center; regarding all other types of disabilities, please contact the Disability Services Office.
+
+## Classroom recordings
+
+Students are not permitted to create audio or video recordings of the class without the express consent of the instructor and other students.
+
+## Maintaining an inclusive classroom environment
+
+This course incorporates lectures as well as group discussions and exercises. This means, in part, that all students are responsible for contributing to both their own learning experience and the learning experience of others. Because the contribution of ideas from each student is critical to the learning process, any behavior that makes other students feel uncomfortable in their learning environment will not be tolerated. This includes interrupting others while they are talking, carrying on conversations separate from the class discussion, or making comments that could be perceived as offensive in terms of race, gender, sexual orientation, religion, ethnicity, nationality, social-economic status, ability, etc. Please make every effort to maintain an atmosphere where everyone feels comfortable sharing and responding to ideas.
+
+## Health and well-being
+
+We all share responsibility for the health and well-being of our campus community. Please follow [CDC guidance](https://www.cdc.gov/respiratory-viruses/prevention/precautions-when-sick.html) on preventing the spread of respiratory viruses, including the COVID-19 virus. This includes staying home if you have a fever until your symptoms begin to improve. If you are sick but well enough to attend class (e.g., you have a cough or runny nose, or you are recently recovering from a virus), please wear a mask in the classroom.
+
+If you are feeling stressed, having challenges managing your time, sleep, or making choices around alcohol and food, the Office of Health Promotion offers Wellness Coaching appointments to support your health and wellbeing. Please reach out by going to the Center for Student Wellness [website](https://www.bc.edu/bc-web/offices/student-affairs/sites/center-for-student-wellness/programs-services.html) to schedule a virtual meeting with a staff member, Wellness Coach, and for health and wellness information.
+
+I ask that you inform me— with as much advance notice as possible— if you become unable to engage with the class material in the way it is outlined on this syllabus so that we can work together to develop a plan. I also hope you will view me as a part of your support network at Boston College; please reach out if you have questions or concerns, or would like help getting connected with other campus resources.

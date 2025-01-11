@@ -1,0 +1,59 @@
+project:
+  type: website
+
+website:
+  title: "PPN"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - syllabus.qmd
+      - resources.qmd
+      - modules/index.qmd
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://github.com/ritcheym
+  back-to-top-navigation: false
+  page-footer: "Last updated January 2024."
+    
+  sidebar:
+    style: "floating"
+    search: true
+    contents:
+      - section: "<b>Modules</b>"
+        href: modules/index.qmd
+        contents:
+          - text: "<mark>Intro to Programming</mark>"
+          - modules/01_intro.qmd
+          - modules/02_programming-foundations-1.qmd
+          - modules/03_programming-foundations-2.qmd
+          - text: "<mark>Data Manipulation</mark>"
+          - modules/04_data-visualization.qmd
+          - modules/05_data-summaries-relations.qmd
+          - modules/06_data-tidying-wrangling.qmd
+          - text: "<mark>Data Collection</mark>"
+          - modules/07_intro-jspsych.qmd
+          - modules/08_experiment-design.qmd
+          - text: "<mark>Data Analysis</mark>"
+          - modules/09_statistical-analysis.qmd
+          - modules/10_machine-learning.qmd
+          - modules/11_nlp.qmd
+          - modules/12_advanced-visualization.qmd
+      - text: "<b>Datasets</b>"
+        href: datasets/index.qmd
+      - section: "<b>Projects</b>"
+        contents:
+          - projects/midterm-project.qmd
+          - projects/final-project.qmd
+          - projects
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
