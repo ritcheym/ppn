@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "PPN"
@@ -14,7 +15,7 @@ website:
       - icon: github
         menu:
           - text: Source Code
-            href:  https://github.com/ritcheym
+            href:  https://github.com/ritcheym/ppn
   back-to-top-navigation: false
   page-footer: "Last updated January 2024."
     
