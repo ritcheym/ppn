@@ -317,10 +317,9 @@ ul.task-list li input[type="checkbox"] {
 <p>You should read these chapters before you come to class:</p>
 <ul>
 <li><em>R for Psychological Science -</em> <a href="https://psyr.djnavarro.net/variables.html">Variables</a></li>
-<li><em>R for Psychological Science -</em> <a href="https://psyr.djnavarro.net/variables.html">Scripts</a></li>
-<li><em>R for Psychological Science -</em> <a href="https://psyr.djnavarro.net/variables.html">Vectors</a></li>
-<li><em>R for Psychological Science -</em> <a href="https://psyr.djnavarro.net/variables.html">Loops</a></li>
-<li><em>R for Psychological Science -</em> <a href="https://psyr.djnavarro.net/variables.html">Branches</a></li>
+<li><em>R for Psychological Science -</em> <a href="https://psyr.djnavarro.net/vectors.html">Vectors</a></li>
+<li><em>R for Psychological Science -</em> <a href="https://psyr.djnavarro.net/loops.html">Loops</a></li>
+<li><em>R for Psychological Science -</em> <a href="https://psyr.djnavarro.net/branches.html">Branches</a></li>
 </ul>
 <p>Don’t worry, each chapter is short!</p>
 </section>
@@ -330,7 +329,23 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="weekly-assignment" class="level2">
 <h2 class="anchored" data-anchor-id="weekly-assignment">Weekly assignment</h2>
-<p>Here’s the weekly assignment.</p>
+<p>First, make sure you have completed all of the exercises in the above chapters. We will have already completed most of them in class. All of the solutions should be included in your R notebook. Then, solve these additional problems using the concepts you have learned in class. For now, you should avoid using other predefined functions unless noted below.</p>
+<p>As always, your R notebook should be organized with headings and comments explaining your work.</p>
+<ol type="1">
+<li>Write code that will place the numbers 1 to 100 separately into a variable using a for-loop. Then, look up the <code>seq()</code> function and use this function to do the same thing.</li>
+<li>Find the sum of all the integer numbers from 1 to 100.
+<ul>
+<li>You can use the <code>sum()</code> function on a vector of numbers.</li>
+<li>How would you do this without using the sum function? Show how you would use a for-loop to accomplish this task.</li>
+</ul></li>
+<li>List all of the odd numbers from 1 to 100.
+<ul>
+<li>How could you do this <em>without</em> using the <code>seq()</code> function? Consider using the mod function <code>%%</code>, which evaluates whether or not there is a remainder when dividing one number by another.</li>
+</ul></li>
+<li>Count the number of words in a string variable. You can use the <code>strsplit()</code> function to help.</li>
+<li>If we list all of the natural numbers between 1 and 10 that are divisible by 3 or 5, we get 3, 5, 6, and 9. The sum of these numbers is 23. Find the sum of all the multiples of 3 and 5 between 1 and 1000.</li>
+</ol>
+<p>Some of these problems were adapted from this <a href="https://www.crumplab.com/rstatsforpsych/practice-problems.html">website</a> and from <a href="https://projecteuler.net/">Project Euler</a>.</p>
 
 
 </section>

@@ -23,6 +23,6 @@ We will follow along with the examples given in the textbook. In addition, we wi
 
 ## Weekly assignment
 
-Create the `demo_report` project following the instructions in the textbook under [Exercises](https://psyteachr.github.io/ads-v3/02-reports.html#sec-exercises-reports) (2.8.1-2.8.7), with one modification: Focus on a job you might like to have *in the future* (not necessarily one that you have now). In your description, include any ideas about how programming might be able to help you in that job. Include the rest of the information that is requested in the instructions.
+Create the `demo_report` project following the instructions in the textbook under [Exercises](https://psyteachr.github.io/ads-v3/02-reports.html#sec-exercises-reports) (2.8.1-2.8.7), with one modification: Focus on a job you might like to have *in the future*. In your description, include any ideas about how programming might be able to help you in that job. Include the rest of the information that is requested in the instructions.
 
 Once you are done, you will zip the `demo_report` folder (instructions: [mac](https://support.apple.com/guide/mac-help/zip-and-unzip-files-and-folders-on-mac-mchlp2528/mac), [windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5)) containing your R project, html file, and Rmd file and upload it through the link provided.

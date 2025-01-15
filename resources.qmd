@@ -35,3 +35,15 @@ For many topics in this class, we are going to be only scratching the surface. B
 ### Advanced programming with R
 
 -   [Advanced R](https://adv-r.hadley.nz/) by Hadley Wickham
+
+### Basic computer skills
+
+-   How to zip files: [mac](https://support.apple.com/guide/mac-help/zip-and-unzip-files-and-folders-on-mac-mchlp2528/mac), [windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5)
+-   [Common Mac terminal commands](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)
+
+### Searching for datasets
+
+-   [Datasets used in this course](~/datasets)
+-   Psychology datasets published on the [Open Science Framework](https://osf.io/)
+-   Articles with open data published in [Psychological Science](https://journals.sagepub.com/home/pss)
+-   [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) multi-purpose datasets
