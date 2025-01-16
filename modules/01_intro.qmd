@@ -4,7 +4,7 @@ title: "Introduction to R and RStudio"
 
 ## Objectives
 
-This week, we'll get started with familiarizing ourselves with R and RStudio. You should come to class with software already installed on your laptop (see below for instructions). During class, we will learn how to interact the RStudio interface. We'll also talk about what reproducible scientific programming is, and how R notebooks can be used to make your work reproducible, shareable, and one might even say, beautiful.
+This week, we'll get started with familiarizing ourselves with R and RStudio. You should come to class with software already installed on your laptop (see below for instructions). During class, we will learn how to interact the RStudio interface. We'll also talk about what reproducible scientific programming is, and how R markdown reports can be used to make your work reproducible, shareable, and one might even say, beautiful.
 
 ## Readings and other preparation
 
@@ -20,6 +20,8 @@ For our first week, you do not to read ahead of the class period. But you should
 ## In-class exercises
 
 We will follow along with the examples given in the textbook. In addition, we will make sure everyone is set up with the software and with Canvas.
+
+**Key concepts:** R vs RStudio, base-R, package, function, argument, objects, environment (workspace), help, R markdown, script, knit, chunk, comments, project
 
 ## Weekly assignment
 

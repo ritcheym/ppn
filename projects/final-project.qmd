@@ -20,11 +20,11 @@ Use what you have learned about data tidying, wrangling, visualization, and anal
 
 You do not need to reproduce the entire paper. Most papers includes a large number of different experiments, analyses, and visualizations, some of which may go beyond the scope of what you have learned. You should select a subset of what they have done– perhaps the key data for answering their research question- and focus on that.
 
-### 3. Package everything into an R notebook
+### 3. Package everything into an R markdown report
 
-Your notebook should include a description of the research question, a link to the dataset, as well as narrative details about what you're doing at each step and what you have found.
+Your markdown report should include a description of the research question, a link to the dataset, as well as narrative details about what you're doing at each step and what you have found.
 
-The end result should be a reproducible notebook that would allow another person to download the dataset and run your code to obtain the same results.
+The end result should be a reproducible report that would allow another person to download the dataset and run your code to obtain the same results.
 
 ## Final presentation
 

@@ -18,7 +18,7 @@ We will also discuss content from this chapter:
 
 ## In-class exercises
 
-We will follow along with the examples given in the textbook. Create an R project called `visualization`, and save today's work in a notebook called `plots.Rmd`. We will also go over the dataset that you'll use for your assignment this week.
+We will follow along with the examples given in the textbook. Create an R project called `visualization`, and save today's work in an R markdown report called `plots.Rmd`. We will also go over the dataset that you'll use for your assignment this week.
 
 ## Weekly assignment
 
