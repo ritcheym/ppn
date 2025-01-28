@@ -1,7 +1,12 @@
 project:
   type: website
   output-dir: docs
-
+  render:
+    - "*.qmd"
+    - "!*.Rmd"
+  resources:
+    - files/*.Rmd
+    
 website:
   title: "PPN"
   navbar:

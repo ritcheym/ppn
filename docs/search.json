@@ -1,10 +1,213 @@
 [
   {
+    "objectID": "styletest.html",
+    "href": "styletest.html",
+    "title": "Styles",
+    "section": "",
+    "text": "Style examples"
+  },
+  {
+    "objectID": "styletest.html#callouts",
+    "href": "styletest.html#callouts",
+    "title": "Styles",
+    "section": "Callouts",
+    "text": "Callouts\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default."
+  },
+  {
+    "objectID": "styletest.html#code",
+    "href": "styletest.html#code",
+    "title": "Styles",
+    "section": "Code",
+    "text": "Code\n\nq &lt;- 1 + 2\nprint(q)\n\n[1] 3"
+  },
+  {
+    "objectID": "styletest.html#citations",
+    "href": "styletest.html#citations",
+    "title": "Styles",
+    "section": "Citations",
+    "text": "Citations"
+  },
+  {
+    "objectID": "styletest.html#interactive-questions",
+    "href": "styletest.html#interactive-questions",
+    "title": "Styles",
+    "section": "Interactive questions",
+    "text": "Interactive questions\nSee this website: https://web.mat.upc.edu/joaquim.puig/posts/webexercises-quiz/"
+  },
+  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources",
     "section": "",
     "text": "For many topics in this class, we are going to be only scratching the surface. Below you can find some links that can help you learn more.\n\nR cheatsheets\n\nOfficial cheatsheets from Posit\n\n\n\nVersion control with git\n\nGit, GitHub, and Version Control by Matt Crump\nHappy Git with R by Jenny Bryan\n\n\n\nStatistical analysis with R\n\nLearning Statistics with R by Danielle Navarro\nAnswering Questions with Data by Matt Crump, Danielle Navarro, and Jeffrey Suzuki\n\n\n\nData visualization\n\nggplot2: Elegant Graphics for Data Analysis by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen\n\n\n\nSimilar ideas, different language: Resources for learning Python\n\nPython vs R: What’s the Difference?\nLab in Cognition and Perception by Todd Gureckis\n\n\n\nNatural language processing with R\n\nTidy Text Mining by Julia Silge and David Robinson\n\n\n\nAdvanced programming with R\n\nAdvanced R by Hadley Wickham\n\n\n\nBasic computer skills\n\nHow to zip files: mac, windows\nCommon Mac terminal commands\n\n\n\nSearching for datasets\n\nDatasets used in this course\nPsychology datasets published on the Open Science Framework\nArticles with open data published in Psychological Science\nTidy Tuesday multi-purpose datasets"
+  },
+  {
+    "objectID": "projects/final-project.html",
+    "href": "projects/final-project.html",
+    "title": "Final Project",
+    "section": "",
+    "text": "For the final project, you will reproduce data visualizations and analysis from an openly available psychology dataset. This project will integrate what you’ve learned about data processing, analysis, and visualization, culminating in a reproducible narrative report of the results.",
+    "crumbs": [
+      "Home",
+      "<b>Projects</b>",
+      "Final Project"
+    ]
+  },
+  {
+    "objectID": "projects/final-project.html#overview",
+    "href": "projects/final-project.html#overview",
+    "title": "Final Project",
+    "section": "",
+    "text": "For the final project, you will reproduce data visualizations and analysis from an openly available psychology dataset. This project will integrate what you’ve learned about data processing, analysis, and visualization, culminating in a reproducible narrative report of the results.",
+    "crumbs": [
+      "Home",
+      "<b>Projects</b>",
+      "Final Project"
+    ]
+  },
+  {
+    "objectID": "projects/final-project.html#steps",
+    "href": "projects/final-project.html#steps",
+    "title": "Final Project",
+    "section": "Steps",
+    "text": "Steps\n\n1. Find an openly available dataset\nThe dataset should correspond to a published empirical paper in psychology and/or neuroscience. You can search for datasets directly on the Open Science Framework, or you can search for an article that interests you and see if their data are available. Articles in the journal Psychological Science are now required to share their data, so this journal might be a good place to start. Other journals may have similar requirements.\nYou are strongly encouraged to find this dataset well in advance of the final deadline and to review your choice with the instructor.\n\n\n2. Reproduce a set of analyses and visualizations in R\nUse what you have learned about data tidying, wrangling, visualization, and analysis to report on the published paper. Your report should include at least one table of summary statistics, one statistical analysis, and one data visualization that reproduces a figure from the paper. When possible, your work should reproduce what is already published.\nYou do not need to reproduce the entire paper. Most papers includes a large number of different experiments, analyses, and visualizations, some of which may go beyond the scope of what you have learned. You should select a subset of what they have done– perhaps the key data for answering their research question- and focus on that.\n\n\n3. Package everything into an R markdown report\nYour markdown report should include a description of the research question, a link to the dataset, as well as narrative details about what you’re doing at each step and what you have found.\nThe end result should be a reproducible report that would allow another person to download the dataset and run your code to obtain the same results.",
+    "crumbs": [
+      "Home",
+      "<b>Projects</b>",
+      "Final Project"
+    ]
+  },
+  {
+    "objectID": "projects/final-project.html#final-presentation",
+    "href": "projects/final-project.html#final-presentation",
+    "title": "Final Project",
+    "section": "Final presentation",
+    "text": "Final presentation\nIn the last two weeks of class, you will present your final project to the group. Your presentation should include:\n\nan overview of the research question\ninformation about the original data visualization and results\ninformation about your process for reproducing the visualization and results\nthe research conclusions\nwhat you have learned from this exercise.\n\nYour presentation should be no more than 10 minutes long.",
+    "crumbs": [
+      "Home",
+      "<b>Projects</b>",
+      "Final Project"
+    ]
+  },
+  {
+    "objectID": "modules/12_advanced-visualization.html",
+    "href": "modules/12_advanced-visualization.html",
+    "title": "Advanced Visualization Techniques",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Advanced Visualization Techniques"
+    ]
+  },
+  {
+    "objectID": "modules/12_advanced-visualization.html#objectives",
+    "href": "modules/12_advanced-visualization.html#objectives",
+    "title": "Advanced Visualization Techniques",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Advanced Visualization Techniques"
+    ]
+  },
+  {
+    "objectID": "modules/12_advanced-visualization.html#readings",
+    "href": "modules/12_advanced-visualization.html#readings",
+    "title": "Advanced Visualization Techniques",
+    "section": "Readings",
+    "text": "Readings\nLink to textbook chapter",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Advanced Visualization Techniques"
+    ]
+  },
+  {
+    "objectID": "modules/12_advanced-visualization.html#in-class-exercises",
+    "href": "modules/12_advanced-visualization.html#in-class-exercises",
+    "title": "Advanced Visualization Techniques",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nIn-class exercises",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Advanced Visualization Techniques"
+    ]
+  },
+  {
+    "objectID": "modules/12_advanced-visualization.html#weekly-assignment",
+    "href": "modules/12_advanced-visualization.html#weekly-assignment",
+    "title": "Advanced Visualization Techniques",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Advanced Visualization Techniques"
+    ]
+  },
+  {
+    "objectID": "modules/10_machine-learning.html",
+    "href": "modules/10_machine-learning.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "modules/10_machine-learning.html#objectives",
+    "href": "modules/10_machine-learning.html#objectives",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "modules/10_machine-learning.html#readings",
+    "href": "modules/10_machine-learning.html#readings",
+    "title": "Machine Learning",
+    "section": "Readings",
+    "text": "Readings\nLink to textbook chapter",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "modules/10_machine-learning.html#in-class-exercises",
+    "href": "modules/10_machine-learning.html#in-class-exercises",
+    "title": "Machine Learning",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nIn-class exercises",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "modules/10_machine-learning.html#weekly-assignment",
+    "href": "modules/10_machine-learning.html#weekly-assignment",
+    "title": "Machine Learning",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Machine Learning"
+    ]
   },
   {
     "objectID": "modules/08_experiment-design.html",
@@ -67,74 +270,123 @@
     ]
   },
   {
-    "objectID": "modules/07_intro-jspsych.html",
-    "href": "modules/07_intro-jspsych.html",
-    "title": "Introduction to jsPsych",
+    "objectID": "modules/06_data-tidying-wrangling.html",
+    "href": "modules/06_data-tidying-wrangling.html",
+    "title": "Data Tidying & Data Wrangling",
     "section": "",
     "text": "Here’s the objective for this week.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Introduction to jsPsych"
+      "Data Tidying & Data Wrangling"
     ]
   },
   {
-    "objectID": "modules/07_intro-jspsych.html#objectives",
-    "href": "modules/07_intro-jspsych.html#objectives",
-    "title": "Introduction to jsPsych",
+    "objectID": "modules/06_data-tidying-wrangling.html#objectives",
+    "href": "modules/06_data-tidying-wrangling.html#objectives",
+    "title": "Data Tidying & Data Wrangling",
     "section": "",
     "text": "Here’s the objective for this week.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Introduction to jsPsych"
+      "Data Tidying & Data Wrangling"
     ]
   },
   {
-    "objectID": "modules/07_intro-jspsych.html#readings",
-    "href": "modules/07_intro-jspsych.html#readings",
-    "title": "Introduction to jsPsych",
+    "objectID": "modules/06_data-tidying-wrangling.html#readings",
+    "href": "modules/06_data-tidying-wrangling.html#readings",
+    "title": "Data Tidying & Data Wrangling",
     "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
+    "text": "Readings\nYou should read these chapters before you come to class:\n\nApplied Data Skills - Chapter 8: Data Tidying\nApplied Data Skills - Chapter 9: Data Wrangling",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Introduction to jsPsych"
+      "Data Tidying & Data Wrangling"
     ]
   },
   {
-    "objectID": "modules/07_intro-jspsych.html#in-class-exercises",
-    "href": "modules/07_intro-jspsych.html#in-class-exercises",
-    "title": "Introduction to jsPsych",
+    "objectID": "modules/06_data-tidying-wrangling.html#in-class-exercises",
+    "href": "modules/06_data-tidying-wrangling.html#in-class-exercises",
+    "title": "Data Tidying & Data Wrangling",
     "section": "In-class exercises",
     "text": "In-class exercises\nIn-class exercises",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Introduction to jsPsych"
+      "Data Tidying & Data Wrangling"
     ]
   },
   {
-    "objectID": "modules/07_intro-jspsych.html#weekly-assignment",
-    "href": "modules/07_intro-jspsych.html#weekly-assignment",
-    "title": "Introduction to jsPsych",
+    "objectID": "modules/06_data-tidying-wrangling.html#weekly-assignment",
+    "href": "modules/06_data-tidying-wrangling.html#weekly-assignment",
+    "title": "Data Tidying & Data Wrangling",
     "section": "Weekly assignment",
     "text": "Weekly assignment\nHere’s the weekly assignment.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Introduction to jsPsych"
+      "Data Tidying & Data Wrangling"
     ]
   },
   {
-    "objectID": "modules/index.html",
-    "href": "modules/index.html",
-    "title": "Modules",
+    "objectID": "modules/04_data-visualization.html",
+    "href": "modules/04_data-visualization.html",
+    "title": "Data Visualization",
     "section": "",
-    "text": "To the left, you can find links to all of the course modules. Click one to get started.",
+    "text": "Now that we have our programming foundation in place, let’s revisit our goal of making our work reproducible, shareable, and beautiful. This week, we’ll discuss how to make data visualizations in R using the {ggplot2} package. This package will allow you to make a large variety of plots, which are useful for exploratory data analysis as well as for generating publication-quality figures. We’ll go over the most common types of data visualizations, as well as principles for when you should use one type of plot versus another.",
     "crumbs": [
       "Home",
-      "<b>Modules</b>"
+      "<b>Modules</b>",
+      "Data Visualization"
+    ]
+  },
+  {
+    "objectID": "modules/04_data-visualization.html#objectives",
+    "href": "modules/04_data-visualization.html#objectives",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "Now that we have our programming foundation in place, let’s revisit our goal of making our work reproducible, shareable, and beautiful. This week, we’ll discuss how to make data visualizations in R using the {ggplot2} package. This package will allow you to make a large variety of plots, which are useful for exploratory data analysis as well as for generating publication-quality figures. We’ll go over the most common types of data visualizations, as well as principles for when you should use one type of plot versus another.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Visualization"
+    ]
+  },
+  {
+    "objectID": "modules/04_data-visualization.html#readings",
+    "href": "modules/04_data-visualization.html#readings",
+    "title": "Data Visualization",
+    "section": "Readings",
+    "text": "Readings\nYou should read this chapter before you come to class:\n\nApplied Data Skills - Chapter 3: Data Visualization\n\nWe will also discuss content from this chapter:\n\nApplied Data Skills - Chapter 10: Customizing Visualizations",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Visualization"
+    ]
+  },
+  {
+    "objectID": "modules/04_data-visualization.html#in-class-exercises",
+    "href": "modules/04_data-visualization.html#in-class-exercises",
+    "title": "Data Visualization",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called visualization, and save today’s work in an R markdown report called plots.Rmd. We will also go over the dataset that you’ll use for your assignment this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Visualization"
+    ]
+  },
+  {
+    "objectID": "modules/04_data-visualization.html#weekly-assignment",
+    "href": "modules/04_data-visualization.html#weekly-assignment",
+    "title": "Data Visualization",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nThis week, you will recreate figures from the following paper:\n\nPrzybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. https://doi.org/10.1177/0956797616678438\n\nYour goal is to use ggplot to recreate Figures 1 and 2 from this paper as closely as possible. Use the starter notebook to get started (right-click &gt; Save Link As). This notebook will take care of the preliminary processing steps necessary to get the dataset ready for visualization. In addition to recreating Figures 1 and 2, you will also generate a new visualization of your choice, using a different kind of geom.\nSee also the screentime page for more information about the dataset.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Visualization"
     ]
   },
   {
@@ -198,6 +450,151 @@
     ]
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Programming for Psychology and Neuroscience",
+    "section": "",
+    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is currently under construction."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Programming for Psychology and Neuroscience",
+    "section": "",
+    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is currently under construction."
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "Programming for Psychology and Neuroscience",
+    "section": "Course description",
+    "text": "Course description\nThis course will provide an introduction to computer programming and its applications to psychology and neuroscience. The goal will be to provide you with the skillset to program experiments and data analyses, as well as an understanding of how these tools are used to facilitate modern research. We will begin with the basics of how to develop algorithms and implement them with programming logic. In a series of hands-on projects, students will learn to program web-based interactive experiments and to analyze psychology and neuroscience datasets using JavaScript and R. Additional topics will include data management, version control, strategies for code debugging, data visualization, and an introduction to machine learning and natural language processing techniques. This course is ideal for students with little to no programming experience, although prior training in statistics is strongly recommended."
+  },
+  {
+    "objectID": "index.html#website-information",
+    "href": "index.html#website-information",
+    "title": "Programming for Psychology and Neuroscience",
+    "section": "Website information",
+    "text": "Website information\nOn this website, you can find the course syllabus as well as the details for the course modules and assignments. We will also use the Canvas site for managing quizzes and grading."
+  },
+  {
+    "objectID": "index.html#acknowledgments",
+    "href": "index.html#acknowledgments",
+    "title": "Programming for Psychology and Neuroscience",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\nThis course incorporates open-access materials that have been generously shared by researchers around the world, including:\n\nEmily Nordmann and Lisa DeBruine. Applied Data Skills. doi:10.5281/zenodo.6365077\nDanielle Navarro. R for Psychological Science.\n\nSome content and assignments were inspired by Matt Crump’s similar course. The syllabus includes language recommended by the Boston College Center for Teaching Excellence.\nCourse development was supported by a CAREER Award from the National Science Foundation (BCS-2047415)."
+  },
+  {
+    "objectID": "datasets/index.html",
+    "href": "datasets/index.html",
+    "title": "PPN",
+    "section": "",
+    "text": "screentime",
+    "crumbs": [
+      "Home",
+      "<b>Datasets</b>"
+    ]
+  },
+  {
+    "objectID": "datasets/index.html#datasets",
+    "href": "datasets/index.html#datasets",
+    "title": "PPN",
+    "section": "",
+    "text": "screentime",
+    "crumbs": [
+      "Home",
+      "<b>Datasets</b>"
+    ]
+  },
+  {
+    "objectID": "datasets/screentime.html",
+    "href": "datasets/screentime.html",
+    "title": "PPN",
+    "section": "",
+    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. https://doi.org/10.1177/0956797616678438"
+  },
+  {
+    "objectID": "datasets/screentime.html#paper",
+    "href": "datasets/screentime.html#paper",
+    "title": "PPN",
+    "section": "",
+    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. https://doi.org/10.1177/0956797616678438"
+  },
+  {
+    "objectID": "datasets/screentime.html#open-data",
+    "href": "datasets/screentime.html#open-data",
+    "title": "PPN",
+    "section": "Open data",
+    "text": "Open data\nData can be downloaded from the Open Science Framework - Download\nDataset includes usable data from 120,115 participants."
+  },
+  {
+    "objectID": "datasets/screentime.html#key-variables",
+    "href": "datasets/screentime.html#key-variables",
+    "title": "PPN",
+    "section": "Key variables",
+    "text": "Key variables\nVariables are described in the paper, analysis files, as well as in the registered analysis plan.\n\nMental Well-Being\n\nmwbi: Mental well-being (with imputed values) - from the WEMWBS scale\nResponses to individual questions are also included but not listed here.\n\n\n\nDemographics\n\nmale: Is the participant male? (1=male, 0=no)\nminority: Is the participant a minority? (1=yes, 0=no)\ndeprived: Does the participant live in a deprived area? (1=yes, 0=no)\n\n\n\nSummary screentime\n\nweekday_screen: Linear digital screen time (week days)\nweekend_screen: Linear digital screen time (weekend days)\n\n\n\nScreentime by type\n\nwatch_wd: Linear Streaming/Watching (week days)\nwatch_we: Linear StreamIng/Watching (weekend days)\nplay_wd: Linear Playing (week days)\nplay_we: Linear Playing (weekend days)\ncomp_wd: Linear Computing (week days)\ncomp_we: Linear Computing (weekend days)\nsp_wd: Linear Smartphone (week days)\nsp_we: Linear Smartphone (weekend days)"
+  },
+  {
+    "objectID": "modules/01_intro.html",
+    "href": "modules/01_intro.html",
+    "title": "Introduction to R and RStudio",
+    "section": "",
+    "text": "This week, we’ll get started with familiarizing ourselves with R and RStudio. You should come to class with software already installed on your laptop (see below for instructions). During class, we will learn how to interact the RStudio interface. We’ll also talk about what reproducible scientific programming is, and how R markdown reports can be used to make your work reproducible, shareable, and one might even say, beautiful.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Introduction to R and RStudio"
+    ]
+  },
+  {
+    "objectID": "modules/01_intro.html#objectives",
+    "href": "modules/01_intro.html#objectives",
+    "title": "Introduction to R and RStudio",
+    "section": "",
+    "text": "This week, we’ll get started with familiarizing ourselves with R and RStudio. You should come to class with software already installed on your laptop (see below for instructions). During class, we will learn how to interact the RStudio interface. We’ll also talk about what reproducible scientific programming is, and how R markdown reports can be used to make your work reproducible, shareable, and one might even say, beautiful.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Introduction to R and RStudio"
+    ]
+  },
+  {
+    "objectID": "modules/01_intro.html#readings-and-other-preparation",
+    "href": "modules/01_intro.html#readings-and-other-preparation",
+    "title": "Introduction to R and RStudio",
+    "section": "Readings and other preparation",
+    "text": "Readings and other preparation\nYou should install R and RStudio before class. If you already have them installed, please update to the latest versions. Here are some directions on how to install (or update) these software packages.\nWhile you’re at it, you should go ahead and install git too. See instructions on Happy Git, sections 4, 6, and 7.\nFor our first week, you do not to read ahead of the class period. But you should read these chapters afterward to solidify what we’ve discussed in class:\n\nApplied Data Skills - Chapter 1: Intro to R and RStudio\nApplied Data Skills - Chapter 2: Reports with R Markdown",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Introduction to R and RStudio"
+    ]
+  },
+  {
+    "objectID": "modules/01_intro.html#in-class-exercises",
+    "href": "modules/01_intro.html#in-class-exercises",
+    "title": "Introduction to R and RStudio",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. In addition, we will make sure everyone is set up with the software and with Canvas.\nKey concepts: R vs RStudio, base-R, package, function, argument, objects, environment (workspace), help, R markdown, script, knit, chunk, comments, project",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Introduction to R and RStudio"
+    ]
+  },
+  {
+    "objectID": "modules/01_intro.html#weekly-assignment",
+    "href": "modules/01_intro.html#weekly-assignment",
+    "title": "Introduction to R and RStudio",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nCreate the demo_report project following the instructions in the textbook under Exercises (2.8.1-2.8.7), with one modification: Focus on a job you might like to have in the future. In your description, include any ideas about how programming might be able to help you in that job. Include the rest of the information that is requested in the instructions.\nOnce you are done, you will zip the demo_report folder (instructions: mac, windows) containing your R project, html file, and Rmd file and upload it through the link provided.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Introduction to R and RStudio"
+    ]
+  },
+  {
     "objectID": "modules/03_programming-foundations-2.html",
     "href": "modules/03_programming-foundations-2.html",
     "title": "Programming Foundations Part 2",
@@ -258,6 +655,126 @@
     ]
   },
   {
+    "objectID": "modules/05_data-summaries-relations.html",
+    "href": "modules/05_data-summaries-relations.html",
+    "title": "Data Summaries & Data Relations",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Summaries & Data Relations"
+    ]
+  },
+  {
+    "objectID": "modules/05_data-summaries-relations.html#objectives",
+    "href": "modules/05_data-summaries-relations.html#objectives",
+    "title": "Data Summaries & Data Relations",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Summaries & Data Relations"
+    ]
+  },
+  {
+    "objectID": "modules/05_data-summaries-relations.html#readings",
+    "href": "modules/05_data-summaries-relations.html#readings",
+    "title": "Data Summaries & Data Relations",
+    "section": "Readings",
+    "text": "Readings\nYou should read these chapters before you come to class:\n\nApplied Data Skills - Chapter 4: Data Summaries\nApplied Data Skills - Chapter 7: Data Relations",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Summaries & Data Relations"
+    ]
+  },
+  {
+    "objectID": "modules/05_data-summaries-relations.html#in-class-exercises",
+    "href": "modules/05_data-summaries-relations.html#in-class-exercises",
+    "title": "Data Summaries & Data Relations",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nIn-class exercises",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Summaries & Data Relations"
+    ]
+  },
+  {
+    "objectID": "modules/05_data-summaries-relations.html#weekly-assignment",
+    "href": "modules/05_data-summaries-relations.html#weekly-assignment",
+    "title": "Data Summaries & Data Relations",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Summaries & Data Relations"
+    ]
+  },
+  {
+    "objectID": "modules/07_intro-jspsych.html",
+    "href": "modules/07_intro-jspsych.html",
+    "title": "Introduction to jsPsych",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Introduction to jsPsych"
+    ]
+  },
+  {
+    "objectID": "modules/07_intro-jspsych.html#objectives",
+    "href": "modules/07_intro-jspsych.html#objectives",
+    "title": "Introduction to jsPsych",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Introduction to jsPsych"
+    ]
+  },
+  {
+    "objectID": "modules/07_intro-jspsych.html#readings",
+    "href": "modules/07_intro-jspsych.html#readings",
+    "title": "Introduction to jsPsych",
+    "section": "Readings",
+    "text": "Readings\nLink to textbook chapter",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Introduction to jsPsych"
+    ]
+  },
+  {
+    "objectID": "modules/07_intro-jspsych.html#in-class-exercises",
+    "href": "modules/07_intro-jspsych.html#in-class-exercises",
+    "title": "Introduction to jsPsych",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nIn-class exercises",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Introduction to jsPsych"
+    ]
+  },
+  {
+    "objectID": "modules/07_intro-jspsych.html#weekly-assignment",
+    "href": "modules/07_intro-jspsych.html#weekly-assignment",
+    "title": "Introduction to jsPsych",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Introduction to jsPsych"
+    ]
+  },
+  {
     "objectID": "modules/09_statistical-analysis.html",
     "href": "modules/09_statistical-analysis.html",
     "title": "Statistical Analysis in R",
@@ -315,6 +832,89 @@
       "Home",
       "<b>Modules</b>",
       "Statistical Analysis in R"
+    ]
+  },
+  {
+    "objectID": "modules/11_nlp.html",
+    "href": "modules/11_nlp.html",
+    "title": "Natural Language Processing",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "objectID": "modules/11_nlp.html#objectives",
+    "href": "modules/11_nlp.html#objectives",
+    "title": "Natural Language Processing",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "objectID": "modules/11_nlp.html#readings",
+    "href": "modules/11_nlp.html#readings",
+    "title": "Natural Language Processing",
+    "section": "Readings",
+    "text": "Readings\nLink to textbook chapter",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "objectID": "modules/11_nlp.html#in-class-exercises",
+    "href": "modules/11_nlp.html#in-class-exercises",
+    "title": "Natural Language Processing",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nIn-class exercises",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "objectID": "modules/11_nlp.html#weekly-assignment",
+    "href": "modules/11_nlp.html#weekly-assignment",
+    "title": "Natural Language Processing",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "objectID": "modules/index.html",
+    "href": "modules/index.html",
+    "title": "Modules",
+    "section": "",
+    "text": "To the left, you can find links to all of the course modules. Click one to get started.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>"
+    ]
+  },
+  {
+    "objectID": "projects/midterm-project.html",
+    "href": "projects/midterm-project.html",
+    "title": "Midterm Project",
+    "section": "",
+    "text": "The midterm project will give you an opportunity to showcase your new skills in programming, drawing on concepts from the first half of the class. You will write code to solve computational problems, integrating what you’ve learned about variables, loops, functions, etc. This will give you practice in breaking down larger problems into its component parts, and developing an algorithm to step through the problem. You will also share your code and the output in an R markdown report. The midterm project will be graded according to its completeness, accuracy, and clear presentation of the code and results.\nProblems will be drawn from this list of Practice Problems. More details to come.",
+    "crumbs": [
+      "Home",
+      "<b>Projects</b>",
+      "Midterm Project"
     ]
   },
   {
@@ -421,605 +1021,5 @@
     "title": "Syllabus",
     "section": "Health and well-being",
     "text": "Health and well-being\nWe all share responsibility for the health and well-being of our campus community. Please follow CDC guidance on preventing the spread of respiratory viruses, including the COVID-19 virus. This includes staying home if you have a fever until your symptoms begin to improve. If you are sick but well enough to attend class (e.g., you have a cough or runny nose, or you are recently recovering from a virus), please wear a mask in the classroom.\nIf you are feeling stressed, having challenges managing your time, sleep, or making choices around alcohol and food, the Office of Health Promotion offers Wellness Coaching appointments to support your health and wellbeing. Please reach out by going to the Center for Student Wellness website to schedule a virtual meeting with a staff member, Wellness Coach, and for health and wellness information.\nI ask that you inform me— with as much advance notice as possible— if you become unable to engage with the class material in the way it is outlined on this syllabus so that we can work together to develop a plan. I also hope you will view me as a part of your support network at Boston College; please reach out if you have questions or concerns, or would like help getting connected with other campus resources."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Programming for Psychology and Neuroscience",
-    "section": "",
-    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is currently under construction."
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Programming for Psychology and Neuroscience",
-    "section": "",
-    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is currently under construction."
-  },
-  {
-    "objectID": "index.html#course-description",
-    "href": "index.html#course-description",
-    "title": "Programming for Psychology and Neuroscience",
-    "section": "Course description",
-    "text": "Course description\nThis course will provide an introduction to computer programming and its applications to psychology and neuroscience. The goal will be to provide you with the skillset to program experiments and data analyses, as well as an understanding of how these tools are used to facilitate modern research. We will begin with the basics of how to develop algorithms and implement them with programming logic. In a series of hands-on projects, students will learn to program web-based interactive experiments and to analyze psychology and neuroscience datasets using JavaScript and R. Additional topics will include data management, version control, strategies for code debugging, data visualization, and an introduction to machine learning and natural language processing techniques. This course is ideal for students with little to no programming experience, although prior training in statistics is strongly recommended."
-  },
-  {
-    "objectID": "index.html#website-information",
-    "href": "index.html#website-information",
-    "title": "Programming for Psychology and Neuroscience",
-    "section": "Website information",
-    "text": "Website information\nOn this website, you can find the course syllabus as well as the details for the course modules and assignments. We will also use the Canvas site for managing quizzes and grading."
-  },
-  {
-    "objectID": "index.html#acknowledgments",
-    "href": "index.html#acknowledgments",
-    "title": "Programming for Psychology and Neuroscience",
-    "section": "Acknowledgments",
-    "text": "Acknowledgments\nThis course incorporates open-access materials that have been generously shared by researchers around the world, including:\n\nEmily Nordmann and Lisa DeBruine. Applied Data Skills. doi:10.5281/zenodo.6365077\nDanielle Navarro. R for Psychological Science.\n\nSome content and assignments were inspired by Matt Crump’s similar course. The syllabus includes language recommended by the Boston College Center for Teaching Excellence.\nCourse development was supported by a CAREER Award from the National Science Foundation (BCS-2047415)."
-  },
-  {
-    "objectID": "datasets/screentime.html",
-    "href": "datasets/screentime.html",
-    "title": "PPN",
-    "section": "",
-    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. https://doi.org/10.1177/0956797616678438"
-  },
-  {
-    "objectID": "datasets/screentime.html#paper",
-    "href": "datasets/screentime.html#paper",
-    "title": "PPN",
-    "section": "",
-    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. https://doi.org/10.1177/0956797616678438"
-  },
-  {
-    "objectID": "datasets/screentime.html#open-data",
-    "href": "datasets/screentime.html#open-data",
-    "title": "PPN",
-    "section": "Open data",
-    "text": "Open data\nData can be downloaded from the Open Science Framework - Download\nDataset includes usable data from 120,115 participants."
-  },
-  {
-    "objectID": "datasets/screentime.html#key-variables",
-    "href": "datasets/screentime.html#key-variables",
-    "title": "PPN",
-    "section": "Key variables",
-    "text": "Key variables\nVariables are described in the paper, analysis files, as well as in the registered analysis plan.\n\nMental Well-Being\n\nmwbi: Mental well-being (with imputed values) - from the WEMWBS scale\nResponses to individual questions are also included but not listed here.\n\n\n\nDemographics\n\nmale: Is the participant male? (1=male, 0=no)\nminority: Is the participant a minority? (1=yes, 0=no)\ndeprived: Does the participant live in a deprived area? (1=yes, 0=no)\n\n\n\nSummary screentime\n\nweekday_screen: Linear digital screen time (week days)\nweekend_screen: Linear digital screen time (weekend days)\n\n\n\nScreentime by type\n\nwatch_wd: Linear Streaming/Watching (week days)\nwatch_we: Linear StreamIng/Watching (weekend days)\nplay_wd: Linear Playing (week days)\nplay_we: Linear Playing (weekend days)\ncomp_wd: Linear Computing (week days)\ncomp_we: Linear Computing (weekend days)\nsp_wd: Linear Smartphone (week days)\nsp_we: Linear Smartphone (weekend days)"
-  },
-  {
-    "objectID": "projects/midterm-project.html",
-    "href": "projects/midterm-project.html",
-    "title": "Midterm Project",
-    "section": "",
-    "text": "The midterm project will give you an opportunity to showcase your new skills in programming, drawing on concepts from the first half of the class. You will write code to solve computational problems, integrating what you’ve learned about variables, loops, functions, etc. This will give you practice in breaking down larger problems into its component parts, and developing an algorithm to step through the problem. You will also share your code and the output in an R markdown report. The midterm project will be graded according to its completeness, accuracy, and clear presentation of the code and results.\nProblems will be drawn from this list of Practice Problems. More details to come.",
-    "crumbs": [
-      "Home",
-      "<b>Projects</b>",
-      "Midterm Project"
-    ]
-  },
-  {
-    "objectID": "projects/final-project.html",
-    "href": "projects/final-project.html",
-    "title": "Final Project",
-    "section": "",
-    "text": "For the final project, you will reproduce data visualizations and analysis from an openly available psychology dataset. This project will integrate what you’ve learned about data processing, analysis, and visualization, culminating in a reproducible narrative report of the results.",
-    "crumbs": [
-      "Home",
-      "<b>Projects</b>",
-      "Final Project"
-    ]
-  },
-  {
-    "objectID": "projects/final-project.html#overview",
-    "href": "projects/final-project.html#overview",
-    "title": "Final Project",
-    "section": "",
-    "text": "For the final project, you will reproduce data visualizations and analysis from an openly available psychology dataset. This project will integrate what you’ve learned about data processing, analysis, and visualization, culminating in a reproducible narrative report of the results.",
-    "crumbs": [
-      "Home",
-      "<b>Projects</b>",
-      "Final Project"
-    ]
-  },
-  {
-    "objectID": "projects/final-project.html#steps",
-    "href": "projects/final-project.html#steps",
-    "title": "Final Project",
-    "section": "Steps",
-    "text": "Steps\n\n1. Find an openly available dataset\nThe dataset should correspond to a published empirical paper in psychology and/or neuroscience. You can search for datasets directly on the Open Science Framework, or you can search for an article that interests you and see if their data are available. Articles in the journal Psychological Science are now required to share their data, so this journal might be a good place to start. Other journals may have similar requirements.\nYou are strongly encouraged to find this dataset well in advance of the final deadline and to review your choice with the instructor.\n\n\n2. Reproduce a set of analyses and visualizations in R\nUse what you have learned about data tidying, wrangling, visualization, and analysis to report on the published paper. Your report should include at least one table of summary statistics, one statistical analysis, and one data visualization that reproduces a figure from the paper. When possible, your work should reproduce what is already published.\nYou do not need to reproduce the entire paper. Most papers includes a large number of different experiments, analyses, and visualizations, some of which may go beyond the scope of what you have learned. You should select a subset of what they have done– perhaps the key data for answering their research question- and focus on that.\n\n\n3. Package everything into an R markdown report\nYour markdown report should include a description of the research question, a link to the dataset, as well as narrative details about what you’re doing at each step and what you have found.\nThe end result should be a reproducible report that would allow another person to download the dataset and run your code to obtain the same results.",
-    "crumbs": [
-      "Home",
-      "<b>Projects</b>",
-      "Final Project"
-    ]
-  },
-  {
-    "objectID": "projects/final-project.html#final-presentation",
-    "href": "projects/final-project.html#final-presentation",
-    "title": "Final Project",
-    "section": "Final presentation",
-    "text": "Final presentation\nIn the last two weeks of class, you will present your final project to the group. Your presentation should include:\n\nan overview of the research question\ninformation about the original data visualization and results\ninformation about your process for reproducing the visualization and results\nthe research conclusions\nwhat you have learned from this exercise.\n\nYour presentation should be no more than 10 minutes long.",
-    "crumbs": [
-      "Home",
-      "<b>Projects</b>",
-      "Final Project"
-    ]
-  },
-  {
-    "objectID": "datasets/index.html",
-    "href": "datasets/index.html",
-    "title": "PPN",
-    "section": "",
-    "text": "screentime",
-    "crumbs": [
-      "Home",
-      "<b>Datasets</b>"
-    ]
-  },
-  {
-    "objectID": "datasets/index.html#datasets",
-    "href": "datasets/index.html#datasets",
-    "title": "PPN",
-    "section": "",
-    "text": "screentime",
-    "crumbs": [
-      "Home",
-      "<b>Datasets</b>"
-    ]
-  },
-  {
-    "objectID": "styletest.html",
-    "href": "styletest.html",
-    "title": "Styles",
-    "section": "",
-    "text": "Style examples"
-  },
-  {
-    "objectID": "styletest.html#callouts",
-    "href": "styletest.html#callouts",
-    "title": "Styles",
-    "section": "Callouts",
-    "text": "Callouts\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default."
-  },
-  {
-    "objectID": "styletest.html#code",
-    "href": "styletest.html#code",
-    "title": "Styles",
-    "section": "Code",
-    "text": "Code\n\nq &lt;- 1 + 2\nprint(q)\n\n[1] 3"
-  },
-  {
-    "objectID": "styletest.html#citations",
-    "href": "styletest.html#citations",
-    "title": "Styles",
-    "section": "Citations",
-    "text": "Citations"
-  },
-  {
-    "objectID": "styletest.html#interactive-questions",
-    "href": "styletest.html#interactive-questions",
-    "title": "Styles",
-    "section": "Interactive questions",
-    "text": "Interactive questions\nSee this website: https://web.mat.upc.edu/joaquim.puig/posts/webexercises-quiz/"
-  },
-  {
-    "objectID": "modules/10_machine-learning.html",
-    "href": "modules/10_machine-learning.html",
-    "title": "Machine Learning",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "modules/10_machine-learning.html#objectives",
-    "href": "modules/10_machine-learning.html#objectives",
-    "title": "Machine Learning",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "modules/10_machine-learning.html#readings",
-    "href": "modules/10_machine-learning.html#readings",
-    "title": "Machine Learning",
-    "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "modules/10_machine-learning.html#in-class-exercises",
-    "href": "modules/10_machine-learning.html#in-class-exercises",
-    "title": "Machine Learning",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "modules/10_machine-learning.html#weekly-assignment",
-    "href": "modules/10_machine-learning.html#weekly-assignment",
-    "title": "Machine Learning",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "modules/06_data-tidying-wrangling.html",
-    "href": "modules/06_data-tidying-wrangling.html",
-    "title": "Data Tidying & Data Wrangling",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Tidying & Data Wrangling"
-    ]
-  },
-  {
-    "objectID": "modules/06_data-tidying-wrangling.html#objectives",
-    "href": "modules/06_data-tidying-wrangling.html#objectives",
-    "title": "Data Tidying & Data Wrangling",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Tidying & Data Wrangling"
-    ]
-  },
-  {
-    "objectID": "modules/06_data-tidying-wrangling.html#readings",
-    "href": "modules/06_data-tidying-wrangling.html#readings",
-    "title": "Data Tidying & Data Wrangling",
-    "section": "Readings",
-    "text": "Readings\nYou should read these chapters before you come to class:\n\nApplied Data Skills - Chapter 8: Data Tidying\nApplied Data Skills - Chapter 9: Data Wrangling",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Tidying & Data Wrangling"
-    ]
-  },
-  {
-    "objectID": "modules/06_data-tidying-wrangling.html#in-class-exercises",
-    "href": "modules/06_data-tidying-wrangling.html#in-class-exercises",
-    "title": "Data Tidying & Data Wrangling",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Tidying & Data Wrangling"
-    ]
-  },
-  {
-    "objectID": "modules/06_data-tidying-wrangling.html#weekly-assignment",
-    "href": "modules/06_data-tidying-wrangling.html#weekly-assignment",
-    "title": "Data Tidying & Data Wrangling",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Tidying & Data Wrangling"
-    ]
-  },
-  {
-    "objectID": "modules/11_nlp.html",
-    "href": "modules/11_nlp.html",
-    "title": "Natural Language Processing",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Natural Language Processing"
-    ]
-  },
-  {
-    "objectID": "modules/11_nlp.html#objectives",
-    "href": "modules/11_nlp.html#objectives",
-    "title": "Natural Language Processing",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Natural Language Processing"
-    ]
-  },
-  {
-    "objectID": "modules/11_nlp.html#readings",
-    "href": "modules/11_nlp.html#readings",
-    "title": "Natural Language Processing",
-    "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Natural Language Processing"
-    ]
-  },
-  {
-    "objectID": "modules/11_nlp.html#in-class-exercises",
-    "href": "modules/11_nlp.html#in-class-exercises",
-    "title": "Natural Language Processing",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Natural Language Processing"
-    ]
-  },
-  {
-    "objectID": "modules/11_nlp.html#weekly-assignment",
-    "href": "modules/11_nlp.html#weekly-assignment",
-    "title": "Natural Language Processing",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Natural Language Processing"
-    ]
-  },
-  {
-    "objectID": "modules/01_intro.html",
-    "href": "modules/01_intro.html",
-    "title": "Introduction to R and RStudio",
-    "section": "",
-    "text": "This week, we’ll get started with familiarizing ourselves with R and RStudio. You should come to class with software already installed on your laptop (see below for instructions). During class, we will learn how to interact the RStudio interface. We’ll also talk about what reproducible scientific programming is, and how R markdown reports can be used to make your work reproducible, shareable, and one might even say, beautiful.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Introduction to R and RStudio"
-    ]
-  },
-  {
-    "objectID": "modules/01_intro.html#objectives",
-    "href": "modules/01_intro.html#objectives",
-    "title": "Introduction to R and RStudio",
-    "section": "",
-    "text": "This week, we’ll get started with familiarizing ourselves with R and RStudio. You should come to class with software already installed on your laptop (see below for instructions). During class, we will learn how to interact the RStudio interface. We’ll also talk about what reproducible scientific programming is, and how R markdown reports can be used to make your work reproducible, shareable, and one might even say, beautiful.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Introduction to R and RStudio"
-    ]
-  },
-  {
-    "objectID": "modules/01_intro.html#readings-and-other-preparation",
-    "href": "modules/01_intro.html#readings-and-other-preparation",
-    "title": "Introduction to R and RStudio",
-    "section": "Readings and other preparation",
-    "text": "Readings and other preparation\nYou should install R and RStudio before class. If you already have them installed, please update to the latest versions. Here are some directions on how to install (or update) these software packages.\nWhile you’re at it, you should go ahead and install git too. See instructions on Happy Git, sections 4, 6, and 7.\nFor our first week, you do not to read ahead of the class period. But you should read these chapters afterward to solidify what we’ve discussed in class:\n\nApplied Data Skills - Chapter 1: Intro to R and RStudio\nApplied Data Skills - Chapter 2: Reports with R Markdown",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Introduction to R and RStudio"
-    ]
-  },
-  {
-    "objectID": "modules/01_intro.html#in-class-exercises",
-    "href": "modules/01_intro.html#in-class-exercises",
-    "title": "Introduction to R and RStudio",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. In addition, we will make sure everyone is set up with the software and with Canvas.\nKey concepts: R vs RStudio, base-R, package, function, argument, objects, environment (workspace), help, R markdown, script, knit, chunk, comments, project",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Introduction to R and RStudio"
-    ]
-  },
-  {
-    "objectID": "modules/01_intro.html#weekly-assignment",
-    "href": "modules/01_intro.html#weekly-assignment",
-    "title": "Introduction to R and RStudio",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nCreate the demo_report project following the instructions in the textbook under Exercises (2.8.1-2.8.7), with one modification: Focus on a job you might like to have in the future. In your description, include any ideas about how programming might be able to help you in that job. Include the rest of the information that is requested in the instructions.\nOnce you are done, you will zip the demo_report folder (instructions: mac, windows) containing your R project, html file, and Rmd file and upload it through the link provided.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Introduction to R and RStudio"
-    ]
-  },
-  {
-    "objectID": "modules/04_data-visualization.html",
-    "href": "modules/04_data-visualization.html",
-    "title": "Data Visualization",
-    "section": "",
-    "text": "Now that we have our programming foundation in place, let’s revisit our goal of making our work reproducible, shareable, and beautiful. This week, we’ll discuss how to make data visualizations in R using the {ggplot2} package. This package will allow you to make a large variety of plots, which are useful for exploratory data analysis as well as for generating publication-quality figures. We’ll go over the most common types of data visualizations, as well as principles for when you should use one type of plot versus another.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Visualization"
-    ]
-  },
-  {
-    "objectID": "modules/04_data-visualization.html#objectives",
-    "href": "modules/04_data-visualization.html#objectives",
-    "title": "Data Visualization",
-    "section": "",
-    "text": "Now that we have our programming foundation in place, let’s revisit our goal of making our work reproducible, shareable, and beautiful. This week, we’ll discuss how to make data visualizations in R using the {ggplot2} package. This package will allow you to make a large variety of plots, which are useful for exploratory data analysis as well as for generating publication-quality figures. We’ll go over the most common types of data visualizations, as well as principles for when you should use one type of plot versus another.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Visualization"
-    ]
-  },
-  {
-    "objectID": "modules/04_data-visualization.html#readings",
-    "href": "modules/04_data-visualization.html#readings",
-    "title": "Data Visualization",
-    "section": "Readings",
-    "text": "Readings\nYou should read this chapter before you come to class:\n\nApplied Data Skills - Chapter 3: Data Visualization\n\nWe will also discuss content from this chapter:\n\nApplied Data Skills - Chapter 10: Customizing Visualizations",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Visualization"
-    ]
-  },
-  {
-    "objectID": "modules/04_data-visualization.html#in-class-exercises",
-    "href": "modules/04_data-visualization.html#in-class-exercises",
-    "title": "Data Visualization",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called visualization, and save today’s work in an R markdown report called plots.Rmd. We will also go over the dataset that you’ll use for your assignment this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Visualization"
-    ]
-  },
-  {
-    "objectID": "modules/04_data-visualization.html#weekly-assignment",
-    "href": "modules/04_data-visualization.html#weekly-assignment",
-    "title": "Data Visualization",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nThis week, you will recreate figures from the following paper:\n\nPrzybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. https://doi.org/10.1177/0956797616678438\n\nYour goal is to use ggplot to recreate Figures 1 and 2 from this paper as closely as possible. Use the starter notebook to get started. This notebook will take care of the preliminary processing steps necessary to get the dataset ready for visualization. In addition to recreating Figures 1 and 2, you will also generate a new visualization of your choice, using a different kind of geom.\nSee also the screentime page for more information about the dataset.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Visualization"
-    ]
-  },
-  {
-    "objectID": "modules/12_advanced-visualization.html",
-    "href": "modules/12_advanced-visualization.html",
-    "title": "Advanced Visualization Techniques",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/12_advanced-visualization.html#objectives",
-    "href": "modules/12_advanced-visualization.html#objectives",
-    "title": "Advanced Visualization Techniques",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/12_advanced-visualization.html#readings",
-    "href": "modules/12_advanced-visualization.html#readings",
-    "title": "Advanced Visualization Techniques",
-    "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/12_advanced-visualization.html#in-class-exercises",
-    "href": "modules/12_advanced-visualization.html#in-class-exercises",
-    "title": "Advanced Visualization Techniques",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/12_advanced-visualization.html#weekly-assignment",
-    "href": "modules/12_advanced-visualization.html#weekly-assignment",
-    "title": "Advanced Visualization Techniques",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/05_data-summaries-relations.html",
-    "href": "modules/05_data-summaries-relations.html",
-    "title": "Data Summaries & Data Relations",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Summaries & Data Relations"
-    ]
-  },
-  {
-    "objectID": "modules/05_data-summaries-relations.html#objectives",
-    "href": "modules/05_data-summaries-relations.html#objectives",
-    "title": "Data Summaries & Data Relations",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Summaries & Data Relations"
-    ]
-  },
-  {
-    "objectID": "modules/05_data-summaries-relations.html#readings",
-    "href": "modules/05_data-summaries-relations.html#readings",
-    "title": "Data Summaries & Data Relations",
-    "section": "Readings",
-    "text": "Readings\nYou should read these chapters before you come to class:\n\nApplied Data Skills - Chapter 4: Data Summaries\nApplied Data Skills - Chapter 7: Data Relations",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Summaries & Data Relations"
-    ]
-  },
-  {
-    "objectID": "modules/05_data-summaries-relations.html#in-class-exercises",
-    "href": "modules/05_data-summaries-relations.html#in-class-exercises",
-    "title": "Data Summaries & Data Relations",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Summaries & Data Relations"
-    ]
-  },
-  {
-    "objectID": "modules/05_data-summaries-relations.html#weekly-assignment",
-    "href": "modules/05_data-summaries-relations.html#weekly-assignment",
-    "title": "Data Summaries & Data Relations",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Data Summaries & Data Relations"
-    ]
   }
 ]
