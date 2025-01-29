@@ -4,7 +4,7 @@ title: "Programming Foundations Part 2"
 
 ## Objectives
 
-This week, we'll expand on last week's module by discussing how to chain together commands to create functions and programs. We will discuss how to develop an algorithm, which is the list of steps required to solve a problem. Writing an algorithm is like writing a recipe for someone who has never cooked before: you have to be very specific about what ingredients to use, and when and how to add them. We'll learn how to build these algorithms into our own custom functions and full-fledged programs.
+This week, we'll expand on last week's module by discussing how to chain together commands to create functions and programs. We will discuss how to develop an algorithm, which is the list of steps required to solve a problem. Writing an algorithm is like writing a recipe for [someone](https://youtu.be/NywzrUJnmTo?si=Flm_2DChdYCAy7-A&t=34) who has never cooked before: you have to be very specific about what ingredients to use, and when and how to add them. We'll learn how to build these algorithms into our own custom functions and full-fledged programs.
 
 ## Readings
 
