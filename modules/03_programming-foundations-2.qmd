@@ -36,6 +36,6 @@ As always, your R markdown report should be organized with headings and comments
     -   You have vectors containing the ages of 200 participants, their identified gender labels, and their responses to a 10-item survey indexing mental health. Note that you should exclude anyone with missing survey responses.
     -   You want the descriptive statistics for an overall mental health score, across everybody as well as split by gender (here, including male, female, and non-binary).
     -   You also want to run a [t-test](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/t.test) comparing mental health scores specifically for males and females between ages 18-24.
-    -   Make a plan for how you would implement this program, listing out the steps in order as well as what output you would need to pass from one step to the next. You do not need to write any actual code for this problem - only the logical list of steps as a series of comments that you could use to structure your code.
+    -   Make a plan for how you would implement this program, listing out the steps in order as well as what output you would need to pass from one step to the next. You can write this in pseudo-code - in other words, you don't have to write any actual syntax, only the logical list of steps as a series of comments that you could use to structure your code. Be as specific and as granular as possible.
 
 Some of these problems were adapted from this [website](https://www.crumplab.com/rstatsforpsych/practice-problems.html).
