@@ -47,3 +47,9 @@ For many topics in this class, we are going to be only scratching the surface. B
 -   Psychology datasets published on the [Open Science Framework](https://osf.io/)
 -   Articles with open data published in [Psychological Science](https://journals.sagepub.com/home/pss)
 -   [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) multi-purpose datasets
+
+### Coding for all
+
+-   [Teaching coding inclusively](https://osf.io/preprints/socarxiv/3r2ez_v1)
+-   [A brief history of women in computing](https://hackernoon.com/a-brief-history-of-women-in-computing-e7253ac24306)
+-   The context for this course: This course was developed by a woman, using materials that were primarily created by women, and teaching students who are predominantly women. 🙌
