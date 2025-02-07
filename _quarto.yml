@@ -35,6 +35,7 @@ website:
           - modules/01_intro.qmd
           - modules/02_programming-foundations-1.qmd
           - modules/03_programming-foundations-2.qmd
+          - modules/03-1_programming-workshop.qmd
           - text: "<mark>Data Manipulation</mark>"
           - modules/04_data-visualization.qmd
           - modules/05_data-summaries-relations.qmd

@@ -390,149 +390,52 @@
     ]
   },
   {
-    "objectID": "modules/02_programming-foundations-1.html",
-    "href": "modules/02_programming-foundations-1.html",
-    "title": "Programming Foundations Part 1",
+    "objectID": "modules/03-1_programming-workshop.html",
+    "href": "modules/03-1_programming-workshop.html",
+    "title": "Programming Foundations Workshop",
     "section": "",
-    "text": "This week, we’ll learn the building blocks of programming: How do we represent text, numbers, and vectors in a way that a machine can understand? How do we tell the computer what to do with those variables? In other words, we’re going to learn how to “speak” the computer’s language. Although here we’ll focus specifically on the R language, many of these concepts are shared across programming languages.",
+    "text": "This week we will take a breather to review and practice what we’ve learned so far.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Programming Foundations Part 1"
+      "Programming Foundations Workshop"
     ]
   },
   {
-    "objectID": "modules/02_programming-foundations-1.html#objectives",
-    "href": "modules/02_programming-foundations-1.html#objectives",
-    "title": "Programming Foundations Part 1",
+    "objectID": "modules/03-1_programming-workshop.html#objectives",
+    "href": "modules/03-1_programming-workshop.html#objectives",
+    "title": "Programming Foundations Workshop",
     "section": "",
-    "text": "This week, we’ll learn the building blocks of programming: How do we represent text, numbers, and vectors in a way that a machine can understand? How do we tell the computer what to do with those variables? In other words, we’re going to learn how to “speak” the computer’s language. Although here we’ll focus specifically on the R language, many of these concepts are shared across programming languages.",
+    "text": "This week we will take a breather to review and practice what we’ve learned so far.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Programming Foundations Part 1"
+      "Programming Foundations Workshop"
     ]
   },
   {
-    "objectID": "modules/02_programming-foundations-1.html#readings",
-    "href": "modules/02_programming-foundations-1.html#readings",
-    "title": "Programming Foundations Part 1",
-    "section": "Readings",
-    "text": "Readings\nYou should read these chapters before you come to class:\n\nR for Psychological Science - Variables\nR for Psychological Science - Vectors\nR for Psychological Science - Loops\nR for Psychological Science - Branches\n\nDon’t worry, each chapter is short!",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Programming Foundations Part 1"
-    ]
-  },
-  {
-    "objectID": "modules/02_programming-foundations-1.html#in-class-exercises",
-    "href": "modules/02_programming-foundations-1.html#in-class-exercises",
-    "title": "Programming Foundations Part 1",
+    "objectID": "modules/03-1_programming-workshop.html#in-class-exercises",
+    "href": "modules/03-1_programming-workshop.html#in-class-exercises",
+    "title": "Programming Foundations Workshop",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called programming-foundations for this section of the course, and save today’s work in an R markdown report called part-1.Rmd.\nKey concepts: character, numeric, combine, vector, element, logical, logical indexing, &lt;-, != vs ==, flow control, while loop, for loop, conditional statements, if statement",
+    "text": "In-class exercises\nYou will work together in groups to solve the following problems. First sketch out your plan on the whiteboard. Then test out the plan by implementing your code in R. Open the R project called programming-foundations, and save today’s work in an R markdown report called workshop.Rmd.\n\nProgramming to the max\nCreate your own function for finding the maximum value of a vector. The input will be a vector, and the output should be the maximum value.\nDid you use the sort() function in your solution? Now try to write the function without it.\n\n\nBitcoin millionaires\nYou’ve taken the plunge and invested in Bitcoin. Write a function that calculates how much money you’ve made. The inputs should be the amount that you invested and the percentage increase since then, and the output should be your total profit.\nHow would you adjust this function if you wanted to calculate your profit over time, factoring in the rate of increase each month? Your inputs will be your initial investment, the rate of increase each month, and the number of months since your investment.\n\n\nPalindrome finder\nYou are obsessed with palindromes, and you want a function that will automatically figure out if a given word is a palindrome. Create a function that will return TRUE if the input is a palindrome and FALSE otherwise. Hint: you will probably have to look up some functions that will help you manipulate the text.\n\n\nTips\n\nFocus on creating a logical step-by-step plan. Think about what kind of input you need for each step, and how you will get that information from the previous step.\nWhile you’re brainstorming, come up with an example input for your function. For instance, for the custom max function, write out a short vector (e.g., c(5,1,4,10,2)), and then imagine what is going to happen to that vector at each step of your function.\nWhen testing your function, test out different types of inputs to make sure your function is generalizable to different situations. For example, for the custom max function, test out a vector with values less than 1, or all negative values, to make sure your code isn’t designed only for positive integers.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Programming Foundations Part 1"
+      "Programming Foundations Workshop"
     ]
   },
   {
-    "objectID": "modules/02_programming-foundations-1.html#weekly-assignment",
-    "href": "modules/02_programming-foundations-1.html#weekly-assignment",
-    "title": "Programming Foundations Part 1",
+    "objectID": "modules/03-1_programming-workshop.html#weekly-assignment",
+    "href": "modules/03-1_programming-workshop.html#weekly-assignment",
+    "title": "Programming Foundations Workshop",
     "section": "Weekly assignment",
-    "text": "Weekly assignment\nFirst, make sure you have completed all of the exercises in the above chapters. We will have already completed most of them in class. All of the solutions should be included in your R markdown report. Then, solve these additional problems using the concepts you have learned in class. For now, you should avoid using other predefined functions unless noted below.\nAs always, your R markdown report should be organized with headings and comments explaining your work.\n\nFind the sum of all the integer numbers from 1 to 100.\n\nYou can use the sum() function on a vector of numbers.\nHow would you do this without using the sum function? Show how you would use a while-loop to accomplish this task.\n\nList all of the odd numbers from 1 to 100.\n\nConsider using the mod function %%, which evaluates whether or not there is a remainder when dividing one number by another.\n\nCount the number of words in a string variable. You can use the strsplit() function to help.\nWrite code that will place the numbers 1 to 100 separately into a variable using a for-loop. Then, look up the seq() function and use this function to do the same thing.\nIf we list all of the natural numbers between 1 and 10 that are divisible by 3 or 5, we get 3, 5, 6, and 9. The sum of these numbers is 23. Find the sum of all the multiples of 3 and 5 between 1 and 1000.\n\nSome of these problems were adapted from this website and from Project Euler.",
+    "text": "Weekly assignment\nAs always, your R markdown report should be organized with headings and comments explaining your work, as well as disclosures about any use of AI tools. Please also include a table of contents.\n\nAdditional programming practice\n\nWrite a function that counts the number of words contained in a string of text, such as, “Karma is my boyfriend, karma is a god, karma is the breeze in my hair on the weekend. Karma’s a relaxing thought. Aren’t you envious that for you it’s not?” Hint: You will probably want to use the strsplit command. Read the help page or do a search to find out more about this function. How would you adapt this function to tell you how many times a particular word (e.g., “karma”) appears?\nWrite some code to store the numbers from 1 to 100 in a vector with the following constraints. If the number can be divided by three evenly, then store the word “Fizz” instead of the number. If the number can be divided by five evenly, then store the word “Buzz” instead of the number. Finally, if the number can be divided by three and five evenly, then store “FizzBuzz” instead of the number. For example, the first five elements of your vector should look like this: c(1,2,\"Fizz\",4,\"Buzz\").\n\n\n\nData visualization example\n\nIn preparation for our transition to the data visualization module, find an example of a data visualization that you like. This can be from any source, but if you need some inspiration, here are a couple of galleries (one, two) showing off plots created with ggplot2. We’ll talk about when you might want to use different kinds of plots and how to create them in R. You should embed the plot into your R markdown report, either by downloading it or by linking to it directly. Here’s a reminder of how that works.\n\nSome of these problems were adapted from this website.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Programming Foundations Part 1"
+      "Programming Foundations Workshop"
     ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Programming for Psychology and Neuroscience",
-    "section": "",
-    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is currently under construction."
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Programming for Psychology and Neuroscience",
-    "section": "",
-    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is currently under construction."
-  },
-  {
-    "objectID": "index.html#course-description",
-    "href": "index.html#course-description",
-    "title": "Programming for Psychology and Neuroscience",
-    "section": "Course description",
-    "text": "Course description\nThis course will provide an introduction to computer programming and its applications to psychology and neuroscience. The goal will be to provide you with the skillset to program experiments and data analyses, as well as an understanding of how these tools are used to facilitate modern research. We will begin with the basics of how to develop algorithms and implement them with programming logic. In a series of hands-on projects, students will learn to program web-based interactive experiments and to analyze psychology and neuroscience datasets using JavaScript and R. Additional topics will include data management, version control, strategies for code debugging, data visualization, and an introduction to machine learning and natural language processing techniques. This course is ideal for students with little to no programming experience, although prior training in statistics is strongly recommended."
-  },
-  {
-    "objectID": "index.html#website-information",
-    "href": "index.html#website-information",
-    "title": "Programming for Psychology and Neuroscience",
-    "section": "Website information",
-    "text": "Website information\nOn this website, you can find the course syllabus as well as the details for the course modules and assignments. We will also use the Canvas site for managing quizzes and grading."
-  },
-  {
-    "objectID": "index.html#acknowledgments",
-    "href": "index.html#acknowledgments",
-    "title": "Programming for Psychology and Neuroscience",
-    "section": "Acknowledgments",
-    "text": "Acknowledgments\nThis course incorporates open-access materials that have been generously shared by researchers around the world, including:\n\nEmily Nordmann and Lisa DeBruine. Applied Data Skills. doi:10.5281/zenodo.6365077\nDanielle Navarro. R for Psychological Science.\n\nSome content and assignments were inspired by Matt Crump’s similar course. The syllabus includes language recommended by the Boston College Center for Teaching Excellence.\nCourse development was supported by a CAREER Award from the National Science Foundation (BCS-2047415)."
-  },
-  {
-    "objectID": "datasets/index.html",
-    "href": "datasets/index.html",
-    "title": "PPN",
-    "section": "",
-    "text": "screentime",
-    "crumbs": [
-      "Home",
-      "<b>Datasets</b>"
-    ]
-  },
-  {
-    "objectID": "datasets/index.html#datasets",
-    "href": "datasets/index.html#datasets",
-    "title": "PPN",
-    "section": "",
-    "text": "screentime",
-    "crumbs": [
-      "Home",
-      "<b>Datasets</b>"
-    ]
-  },
-  {
-    "objectID": "datasets/screentime.html",
-    "href": "datasets/screentime.html",
-    "title": "PPN",
-    "section": "",
-    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. https://doi.org/10.1177/0956797616678438"
-  },
-  {
-    "objectID": "datasets/screentime.html#paper",
-    "href": "datasets/screentime.html#paper",
-    "title": "PPN",
-    "section": "",
-    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. https://doi.org/10.1177/0956797616678438"
-  },
-  {
-    "objectID": "datasets/screentime.html#open-data",
-    "href": "datasets/screentime.html#open-data",
-    "title": "PPN",
-    "section": "Open data",
-    "text": "Open data\nData can be downloaded from the Open Science Framework - Download\nDataset includes usable data from 120,115 participants."
-  },
-  {
-    "objectID": "datasets/screentime.html#key-variables",
-    "href": "datasets/screentime.html#key-variables",
-    "title": "PPN",
-    "section": "Key variables",
-    "text": "Key variables\nVariables are described in the paper, analysis files, as well as in the registered analysis plan.\n\nMental Well-Being\n\nmwbi: Mental well-being (with imputed values) - from the WEMWBS scale\nResponses to individual questions are also included but not listed here.\n\n\n\nDemographics\n\nmale: Is the participant male? (1=male, 0=no)\nminority: Is the participant a minority? (1=yes, 0=no)\ndeprived: Does the participant live in a deprived area? (1=yes, 0=no)\n\n\n\nSummary screentime\n\nweekday_screen: Linear digital screen time (week days)\nweekend_screen: Linear digital screen time (weekend days)\n\n\n\nScreentime by type\n\nwatch_wd: Linear Streaming/Watching (week days)\nwatch_we: Linear StreamIng/Watching (weekend days)\nplay_wd: Linear Playing (week days)\nplay_we: Linear Playing (weekend days)\ncomp_wd: Linear Computing (week days)\ncomp_we: Linear Computing (weekend days)\nsp_wd: Linear Smartphone (week days)\nsp_we: Linear Smartphone (weekend days)"
   },
   {
     "objectID": "modules/01_intro.html",
@@ -592,6 +495,151 @@
       "Home",
       "<b>Modules</b>",
       "Introduction to R and RStudio"
+    ]
+  },
+  {
+    "objectID": "datasets/screentime.html",
+    "href": "datasets/screentime.html",
+    "title": "PPN",
+    "section": "",
+    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. https://doi.org/10.1177/0956797616678438"
+  },
+  {
+    "objectID": "datasets/screentime.html#paper",
+    "href": "datasets/screentime.html#paper",
+    "title": "PPN",
+    "section": "",
+    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. https://doi.org/10.1177/0956797616678438"
+  },
+  {
+    "objectID": "datasets/screentime.html#open-data",
+    "href": "datasets/screentime.html#open-data",
+    "title": "PPN",
+    "section": "Open data",
+    "text": "Open data\nData can be downloaded from the Open Science Framework - Download\nDataset includes usable data from 120,115 participants."
+  },
+  {
+    "objectID": "datasets/screentime.html#key-variables",
+    "href": "datasets/screentime.html#key-variables",
+    "title": "PPN",
+    "section": "Key variables",
+    "text": "Key variables\nVariables are described in the paper, analysis files, as well as in the registered analysis plan.\n\nMental Well-Being\n\nmwbi: Mental well-being (with imputed values) - from the WEMWBS scale\nResponses to individual questions are also included but not listed here.\n\n\n\nDemographics\n\nmale: Is the participant male? (1=male, 0=no)\nminority: Is the participant a minority? (1=yes, 0=no)\ndeprived: Does the participant live in a deprived area? (1=yes, 0=no)\n\n\n\nSummary screentime\n\nweekday_screen: Linear digital screen time (week days)\nweekend_screen: Linear digital screen time (weekend days)\n\n\n\nScreentime by type\n\nwatch_wd: Linear Streaming/Watching (week days)\nwatch_we: Linear StreamIng/Watching (weekend days)\nplay_wd: Linear Playing (week days)\nplay_we: Linear Playing (weekend days)\ncomp_wd: Linear Computing (week days)\ncomp_we: Linear Computing (weekend days)\nsp_wd: Linear Smartphone (week days)\nsp_we: Linear Smartphone (weekend days)"
+  },
+  {
+    "objectID": "datasets/index.html",
+    "href": "datasets/index.html",
+    "title": "PPN",
+    "section": "",
+    "text": "screentime",
+    "crumbs": [
+      "Home",
+      "<b>Datasets</b>"
+    ]
+  },
+  {
+    "objectID": "datasets/index.html#datasets",
+    "href": "datasets/index.html#datasets",
+    "title": "PPN",
+    "section": "",
+    "text": "screentime",
+    "crumbs": [
+      "Home",
+      "<b>Datasets</b>"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Programming for Psychology and Neuroscience",
+    "section": "",
+    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is currently under construction."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Programming for Psychology and Neuroscience",
+    "section": "",
+    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is currently under construction."
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "Programming for Psychology and Neuroscience",
+    "section": "Course description",
+    "text": "Course description\nThis course will provide an introduction to computer programming and its applications to psychology and neuroscience. The goal will be to provide you with the skillset to program experiments and data analyses, as well as an understanding of how these tools are used to facilitate modern research. We will begin with the basics of how to develop algorithms and implement them with programming logic. In a series of hands-on projects, students will learn to program web-based interactive experiments and to analyze psychology and neuroscience datasets using JavaScript and R. Additional topics will include data management, version control, strategies for code debugging, data visualization, and an introduction to machine learning and natural language processing techniques. This course is ideal for students with little to no programming experience, although prior training in statistics is strongly recommended."
+  },
+  {
+    "objectID": "index.html#website-information",
+    "href": "index.html#website-information",
+    "title": "Programming for Psychology and Neuroscience",
+    "section": "Website information",
+    "text": "Website information\nOn this website, you can find the course syllabus as well as the details for the course modules and assignments. We will also use the Canvas site for managing quizzes and grading."
+  },
+  {
+    "objectID": "index.html#acknowledgments",
+    "href": "index.html#acknowledgments",
+    "title": "Programming for Psychology and Neuroscience",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\nThis course incorporates open-access materials that have been generously shared by researchers around the world, including:\n\nEmily Nordmann and Lisa DeBruine. Applied Data Skills. doi:10.5281/zenodo.6365077\nDanielle Navarro. R for Psychological Science.\n\nSome content and assignments were inspired by Matt Crump’s similar course. The syllabus includes language recommended by the Boston College Center for Teaching Excellence.\nCourse development was supported by a CAREER Award from the National Science Foundation (BCS-2047415)."
+  },
+  {
+    "objectID": "modules/02_programming-foundations-1.html",
+    "href": "modules/02_programming-foundations-1.html",
+    "title": "Programming Foundations Part 1",
+    "section": "",
+    "text": "This week, we’ll learn the building blocks of programming: How do we represent text, numbers, and vectors in a way that a machine can understand? How do we tell the computer what to do with those variables? In other words, we’re going to learn how to “speak” the computer’s language. Although here we’ll focus specifically on the R language, many of these concepts are shared across programming languages.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Programming Foundations Part 1"
+    ]
+  },
+  {
+    "objectID": "modules/02_programming-foundations-1.html#objectives",
+    "href": "modules/02_programming-foundations-1.html#objectives",
+    "title": "Programming Foundations Part 1",
+    "section": "",
+    "text": "This week, we’ll learn the building blocks of programming: How do we represent text, numbers, and vectors in a way that a machine can understand? How do we tell the computer what to do with those variables? In other words, we’re going to learn how to “speak” the computer’s language. Although here we’ll focus specifically on the R language, many of these concepts are shared across programming languages.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Programming Foundations Part 1"
+    ]
+  },
+  {
+    "objectID": "modules/02_programming-foundations-1.html#readings",
+    "href": "modules/02_programming-foundations-1.html#readings",
+    "title": "Programming Foundations Part 1",
+    "section": "Readings",
+    "text": "Readings\nYou should read these chapters before you come to class:\n\nR for Psychological Science - Variables\nR for Psychological Science - Vectors\nR for Psychological Science - Loops\nR for Psychological Science - Branches\n\nDon’t worry, each chapter is short!",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Programming Foundations Part 1"
+    ]
+  },
+  {
+    "objectID": "modules/02_programming-foundations-1.html#in-class-exercises",
+    "href": "modules/02_programming-foundations-1.html#in-class-exercises",
+    "title": "Programming Foundations Part 1",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called programming-foundations for this section of the course, and save today’s work in an R markdown report called part-1.Rmd.\nKey concepts: character, numeric, combine, vector, element, logical, logical indexing, &lt;-, != vs ==, flow control, while loop, for loop, conditional statements, if statement",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Programming Foundations Part 1"
+    ]
+  },
+  {
+    "objectID": "modules/02_programming-foundations-1.html#weekly-assignment",
+    "href": "modules/02_programming-foundations-1.html#weekly-assignment",
+    "title": "Programming Foundations Part 1",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nFirst, make sure you have completed all of the exercises in the above chapters. We will have already completed most of them in class. All of the solutions should be included in your R markdown report. Then, solve these additional problems using the concepts you have learned in class. For now, you should avoid using other predefined functions unless noted below.\nAs always, your R markdown report should be organized with headings and comments explaining your work.\n\nFind the sum of all the integer numbers from 1 to 100.\n\nYou can use the sum() function on a vector of numbers.\nHow would you do this without using the sum function? Show how you would use a while-loop to accomplish this task.\n\nList all of the odd numbers from 1 to 100.\n\nConsider using the mod function %%, which evaluates whether or not there is a remainder when dividing one number by another.\n\nCount the number of words in a string variable. You can use the strsplit() function to help.\nWrite code that will place the numbers 1 to 100 separately into a variable using a for-loop. Then, look up the seq() function and use this function to do the same thing.\nIf we list all of the natural numbers between 1 and 10 that are divisible by 3 or 5, we get 3, 5, 6, and 9. The sum of these numbers is 23. Find the sum of all the multiples of 3 and 5 between 1 and 1000.\n\nSome of these problems were adapted from this website and from Project Euler.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Programming Foundations Part 1"
     ]
   },
   {
@@ -964,7 +1012,7 @@
     "href": "syllabus.html#schedule",
     "title": "Syllabus",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\nWeek\nDate\nModule\nDescription\n\n\n\n\n1\nJan 16\nIntro to Programming with R\nInstallation and familiarization with R and RStudio interface; Data organization, reproducible scientific programming\n\n\n2\nJan 23\nProgramming Foundations Part 1\nVariables, vectors, loops, branches\n\n\n3\nJan 30\nProgramming Foundations Part 2\nFunctions and algorithms\n\n\n4\nFeb 6\nData Visualization\nExploratory data visualization with ggplot, customizing plots\n\n\n5\nFeb 13\nData Summaries & Data Relations\nImporting and summarizing data, tidyverse pipes; Combining datasets\n\n\n6\nFeb 20\nData Tidying & Data Wrangling\nWhat is “tidy data” and how do we get it; Selecting and filtering data, creating new variables\n\n\n7\nFeb 27\nIntro to jsPsych\nMidterm projects due; Implementing a simple experiment using jsPsych\n\n\n8\nMar 13\nExperiment Design and Data Collection\nDesigning more complex experiments with jsPsych, collecting data\n\n\n9\nMar 20\nStatistical Analysis in R\nBasic statistical analysis in R, including t-tests, ANOVAs, and regression analyses on sample datasets\n\n\n10\nMar 27\nIntro to Machine Learning\nSimple machine learning models for classifying or predicting psychological outcomes\n\n\n11\nApr 3\nIntro to Natural Language Processing\nText processing using NLP tools, sentiment analysis\n\n\n12\nApr 10\nAdvanced Visualization Techniques\nInteractive visualizations and web-based tools, visualization of complex data types\n\n\n13\nApr 24\nProject Presentations\nFinal projects due\n\n\n14\nMay 1\nProject Presentations"
+    "text": "Schedule\n\n\n\nWeek\nDate\nModule\nDescription\n\n\n\n\n1\nJan 16\nIntro to Programming with R\nInstallation and familiarization with R and RStudio interface; Data organization, reproducible scientific programming\n\n\n2\nJan 23\nProgramming Foundations Part 1\nVariables, vectors, loops, branches\n\n\n3\nJan 30\nProgramming Foundations Part 2\nFunctions and algorithms\n\n\n4\nFeb 6\nProgramming Foundations Workshop\nReview and practice\n\n\n5\nFeb 13\nData Visualization\nExploratory data visualization with ggplot, customizing plots\n\n\n6\nFeb 20\nData Summaries & Data Relations\nImporting and summarizing data, tidyverse pipes; Combining datasets\n\n\n7\nFeb 27\nData Tidying & Data Wrangling\nWhat is “tidy data” and how do we get it; Selecting and filtering data, creating new variables\n\n\n8\nMar 13\nIntro to jsPsych\nMidterm projects due; Implementing a simple experiment using jsPsych\n\n\n9\nMar 20\nExperiment Design and Data Collection\nDesigning more complex experiments with jsPsych, collecting data\n\n\n10\nMar 27\nStatistical Analysis in R\nBasic statistical analysis in R, including t-tests, ANOVAs, and regression analyses on sample datasets\n\n\n11\nApr 3\nIntro to Machine Learning\nSimple machine learning models for classifying or predicting psychological outcomes\n\n\n12\nApr 10\nOption 1\nIntro to Natural Language Processing\nText processing using NLP tools, sentiment analysis\n\n\n12\nApr 10\nOption 2\nAdvanced Visualization Techniques\nInteractive visualizations and web-based tools, visualization of complex data types\n\n\n13\nApr 24\nProject Presentations\nFinal projects due\n\n\n14\nMay 1\nProject Presentations"
   },
   {
     "objectID": "syllabus.html#course-requirements",
