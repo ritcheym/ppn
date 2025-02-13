@@ -382,7 +382,7 @@
     "href": "modules/04_data-visualization.html#weekly-assignment",
     "title": "Data Visualization",
     "section": "Weekly assignment",
-    "text": "Weekly assignment\nThis week, you will recreate figures from the following paper:\n\nPrzybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. https://doi.org/10.1177/0956797616678438\n\nYour goal is to use ggplot to recreate Figures 1 and 2 from this paper as closely as possible. Use the starter notebook to get started (right-click &gt; Save Link As). This notebook will take care of the preliminary processing steps necessary to get the dataset ready for visualization. In addition to recreating Figures 1 and 2, you will also generate a new visualization of your choice, using a different kind of geom.\nSee also the screentime page for more information about the dataset.",
+    "text": "Weekly assignment\nThis week, you will recreate figures from the following paper:\n\nPrzybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. link\n\nYour goal is to use ggplot to recreate Figures 1 and 2 from this paper as closely as possible. Use the starter notebook to get started (right-click &gt; Save Link As). This notebook will take care of the preliminary processing steps necessary to get the dataset ready for visualization. In addition to recreating Figures 1 and 2, you will also generate a new visualization of your choice, using a different kind of geom.\nSee also the screentime page for more information about the dataset.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -958,7 +958,31 @@
     "href": "projects/midterm-project.html",
     "title": "Midterm Project",
     "section": "",
-    "text": "The midterm project will give you an opportunity to showcase your new skills in programming, drawing on concepts from the first half of the class. You will write code to solve computational problems, integrating what you’ve learned about variables, loops, functions, etc. This will give you practice in breaking down larger problems into its component parts, and developing an algorithm to step through the problem. You will also share your code and the output in an R markdown report. The midterm project will be graded according to its completeness, accuracy, and clear presentation of the code and results.\nProblems will be drawn from this list of Practice Problems. More details to come.",
+    "text": "The midterm project will give you an opportunity to showcase your new skills in programming, drawing on concepts from the first half of the class. You will write code to solve computational problems, integrating what you’ve learned about variables, loops, functions, etc. This will give you practice in breaking down larger problems into its component parts, and developing an algorithm to step through the problem. You will also share your code and the output in an R markdown report. The midterm project will be graded according to its accuracy, completeness, and clear presentation of the code and results.",
+    "crumbs": [
+      "Home",
+      "<b>Projects</b>",
+      "Midterm Project"
+    ]
+  },
+  {
+    "objectID": "projects/midterm-project.html#instructions",
+    "href": "projects/midterm-project.html#instructions",
+    "title": "Midterm Project",
+    "section": "Instructions",
+    "text": "Instructions\nYou will be graded on the accuracy and completeness of your code, as well as its presentation.\nAccuracy: Does the code run? Can someone else (e.g., your professor) download it and run it without making any edits? Does it approach the problem in a logical way?\nCompleteness: Does it solve the problem? Does it work with a variety of different possible inputs or situations?\nPresentation: Did you submit an html file? Does it have headers and explanatory text that describe what you are doing? Does it have a table of contents? Does it have comments that label the different steps?\nUse of AI: Please review the AI policy on the course syllabus. You are permitted to turn to AI if you get stuck on part of the problem. However, you should clearly indicate when and how you have done so, including notes about your thought process. As always, I strongly encourage you to try to work through the problems independently first, and then use AI only as a debugging tool. For the midterm, I am very likely to ask you to explain chunks of your code that I perceive as being AI-assisted, either in class or in an office hours meeting.",
+    "crumbs": [
+      "Home",
+      "<b>Projects</b>",
+      "Midterm Project"
+    ]
+  },
+  {
+    "objectID": "projects/midterm-project.html#questions",
+    "href": "projects/midterm-project.html#questions",
+    "title": "Midterm Project",
+    "section": "Questions",
+    "text": "Questions\n\nQuestion 1: Code Breakers\nTurn any normal english text into an encrypted version of the text, and be able to turn any decrypted text back into normal english text. A simple encryption would be to scramble the alphabet such that each letter corresponds to a new randomly chosen (but unique) letter. You should have a function for each, as well as some tests that demonstrate how it works.\n\n\nQuestions 2 and 3: Playing Games\nSolve 2 of the following 3 game problems:\n\nSnakes and ladders\nYour task here is to write an algorithm that can simulate playing the depicted Snakes and Ladders board depicted here. You should assume that each roll of the dice produces a random number between 1 and 6. After you are able to simulate one played game, you will then write a loop to simulate 1000 games, and estimate the average number of dice rolls needed to successfully complete the game.\n\n\nTic Tac Toe\nImagine that two players make completely random choices when playing tic-tac-toe. Each game will either end in a draw or one of the two players will win. Create a simulation of this “random” version of tic-tac-toe. Out of 10,000 simulations, what proportion of the time is the game won versus drawn?\n\n\nSudoku\nSudoku is a logic puzzle in which the goal is to fill a 9 x 9 grid with numbers 1 to 9. The board has 9 rows, 9 columns, and is divided into 9 3x3 boxes. The catch is that each number must appear only once per row, column, and box. Start with a Sudoku puzzle that has some numbers filled in - here is an example, but you can use any starting puzzle. Write some code to solve the puzzle. To do so, you will probably want to write a function to make sure a number “works” for a particular spot, and then keep trying to add numbers until you fill in the entire puzzle.\n\n\n\nQuestion 4: Find the Missing Number\nYou have a vector listing numbers from 1 to 100. You shuffle it randomly, and then— oh no, one of the numbers has gone missing! Write a function that will generate a randomized vector that is missing one value. Then write a function that can find the missing number. The second function should generalize to work any vector that includes consecutive numbers but is missing one value.\n\n\nQuestion 5: Wordle Thought Experiment\nThought experiment: How would you build a Wordle solver? Write out the algorithm in pseudo code. Think about what functions you’d like to be able to use (whether they already exist or not), and how you would chain them together to solve the puzzle.\n\nProblems were adapted from this list of Practice Problems and daily.dev blog.",
     "crumbs": [
       "Home",
       "<b>Projects</b>",

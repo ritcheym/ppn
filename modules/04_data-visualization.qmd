@@ -24,7 +24,7 @@ We will follow along with the examples given in the textbook. Create an R projec
 
 This week, you will recreate figures from the following paper:
 
--   Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. *Psychological Science*, 28(2), 204-215. https://doi.org/10.1177/0956797616678438
+-   Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. *Psychological Science*, 28(2), 204-215. [link](https://doi.org/10.1177/0956797616678438)
 
 Your goal is to use `ggplot` to recreate Figures 1 and 2 from this paper as closely as possible. Use the [starter notebook](../files/screentime-starter.Rmd) to get started (right-click > Save Link As). This notebook will take care of the preliminary processing steps necessary to get the dataset ready for visualization. In addition to recreating Figures 1 and 2, you will also generate a new visualization of your choice, using a different kind of geom.
 
