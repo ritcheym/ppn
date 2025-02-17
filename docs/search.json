@@ -381,7 +381,7 @@
     "href": "modules/05_data-visualization.html#in-class-exercises",
     "title": "Data Visualization",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called visualization, and save today’s work in an R markdown report called plots.Rmd. We will also go over the dataset that you’ll use for your assignment this week.",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called visualization, and save today’s work in an R markdown report called plots.Rmd. We will also go over the dataset that you’ll use for your assignment this week.\nKey concepts: categorical, continuous, ordinal, nominal, numeric, observation, factor, geom, mapping, scales, themes, tidy data",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
