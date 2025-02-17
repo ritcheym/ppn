@@ -1,0 +1,21 @@
+---
+title: "Data Wrangling"
+---
+
+## Objectives
+
+You will notice that we are skipping ahead in the textbook. This is because many of the key concepts for data wrangling are related to what you just learned in the *Data Summaries* module. In this module, we will learn how to work with datasets in R. In particular, we will focus on functions for creating new variables and for filtering, grouping, and summarizing data. We will string these functions together using "pipes" to create our data processing workflows.
+
+## Readings
+
+You should read this chapter before you come to class:
+
+-   *Applied Data Skills -* [Chapter 9: Data Wrangling](https://psyteachr.github.io/ads-v3/09-wrangle.html)
+
+## In-class exercises
+
+We will follow along with the examples given in the textbook. Create an R project called `data-wrangling`, and save today's work in an R markdown report called `wrangle.Rmd`. 
+
+## Weekly assignment
+
+Here's the weekly assignment.

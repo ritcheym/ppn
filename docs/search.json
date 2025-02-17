@@ -90,128 +90,8 @@
     ]
   },
   {
-    "objectID": "modules/12_advanced-visualization.html",
-    "href": "modules/12_advanced-visualization.html",
-    "title": "Advanced Visualization Techniques",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/12_advanced-visualization.html#objectives",
-    "href": "modules/12_advanced-visualization.html#objectives",
-    "title": "Advanced Visualization Techniques",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/12_advanced-visualization.html#readings",
-    "href": "modules/12_advanced-visualization.html#readings",
-    "title": "Advanced Visualization Techniques",
-    "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/12_advanced-visualization.html#in-class-exercises",
-    "href": "modules/12_advanced-visualization.html#in-class-exercises",
-    "title": "Advanced Visualization Techniques",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/12_advanced-visualization.html#weekly-assignment",
-    "href": "modules/12_advanced-visualization.html#weekly-assignment",
-    "title": "Advanced Visualization Techniques",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/10_machine-learning.html",
-    "href": "modules/10_machine-learning.html",
-    "title": "Machine Learning",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "modules/10_machine-learning.html#objectives",
-    "href": "modules/10_machine-learning.html#objectives",
-    "title": "Machine Learning",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "modules/10_machine-learning.html#readings",
-    "href": "modules/10_machine-learning.html#readings",
-    "title": "Machine Learning",
-    "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "modules/10_machine-learning.html#in-class-exercises",
-    "href": "modules/10_machine-learning.html#in-class-exercises",
-    "title": "Machine Learning",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "modules/10_machine-learning.html#weekly-assignment",
-    "href": "modules/10_machine-learning.html#weekly-assignment",
-    "title": "Machine Learning",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "modules/08_experiment-design.html",
-    "href": "modules/08_experiment-design.html",
+    "objectID": "modules/xx_experiment-design.html",
+    "href": "modules/xx_experiment-design.html",
     "title": "Experimental Design & Data Collection",
     "section": "",
     "text": "Here’s the objective for this week.",
@@ -222,8 +102,8 @@
     ]
   },
   {
-    "objectID": "modules/08_experiment-design.html#objectives",
-    "href": "modules/08_experiment-design.html#objectives",
+    "objectID": "modules/xx_experiment-design.html#objectives",
+    "href": "modules/xx_experiment-design.html#objectives",
     "title": "Experimental Design & Data Collection",
     "section": "",
     "text": "Here’s the objective for this week.",
@@ -234,8 +114,8 @@
     ]
   },
   {
-    "objectID": "modules/08_experiment-design.html#readings",
-    "href": "modules/08_experiment-design.html#readings",
+    "objectID": "modules/xx_experiment-design.html#readings",
+    "href": "modules/xx_experiment-design.html#readings",
     "title": "Experimental Design & Data Collection",
     "section": "Readings",
     "text": "Readings\nLink to textbook chapter",
@@ -246,8 +126,8 @@
     ]
   },
   {
-    "objectID": "modules/08_experiment-design.html#in-class-exercises",
-    "href": "modules/08_experiment-design.html#in-class-exercises",
+    "objectID": "modules/xx_experiment-design.html#in-class-exercises",
+    "href": "modules/xx_experiment-design.html#in-class-exercises",
     "title": "Experimental Design & Data Collection",
     "section": "In-class exercises",
     "text": "In-class exercises\nIn-class exercises",
@@ -258,8 +138,8 @@
     ]
   },
   {
-    "objectID": "modules/08_experiment-design.html#weekly-assignment",
-    "href": "modules/08_experiment-design.html#weekly-assignment",
+    "objectID": "modules/xx_experiment-design.html#weekly-assignment",
+    "href": "modules/xx_experiment-design.html#weekly-assignment",
     "title": "Experimental Design & Data Collection",
     "section": "Weekly assignment",
     "text": "Weekly assignment\nHere’s the weekly assignment.",
@@ -270,68 +150,199 @@
     ]
   },
   {
-    "objectID": "modules/06_data-tidying-wrangling.html",
-    "href": "modules/06_data-tidying-wrangling.html",
-    "title": "Data Tidying & Data Wrangling",
+    "objectID": "modules/index.html",
+    "href": "modules/index.html",
+    "title": "Modules",
+    "section": "",
+    "text": "To the left, you can find links to all of the course modules. Click one to get started.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>"
+    ]
+  },
+  {
+    "objectID": "modules/11_nlp.html",
+    "href": "modules/11_nlp.html",
+    "title": "Natural Language Processing",
     "section": "",
     "text": "Here’s the objective for this week.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Tidying & Data Wrangling"
+      "Natural Language Processing"
     ]
   },
   {
-    "objectID": "modules/06_data-tidying-wrangling.html#objectives",
-    "href": "modules/06_data-tidying-wrangling.html#objectives",
-    "title": "Data Tidying & Data Wrangling",
+    "objectID": "modules/11_nlp.html#objectives",
+    "href": "modules/11_nlp.html#objectives",
+    "title": "Natural Language Processing",
     "section": "",
     "text": "Here’s the objective for this week.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Tidying & Data Wrangling"
+      "Natural Language Processing"
     ]
   },
   {
-    "objectID": "modules/06_data-tidying-wrangling.html#readings",
-    "href": "modules/06_data-tidying-wrangling.html#readings",
-    "title": "Data Tidying & Data Wrangling",
+    "objectID": "modules/11_nlp.html#readings",
+    "href": "modules/11_nlp.html#readings",
+    "title": "Natural Language Processing",
     "section": "Readings",
-    "text": "Readings\nYou should read these chapters before you come to class:\n\nApplied Data Skills - Chapter 8: Data Tidying\nApplied Data Skills - Chapter 9: Data Wrangling",
+    "text": "Readings\nLink to textbook chapter",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Tidying & Data Wrangling"
+      "Natural Language Processing"
     ]
   },
   {
-    "objectID": "modules/06_data-tidying-wrangling.html#in-class-exercises",
-    "href": "modules/06_data-tidying-wrangling.html#in-class-exercises",
-    "title": "Data Tidying & Data Wrangling",
+    "objectID": "modules/11_nlp.html#in-class-exercises",
+    "href": "modules/11_nlp.html#in-class-exercises",
+    "title": "Natural Language Processing",
     "section": "In-class exercises",
     "text": "In-class exercises\nIn-class exercises",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Tidying & Data Wrangling"
+      "Natural Language Processing"
     ]
   },
   {
-    "objectID": "modules/06_data-tidying-wrangling.html#weekly-assignment",
-    "href": "modules/06_data-tidying-wrangling.html#weekly-assignment",
-    "title": "Data Tidying & Data Wrangling",
+    "objectID": "modules/11_nlp.html#weekly-assignment",
+    "href": "modules/11_nlp.html#weekly-assignment",
+    "title": "Natural Language Processing",
     "section": "Weekly assignment",
     "text": "Weekly assignment\nHere’s the weekly assignment.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Tidying & Data Wrangling"
+      "Natural Language Processing"
     ]
   },
   {
-    "objectID": "modules/04_data-visualization.html",
-    "href": "modules/04_data-visualization.html",
+    "objectID": "modules/09_statistical-analysis.html",
+    "href": "modules/09_statistical-analysis.html",
+    "title": "Statistical Analysis in R",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Statistical Analysis in R"
+    ]
+  },
+  {
+    "objectID": "modules/09_statistical-analysis.html#objectives",
+    "href": "modules/09_statistical-analysis.html#objectives",
+    "title": "Statistical Analysis in R",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Statistical Analysis in R"
+    ]
+  },
+  {
+    "objectID": "modules/09_statistical-analysis.html#readings",
+    "href": "modules/09_statistical-analysis.html#readings",
+    "title": "Statistical Analysis in R",
+    "section": "Readings",
+    "text": "Readings\nLink to textbook chapter",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Statistical Analysis in R"
+    ]
+  },
+  {
+    "objectID": "modules/09_statistical-analysis.html#in-class-exercises",
+    "href": "modules/09_statistical-analysis.html#in-class-exercises",
+    "title": "Statistical Analysis in R",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nIn-class exercises",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Statistical Analysis in R"
+    ]
+  },
+  {
+    "objectID": "modules/09_statistical-analysis.html#weekly-assignment",
+    "href": "modules/09_statistical-analysis.html#weekly-assignment",
+    "title": "Statistical Analysis in R",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Statistical Analysis in R"
+    ]
+  },
+  {
+    "objectID": "modules/07_data-wrangling.html",
+    "href": "modules/07_data-wrangling.html",
+    "title": "Data Wrangling",
+    "section": "",
+    "text": "You will notice that we are skipping ahead in the textbook. This is because many of the key concepts for data wrangling are related to what you just learned in the Data Summaries module. In this module, we will learn how to work with datasets in R. In particular, we will focus on functions for creating new variables and for filtering, grouping, and summarizing data. We will string these functions together using “pipes” to create our data processing workflows.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Wrangling"
+    ]
+  },
+  {
+    "objectID": "modules/07_data-wrangling.html#objectives",
+    "href": "modules/07_data-wrangling.html#objectives",
+    "title": "Data Wrangling",
+    "section": "",
+    "text": "You will notice that we are skipping ahead in the textbook. This is because many of the key concepts for data wrangling are related to what you just learned in the Data Summaries module. In this module, we will learn how to work with datasets in R. In particular, we will focus on functions for creating new variables and for filtering, grouping, and summarizing data. We will string these functions together using “pipes” to create our data processing workflows.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Wrangling"
+    ]
+  },
+  {
+    "objectID": "modules/07_data-wrangling.html#readings",
+    "href": "modules/07_data-wrangling.html#readings",
+    "title": "Data Wrangling",
+    "section": "Readings",
+    "text": "Readings\nYou should read this chapter before you come to class:\n\nApplied Data Skills - Chapter 9: Data Wrangling",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Wrangling"
+    ]
+  },
+  {
+    "objectID": "modules/07_data-wrangling.html#in-class-exercises",
+    "href": "modules/07_data-wrangling.html#in-class-exercises",
+    "title": "Data Wrangling",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called data-wrangling, and save today’s work in an R markdown report called wrangle.Rmd.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Wrangling"
+    ]
+  },
+  {
+    "objectID": "modules/07_data-wrangling.html#weekly-assignment",
+    "href": "modules/07_data-wrangling.html#weekly-assignment",
+    "title": "Data Wrangling",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Wrangling"
+    ]
+  },
+  {
+    "objectID": "modules/05_data-visualization.html",
+    "href": "modules/05_data-visualization.html",
     "title": "Data Visualization",
     "section": "",
     "text": "Now that we have our programming foundation in place, let’s revisit our goal of making our work reproducible, shareable, and beautiful. This week, we’ll discuss how to make data visualizations in R using the {ggplot2} package. This package will allow you to make a large variety of plots, which are useful for exploratory data analysis as well as for generating publication-quality figures. We’ll go over the most common types of data visualizations, as well as principles for when you should use one type of plot versus another.",
@@ -342,8 +353,8 @@
     ]
   },
   {
-    "objectID": "modules/04_data-visualization.html#objectives",
-    "href": "modules/04_data-visualization.html#objectives",
+    "objectID": "modules/05_data-visualization.html#objectives",
+    "href": "modules/05_data-visualization.html#objectives",
     "title": "Data Visualization",
     "section": "",
     "text": "Now that we have our programming foundation in place, let’s revisit our goal of making our work reproducible, shareable, and beautiful. This week, we’ll discuss how to make data visualizations in R using the {ggplot2} package. This package will allow you to make a large variety of plots, which are useful for exploratory data analysis as well as for generating publication-quality figures. We’ll go over the most common types of data visualizations, as well as principles for when you should use one type of plot versus another.",
@@ -354,8 +365,8 @@
     ]
   },
   {
-    "objectID": "modules/04_data-visualization.html#readings",
-    "href": "modules/04_data-visualization.html#readings",
+    "objectID": "modules/05_data-visualization.html#readings",
+    "href": "modules/05_data-visualization.html#readings",
     "title": "Data Visualization",
     "section": "Readings",
     "text": "Readings\nYou should read this chapter before you come to class:\n\nApplied Data Skills - Chapter 3: Data Visualization\n\nWe will also discuss content from this chapter:\n\nApplied Data Skills - Chapter 10: Customizing Visualizations",
@@ -366,8 +377,8 @@
     ]
   },
   {
-    "objectID": "modules/04_data-visualization.html#in-class-exercises",
-    "href": "modules/04_data-visualization.html#in-class-exercises",
+    "objectID": "modules/05_data-visualization.html#in-class-exercises",
+    "href": "modules/05_data-visualization.html#in-class-exercises",
     "title": "Data Visualization",
     "section": "In-class exercises",
     "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called visualization, and save today’s work in an R markdown report called plots.Rmd. We will also go over the dataset that you’ll use for your assignment this week.",
@@ -378,8 +389,8 @@
     ]
   },
   {
-    "objectID": "modules/04_data-visualization.html#weekly-assignment",
-    "href": "modules/04_data-visualization.html#weekly-assignment",
+    "objectID": "modules/05_data-visualization.html#weekly-assignment",
+    "href": "modules/05_data-visualization.html#weekly-assignment",
     "title": "Data Visualization",
     "section": "Weekly assignment",
     "text": "Weekly assignment\nThis week, you will recreate figures from the following paper:\n\nPrzybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. link\n\nYour goal is to use ggplot to recreate Figures 1 and 2 from this paper as closely as possible. Use the starter notebook to get started (right-click &gt; Save Link As). This notebook will take care of the preliminary processing steps necessary to get the dataset ready for visualization. In addition to recreating Figures 1 and 2, you will also generate a new visualization of your choice, using a different kind of geom.\nSee also the screentime page for more information about the dataset.",
@@ -390,51 +401,63 @@
     ]
   },
   {
-    "objectID": "modules/03-1_programming-workshop.html",
-    "href": "modules/03-1_programming-workshop.html",
-    "title": "Programming Foundations Workshop",
+    "objectID": "modules/03_programming-foundations-2.html",
+    "href": "modules/03_programming-foundations-2.html",
+    "title": "Programming Foundations Part 2",
     "section": "",
-    "text": "This week we will take a breather to review and practice what we’ve learned so far.",
+    "text": "This week, we’ll expand on last week’s module by discussing how to chain together commands to create functions and programs. We will discuss how to develop an algorithm, which is the list of steps required to solve a problem. Writing an algorithm is like writing a recipe for someone who has never cooked before: you have to be very specific about what ingredients to use, and when and how to add them. We’ll learn how to build these algorithms into our own custom functions and full-fledged programs.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Programming Foundations Workshop"
+      "Programming Foundations Part 2"
     ]
   },
   {
-    "objectID": "modules/03-1_programming-workshop.html#objectives",
-    "href": "modules/03-1_programming-workshop.html#objectives",
-    "title": "Programming Foundations Workshop",
+    "objectID": "modules/03_programming-foundations-2.html#objectives",
+    "href": "modules/03_programming-foundations-2.html#objectives",
+    "title": "Programming Foundations Part 2",
     "section": "",
-    "text": "This week we will take a breather to review and practice what we’ve learned so far.",
+    "text": "This week, we’ll expand on last week’s module by discussing how to chain together commands to create functions and programs. We will discuss how to develop an algorithm, which is the list of steps required to solve a problem. Writing an algorithm is like writing a recipe for someone who has never cooked before: you have to be very specific about what ingredients to use, and when and how to add them. We’ll learn how to build these algorithms into our own custom functions and full-fledged programs.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Programming Foundations Workshop"
+      "Programming Foundations Part 2"
     ]
   },
   {
-    "objectID": "modules/03-1_programming-workshop.html#in-class-exercises",
-    "href": "modules/03-1_programming-workshop.html#in-class-exercises",
-    "title": "Programming Foundations Workshop",
+    "objectID": "modules/03_programming-foundations-2.html#readings",
+    "href": "modules/03_programming-foundations-2.html#readings",
+    "title": "Programming Foundations Part 2",
+    "section": "Readings",
+    "text": "Readings\nYou should read these chapters before you come to class:\n\nR for Psychological Science - Functions\nR for Psychological Science - Programming",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Programming Foundations Part 2"
+    ]
+  },
+  {
+    "objectID": "modules/03_programming-foundations-2.html#in-class-exercises",
+    "href": "modules/03_programming-foundations-2.html#in-class-exercises",
+    "title": "Programming Foundations Part 2",
     "section": "In-class exercises",
-    "text": "In-class exercises\nYou will work together in groups to solve the following problems. First sketch out your plan on the whiteboard. Then test out the plan by implementing your code in R. Open the R project called programming-foundations, and save today’s work in an R markdown report called workshop.Rmd.\n\nProgramming to the max\nCreate your own function for finding the maximum value of a vector. The input will be a vector, and the output should be the maximum value.\nDid you use the sort() function in your solution? Now try to write the function without it.\n\n\nBitcoin millionaires\nYou’ve taken the plunge and invested in Bitcoin. Write a function that calculates how much money you’ve made. The inputs should be the amount that you invested and the percentage increase since then, and the output should be your total profit.\nHow would you adjust this function if you wanted to calculate your profit over time, factoring in the rate of increase each month? Your inputs will be your initial investment, the rate of increase each month, and the number of months since your investment.\n\n\nPalindrome finder\nYou are obsessed with palindromes, and you want a function that will automatically figure out if a given word is a palindrome. Create a function that will return TRUE if the input is a palindrome and FALSE otherwise. Hint: you will probably have to look up some functions that will help you manipulate the text.\n\n\nTips\n\nFocus on creating a logical step-by-step plan. Think about what kind of input you need for each step, and how you will get that information from the previous step.\nWhile you’re brainstorming, come up with an example input for your function. For instance, for the custom max function, write out a short vector (e.g., c(5,1,4,10,2)), and then imagine what is going to happen to that vector at each step of your function.\nWhen testing your function, test out different types of inputs to make sure your function is generalizable to different situations. For example, for the custom max function, test out a vector with values less than 1, or all negative values, to make sure your code isn’t designed only for positive integers.",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Open the R project called programming-foundations, and save today’s work in an R markdown report called part-2.Rmd.\nKey concepts: function, algorithm, pseudo code",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Programming Foundations Workshop"
+      "Programming Foundations Part 2"
     ]
   },
   {
-    "objectID": "modules/03-1_programming-workshop.html#weekly-assignment",
-    "href": "modules/03-1_programming-workshop.html#weekly-assignment",
-    "title": "Programming Foundations Workshop",
+    "objectID": "modules/03_programming-foundations-2.html#weekly-assignment",
+    "href": "modules/03_programming-foundations-2.html#weekly-assignment",
+    "title": "Programming Foundations Part 2",
     "section": "Weekly assignment",
-    "text": "Weekly assignment\nAs always, your R markdown report should be organized with headings and comments explaining your work, as well as disclosures about any use of AI tools. Please also include a table of contents.\n\nAdditional programming practice\n\nWrite a function that counts the number of words contained in a string of text, such as, “Karma is my boyfriend, karma is a god, karma is the breeze in my hair on the weekend. Karma’s a relaxing thought. Aren’t you envious that for you it’s not?” Hint: You will probably want to use the strsplit command. Read the help page or do a search to find out more about this function. How would you adapt this function to tell you how many times a particular word (e.g., “karma”) appears?\nWrite some code to store the numbers from 1 to 100 in a vector with the following constraints. If the number can be divided by three evenly, then store the word “Fizz” instead of the number. If the number can be divided by five evenly, then store the word “Buzz” instead of the number. Finally, if the number can be divided by three and five evenly, then store “FizzBuzz” instead of the number. For example, the first five elements of your vector should look like this: c(1,2,\"Fizz\",4,\"Buzz\").\n\n\n\nData visualization example\n\nIn preparation for our transition to the data visualization module, find an example of a data visualization that you like. This can be from any source, but if you need some inspiration, here are a couple of galleries (one, two) showing off plots created with ggplot2. We’ll talk about when you might want to use different kinds of plots and how to create them in R. You should embed the plot into your R markdown report, either by downloading it or by linking to it directly. Here’s a reminder of how that works.\n\nSome of these problems were adapted from this website.",
+    "text": "Weekly assignment\nFirst, make sure you have completed all of the exercises in the above chapters. We will have already completed most of them in class. All of the solutions should be included in your R markdown report. Then, solve these additional problems using the concepts you have learned in class. For now, you should avoid using other predefined functions unless noted below.\nAs always, your R markdown report should be organized with headings and comments explaining your work.\n\nWrite a function to find the sum of all integers between any two values. Start by writing out your plan in comment form, and then fill in the code.\nList all of the prime numbers from 1 to 1000. Start by writing out your plan in comment form, and then fill in the code.\n\nCreate a function is_prime() that helps you solve this problem.\n\nWrite your own functions to give descriptive statistics for a vector variable storing multiple numbers. Write functions for the following without using R intrinsics: mean, mode, median, range, standard deviation\n\nIt’s ok to use sum() and length() in your solutions.\nFor at least one of these, see if you can come up with two different solutions.\nThe output should be a vector with the descriptive statistics, with names included (refer back to the Vectors chapter).\n\nImagine you are writing a program to help you process data from a survey that you ran.\n\nYou have vectors containing the ages of 200 participants, their identified gender labels, and their responses to a 10-item survey indexing mental health. Note that you should exclude anyone with missing survey responses.\nYou want the descriptive statistics for an overall mental health score, across everybody as well as split by gender (here, including male, female, and non-binary).\nYou also want to run a t-test comparing mental health scores specifically for males and females between ages 18-24.\nMake a plan for how you would implement this program, listing out the steps in order as well as what output you would need to pass from one step to the next. You can write this in pseudo-code - in other words, you don’t have to write any actual syntax, only the logical list of steps as a series of comments that you could use to structure your code. Be as specific and as granular as possible.\n\n\nSome of these problems were adapted from this website.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Programming Foundations Workshop"
+      "Programming Foundations Part 2"
     ]
   },
   {
@@ -643,128 +666,306 @@
     ]
   },
   {
-    "objectID": "modules/03_programming-foundations-2.html",
-    "href": "modules/03_programming-foundations-2.html",
-    "title": "Programming Foundations Part 2",
+    "objectID": "modules/04_programming-workshop.html",
+    "href": "modules/04_programming-workshop.html",
+    "title": "Programming Foundations Workshop",
     "section": "",
-    "text": "This week, we’ll expand on last week’s module by discussing how to chain together commands to create functions and programs. We will discuss how to develop an algorithm, which is the list of steps required to solve a problem. Writing an algorithm is like writing a recipe for someone who has never cooked before: you have to be very specific about what ingredients to use, and when and how to add them. We’ll learn how to build these algorithms into our own custom functions and full-fledged programs.",
+    "text": "This week we will take a breather to review and practice what we’ve learned so far.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Programming Foundations Part 2"
+      "Programming Foundations Workshop"
     ]
   },
   {
-    "objectID": "modules/03_programming-foundations-2.html#objectives",
-    "href": "modules/03_programming-foundations-2.html#objectives",
-    "title": "Programming Foundations Part 2",
+    "objectID": "modules/04_programming-workshop.html#objectives",
+    "href": "modules/04_programming-workshop.html#objectives",
+    "title": "Programming Foundations Workshop",
     "section": "",
-    "text": "This week, we’ll expand on last week’s module by discussing how to chain together commands to create functions and programs. We will discuss how to develop an algorithm, which is the list of steps required to solve a problem. Writing an algorithm is like writing a recipe for someone who has never cooked before: you have to be very specific about what ingredients to use, and when and how to add them. We’ll learn how to build these algorithms into our own custom functions and full-fledged programs.",
+    "text": "This week we will take a breather to review and practice what we’ve learned so far.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Programming Foundations Part 2"
+      "Programming Foundations Workshop"
     ]
   },
   {
-    "objectID": "modules/03_programming-foundations-2.html#readings",
-    "href": "modules/03_programming-foundations-2.html#readings",
-    "title": "Programming Foundations Part 2",
-    "section": "Readings",
-    "text": "Readings\nYou should read these chapters before you come to class:\n\nR for Psychological Science - Functions\nR for Psychological Science - Programming",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Programming Foundations Part 2"
-    ]
-  },
-  {
-    "objectID": "modules/03_programming-foundations-2.html#in-class-exercises",
-    "href": "modules/03_programming-foundations-2.html#in-class-exercises",
-    "title": "Programming Foundations Part 2",
+    "objectID": "modules/04_programming-workshop.html#in-class-exercises",
+    "href": "modules/04_programming-workshop.html#in-class-exercises",
+    "title": "Programming Foundations Workshop",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Open the R project called programming-foundations, and save today’s work in an R markdown report called part-2.Rmd.\nKey concepts: function, algorithm, pseudo code",
+    "text": "In-class exercises\nYou will work together in groups to solve the following problems. First sketch out your plan on the whiteboard. Then test out the plan by implementing your code in R. Open the R project called programming-foundations, and save today’s work in an R markdown report called workshop.Rmd.\n\nProgramming to the max\nCreate your own function for finding the maximum value of a vector. The input will be a vector, and the output should be the maximum value.\nDid you use the sort() function in your solution? Now try to write the function without it.\n\n\nBitcoin millionaires\nYou’ve taken the plunge and invested in Bitcoin. Write a function that calculates how much money you’ve made. The inputs should be the amount that you invested and the percentage increase since then, and the output should be your total profit.\nHow would you adjust this function if you wanted to calculate your profit over time, factoring in the rate of increase each month? Your inputs will be your initial investment, the rate of increase each month, and the number of months since your investment.\n\n\nPalindrome finder\nYou are obsessed with palindromes, and you want a function that will automatically figure out if a given word is a palindrome. Create a function that will return TRUE if the input is a palindrome and FALSE otherwise. Hint: you will probably have to look up some functions that will help you manipulate the text.\n\n\nTips\n\nFocus on creating a logical step-by-step plan. Think about what kind of input you need for each step, and how you will get that information from the previous step.\nWhile you’re brainstorming, come up with an example input for your function. For instance, for the custom max function, write out a short vector (e.g., c(5,1,4,10,2)), and then imagine what is going to happen to that vector at each step of your function.\nWhen testing your function, test out different types of inputs to make sure your function is generalizable to different situations. For example, for the custom max function, test out a vector with values less than 1, or all negative values, to make sure your code isn’t designed only for positive integers.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Programming Foundations Part 2"
+      "Programming Foundations Workshop"
     ]
   },
   {
-    "objectID": "modules/03_programming-foundations-2.html#weekly-assignment",
-    "href": "modules/03_programming-foundations-2.html#weekly-assignment",
-    "title": "Programming Foundations Part 2",
+    "objectID": "modules/04_programming-workshop.html#weekly-assignment",
+    "href": "modules/04_programming-workshop.html#weekly-assignment",
+    "title": "Programming Foundations Workshop",
     "section": "Weekly assignment",
-    "text": "Weekly assignment\nFirst, make sure you have completed all of the exercises in the above chapters. We will have already completed most of them in class. All of the solutions should be included in your R markdown report. Then, solve these additional problems using the concepts you have learned in class. For now, you should avoid using other predefined functions unless noted below.\nAs always, your R markdown report should be organized with headings and comments explaining your work.\n\nWrite a function to find the sum of all integers between any two values. Start by writing out your plan in comment form, and then fill in the code.\nList all of the prime numbers from 1 to 1000. Start by writing out your plan in comment form, and then fill in the code.\n\nCreate a function is_prime() that helps you solve this problem.\n\nWrite your own functions to give descriptive statistics for a vector variable storing multiple numbers. Write functions for the following without using R intrinsics: mean, mode, median, range, standard deviation\n\nIt’s ok to use sum() and length() in your solutions.\nFor at least one of these, see if you can come up with two different solutions.\nThe output should be a vector with the descriptive statistics, with names included (refer back to the Vectors chapter).\n\nImagine you are writing a program to help you process data from a survey that you ran.\n\nYou have vectors containing the ages of 200 participants, their identified gender labels, and their responses to a 10-item survey indexing mental health. Note that you should exclude anyone with missing survey responses.\nYou want the descriptive statistics for an overall mental health score, across everybody as well as split by gender (here, including male, female, and non-binary).\nYou also want to run a t-test comparing mental health scores specifically for males and females between ages 18-24.\nMake a plan for how you would implement this program, listing out the steps in order as well as what output you would need to pass from one step to the next. You can write this in pseudo-code - in other words, you don’t have to write any actual syntax, only the logical list of steps as a series of comments that you could use to structure your code. Be as specific and as granular as possible.\n\n\nSome of these problems were adapted from this website.",
+    "text": "Weekly assignment\nAs always, your R markdown report should be organized with headings and comments explaining your work, as well as disclosures about any use of AI tools. Please also include a table of contents.\n\nAdditional programming practice\n\nWrite a function that counts the number of words contained in a string of text, such as, “Karma is my boyfriend, karma is a god, karma is the breeze in my hair on the weekend. Karma’s a relaxing thought. Aren’t you envious that for you it’s not?” Hint: You will probably want to use the strsplit command. Read the help page or do a search to find out more about this function. How would you adapt this function to tell you how many times a particular word (e.g., “karma”) appears?\nWrite some code to store the numbers from 1 to 100 in a vector with the following constraints. If the number can be divided by three evenly, then store the word “Fizz” instead of the number. If the number can be divided by five evenly, then store the word “Buzz” instead of the number. Finally, if the number can be divided by three and five evenly, then store “FizzBuzz” instead of the number. For example, the first five elements of your vector should look like this: c(1,2,\"Fizz\",4,\"Buzz\").\n\n\n\nData visualization example\n\nIn preparation for our transition to the data visualization module, find an example of a data visualization that you like. This can be from any source, but if you need some inspiration, here are a couple of galleries (one, two) showing off plots created with ggplot2. We’ll talk about when you might want to use different kinds of plots and how to create them in R. You should embed the plot into your R markdown report, either by downloading it or by linking to it directly. Here’s a reminder of how that works.\n\nSome of these problems were adapted from this website.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Programming Foundations Part 2"
+      "Programming Foundations Workshop"
     ]
   },
   {
-    "objectID": "modules/05_data-summaries-relations.html",
-    "href": "modules/05_data-summaries-relations.html",
-    "title": "Data Summaries & Data Relations",
+    "objectID": "modules/06_data-summaries.html",
+    "href": "modules/06_data-summaries.html",
+    "title": "Data Summaries",
     "section": "",
-    "text": "Here’s the objective for this week.",
+    "text": "R and RStudio have their roots in statistical programming, a type of programming focused on solving data analysis problems. In this module, we will learn how to import data files into R and how to summarize their contents. These are usually the first steps you’ll include when building a script for data analysis.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Summaries & Data Relations"
+      "Data Summaries"
     ]
   },
   {
-    "objectID": "modules/05_data-summaries-relations.html#objectives",
-    "href": "modules/05_data-summaries-relations.html#objectives",
-    "title": "Data Summaries & Data Relations",
+    "objectID": "modules/06_data-summaries.html#objectives",
+    "href": "modules/06_data-summaries.html#objectives",
+    "title": "Data Summaries",
     "section": "",
-    "text": "Here’s the objective for this week.",
+    "text": "R and RStudio have their roots in statistical programming, a type of programming focused on solving data analysis problems. In this module, we will learn how to import data files into R and how to summarize their contents. These are usually the first steps you’ll include when building a script for data analysis.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Summaries & Data Relations"
+      "Data Summaries"
     ]
   },
   {
-    "objectID": "modules/05_data-summaries-relations.html#readings",
-    "href": "modules/05_data-summaries-relations.html#readings",
-    "title": "Data Summaries & Data Relations",
+    "objectID": "modules/06_data-summaries.html#readings",
+    "href": "modules/06_data-summaries.html#readings",
+    "title": "Data Summaries",
     "section": "Readings",
-    "text": "Readings\nYou should read these chapters before you come to class:\n\nApplied Data Skills - Chapter 4: Data Summaries\nApplied Data Skills - Chapter 7: Data Relations",
+    "text": "Readings\nYou should read this chapter before you come to class:\n\nApplied Data Skills - Chapter 4: Data Summaries",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Summaries & Data Relations"
+      "Data Summaries"
     ]
   },
   {
-    "objectID": "modules/05_data-summaries-relations.html#in-class-exercises",
-    "href": "modules/05_data-summaries-relations.html#in-class-exercises",
-    "title": "Data Summaries & Data Relations",
+    "objectID": "modules/06_data-summaries.html#in-class-exercises",
+    "href": "modules/06_data-summaries.html#in-class-exercises",
+    "title": "Data Summaries",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called data-summaries, and save today’s work in an R markdown report called summary.Rmd. If we have time, we will move on to the next module on Data Wrangling.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Summaries"
+    ]
+  },
+  {
+    "objectID": "modules/06_data-summaries.html#weekly-assignment",
+    "href": "modules/06_data-summaries.html#weekly-assignment",
+    "title": "Data Summaries",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nTBD",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Summaries"
+    ]
+  },
+  {
+    "objectID": "modules/08_data-tidying.html",
+    "href": "modules/08_data-tidying.html",
+    "title": "Data Tidying",
+    "section": "",
+    "text": "Here’s the objective for this week."
+  },
+  {
+    "objectID": "modules/08_data-tidying.html#objectives",
+    "href": "modules/08_data-tidying.html#objectives",
+    "title": "Data Tidying",
+    "section": "",
+    "text": "Here’s the objective for this week."
+  },
+  {
+    "objectID": "modules/08_data-tidying.html#readings",
+    "href": "modules/08_data-tidying.html#readings",
+    "title": "Data Tidying",
+    "section": "Readings",
+    "text": "Readings\nYou should read this chapter before you come to class:\n\nApplied Data Skills - Chapter 8: Data Tidying"
+  },
+  {
+    "objectID": "modules/08_data-tidying.html#in-class-exercises",
+    "href": "modules/08_data-tidying.html#in-class-exercises",
+    "title": "Data Tidying",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nIn-class exercises"
+  },
+  {
+    "objectID": "modules/08_data-tidying.html#weekly-assignment",
+    "href": "modules/08_data-tidying.html#weekly-assignment",
+    "title": "Data Tidying",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nHere’s the weekly assignment."
+  },
+  {
+    "objectID": "modules/10_machine-learning.html",
+    "href": "modules/10_machine-learning.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "modules/10_machine-learning.html#objectives",
+    "href": "modules/10_machine-learning.html#objectives",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "modules/10_machine-learning.html#readings",
+    "href": "modules/10_machine-learning.html#readings",
+    "title": "Machine Learning",
+    "section": "Readings",
+    "text": "Readings\nLink to textbook chapter",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "modules/10_machine-learning.html#in-class-exercises",
+    "href": "modules/10_machine-learning.html#in-class-exercises",
+    "title": "Machine Learning",
     "section": "In-class exercises",
     "text": "In-class exercises\nIn-class exercises",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Summaries & Data Relations"
+      "Machine Learning"
     ]
   },
   {
-    "objectID": "modules/05_data-summaries-relations.html#weekly-assignment",
-    "href": "modules/05_data-summaries-relations.html#weekly-assignment",
-    "title": "Data Summaries & Data Relations",
+    "objectID": "modules/10_machine-learning.html#weekly-assignment",
+    "href": "modules/10_machine-learning.html#weekly-assignment",
+    "title": "Machine Learning",
     "section": "Weekly assignment",
     "text": "Weekly assignment\nHere’s the weekly assignment.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Summaries & Data Relations"
+      "Machine Learning"
     ]
   },
   {
-    "objectID": "modules/07_intro-jspsych.html",
-    "href": "modules/07_intro-jspsych.html",
+    "objectID": "modules/12_advanced-visualization.html",
+    "href": "modules/12_advanced-visualization.html",
+    "title": "Advanced Visualization Techniques",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Advanced Visualization Techniques"
+    ]
+  },
+  {
+    "objectID": "modules/12_advanced-visualization.html#objectives",
+    "href": "modules/12_advanced-visualization.html#objectives",
+    "title": "Advanced Visualization Techniques",
+    "section": "",
+    "text": "Here’s the objective for this week.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Advanced Visualization Techniques"
+    ]
+  },
+  {
+    "objectID": "modules/12_advanced-visualization.html#readings",
+    "href": "modules/12_advanced-visualization.html#readings",
+    "title": "Advanced Visualization Techniques",
+    "section": "Readings",
+    "text": "Readings\nLink to textbook chapter",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Advanced Visualization Techniques"
+    ]
+  },
+  {
+    "objectID": "modules/12_advanced-visualization.html#in-class-exercises",
+    "href": "modules/12_advanced-visualization.html#in-class-exercises",
+    "title": "Advanced Visualization Techniques",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nIn-class exercises",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Advanced Visualization Techniques"
+    ]
+  },
+  {
+    "objectID": "modules/12_advanced-visualization.html#weekly-assignment",
+    "href": "modules/12_advanced-visualization.html#weekly-assignment",
+    "title": "Advanced Visualization Techniques",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Advanced Visualization Techniques"
+    ]
+  },
+  {
+    "objectID": "modules/xx_data-summaries-relations.html",
+    "href": "modules/xx_data-summaries-relations.html",
+    "title": "Data Summaries & Data Relations",
+    "section": "",
+    "text": "Here’s the objective for this week."
+  },
+  {
+    "objectID": "modules/xx_data-summaries-relations.html#objectives",
+    "href": "modules/xx_data-summaries-relations.html#objectives",
+    "title": "Data Summaries & Data Relations",
+    "section": "",
+    "text": "Here’s the objective for this week."
+  },
+  {
+    "objectID": "modules/xx_data-summaries-relations.html#readings",
+    "href": "modules/xx_data-summaries-relations.html#readings",
+    "title": "Data Summaries & Data Relations",
+    "section": "Readings",
+    "text": "Readings\nYou should read these chapters before you come to class:\n\nApplied Data Skills - Chapter 4: Data Summaries\nApplied Data Skills - Chapter 7: Data Relations"
+  },
+  {
+    "objectID": "modules/xx_data-summaries-relations.html#in-class-exercises",
+    "href": "modules/xx_data-summaries-relations.html#in-class-exercises",
+    "title": "Data Summaries & Data Relations",
+    "section": "In-class exercises",
+    "text": "In-class exercises\nIn-class exercises"
+  },
+  {
+    "objectID": "modules/xx_data-summaries-relations.html#weekly-assignment",
+    "href": "modules/xx_data-summaries-relations.html#weekly-assignment",
+    "title": "Data Summaries & Data Relations",
+    "section": "Weekly assignment",
+    "text": "Weekly assignment\nHere’s the weekly assignment."
+  },
+  {
+    "objectID": "modules/xx_intro-jspsych.html",
+    "href": "modules/xx_intro-jspsych.html",
     "title": "Introduction to jsPsych",
     "section": "",
     "text": "Here’s the objective for this week.",
@@ -775,8 +976,8 @@
     ]
   },
   {
-    "objectID": "modules/07_intro-jspsych.html#objectives",
-    "href": "modules/07_intro-jspsych.html#objectives",
+    "objectID": "modules/xx_intro-jspsych.html#objectives",
+    "href": "modules/xx_intro-jspsych.html#objectives",
     "title": "Introduction to jsPsych",
     "section": "",
     "text": "Here’s the objective for this week.",
@@ -787,8 +988,8 @@
     ]
   },
   {
-    "objectID": "modules/07_intro-jspsych.html#readings",
-    "href": "modules/07_intro-jspsych.html#readings",
+    "objectID": "modules/xx_intro-jspsych.html#readings",
+    "href": "modules/xx_intro-jspsych.html#readings",
     "title": "Introduction to jsPsych",
     "section": "Readings",
     "text": "Readings\nLink to textbook chapter",
@@ -799,8 +1000,8 @@
     ]
   },
   {
-    "objectID": "modules/07_intro-jspsych.html#in-class-exercises",
-    "href": "modules/07_intro-jspsych.html#in-class-exercises",
+    "objectID": "modules/xx_intro-jspsych.html#in-class-exercises",
+    "href": "modules/xx_intro-jspsych.html#in-class-exercises",
     "title": "Introduction to jsPsych",
     "section": "In-class exercises",
     "text": "In-class exercises\nIn-class exercises",
@@ -811,8 +1012,8 @@
     ]
   },
   {
-    "objectID": "modules/07_intro-jspsych.html#weekly-assignment",
-    "href": "modules/07_intro-jspsych.html#weekly-assignment",
+    "objectID": "modules/xx_intro-jspsych.html#weekly-assignment",
+    "href": "modules/xx_intro-jspsych.html#weekly-assignment",
     "title": "Introduction to jsPsych",
     "section": "Weekly assignment",
     "text": "Weekly assignment\nHere’s the weekly assignment.",
@@ -820,137 +1021,6 @@
       "Home",
       "<b>Modules</b>",
       "Introduction to jsPsych"
-    ]
-  },
-  {
-    "objectID": "modules/09_statistical-analysis.html",
-    "href": "modules/09_statistical-analysis.html",
-    "title": "Statistical Analysis in R",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Statistical Analysis in R"
-    ]
-  },
-  {
-    "objectID": "modules/09_statistical-analysis.html#objectives",
-    "href": "modules/09_statistical-analysis.html#objectives",
-    "title": "Statistical Analysis in R",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Statistical Analysis in R"
-    ]
-  },
-  {
-    "objectID": "modules/09_statistical-analysis.html#readings",
-    "href": "modules/09_statistical-analysis.html#readings",
-    "title": "Statistical Analysis in R",
-    "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Statistical Analysis in R"
-    ]
-  },
-  {
-    "objectID": "modules/09_statistical-analysis.html#in-class-exercises",
-    "href": "modules/09_statistical-analysis.html#in-class-exercises",
-    "title": "Statistical Analysis in R",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Statistical Analysis in R"
-    ]
-  },
-  {
-    "objectID": "modules/09_statistical-analysis.html#weekly-assignment",
-    "href": "modules/09_statistical-analysis.html#weekly-assignment",
-    "title": "Statistical Analysis in R",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Statistical Analysis in R"
-    ]
-  },
-  {
-    "objectID": "modules/11_nlp.html",
-    "href": "modules/11_nlp.html",
-    "title": "Natural Language Processing",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Natural Language Processing"
-    ]
-  },
-  {
-    "objectID": "modules/11_nlp.html#objectives",
-    "href": "modules/11_nlp.html#objectives",
-    "title": "Natural Language Processing",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Natural Language Processing"
-    ]
-  },
-  {
-    "objectID": "modules/11_nlp.html#readings",
-    "href": "modules/11_nlp.html#readings",
-    "title": "Natural Language Processing",
-    "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Natural Language Processing"
-    ]
-  },
-  {
-    "objectID": "modules/11_nlp.html#in-class-exercises",
-    "href": "modules/11_nlp.html#in-class-exercises",
-    "title": "Natural Language Processing",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Natural Language Processing"
-    ]
-  },
-  {
-    "objectID": "modules/11_nlp.html#weekly-assignment",
-    "href": "modules/11_nlp.html#weekly-assignment",
-    "title": "Natural Language Processing",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Natural Language Processing"
-    ]
-  },
-  {
-    "objectID": "modules/index.html",
-    "href": "modules/index.html",
-    "title": "Modules",
-    "section": "",
-    "text": "To the left, you can find links to all of the course modules. Click one to get started.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>"
     ]
   },
   {
@@ -1036,7 +1106,7 @@
     "href": "syllabus.html#schedule",
     "title": "Syllabus",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\nWeek\nDate\nModule\nDescription\n\n\n\n\n1\nJan 16\nIntro to Programming with R\nInstallation and familiarization with R and RStudio interface; Data organization, reproducible scientific programming\n\n\n2\nJan 23\nProgramming Foundations Part 1\nVariables, vectors, loops, branches\n\n\n3\nJan 30\nProgramming Foundations Part 2\nFunctions and algorithms\n\n\n4\nFeb 6\nProgramming Foundations Workshop\nReview and practice\n\n\n5\nFeb 13\nData Visualization\nExploratory data visualization with ggplot, customizing plots\n\n\n6\nFeb 20\nData Summaries & Data Relations\nImporting and summarizing data, tidyverse pipes; Combining datasets\n\n\n7\nFeb 27\nData Tidying & Data Wrangling\nWhat is “tidy data” and how do we get it; Selecting and filtering data, creating new variables\n\n\n8\nMar 13\nIntro to jsPsych\nMidterm projects due; Implementing a simple experiment using jsPsych\n\n\n9\nMar 20\nExperiment Design and Data Collection\nDesigning more complex experiments with jsPsych, collecting data\n\n\n10\nMar 27\nStatistical Analysis in R\nBasic statistical analysis in R, including t-tests, ANOVAs, and regression analyses on sample datasets\n\n\n11\nApr 3\nIntro to Machine Learning\nSimple machine learning models for classifying or predicting psychological outcomes\n\n\n12\nApr 10\nOption 1\nIntro to Natural Language Processing\nText processing using NLP tools, sentiment analysis\n\n\n12\nApr 10\nOption 2\nAdvanced Visualization Techniques\nInteractive visualizations and web-based tools, visualization of complex data types\n\n\n13\nApr 24\nProject Presentations\nFinal projects due\n\n\n14\nMay 1\nProject Presentations"
+    "text": "Schedule\n\n\n\nWeek\nDate\nModule\nDescription\n\n\n\n\n1\nJan 16\nIntro to Programming with R\nInstallation and familiarization with R and RStudio interface; Data organization, reproducible scientific programming\n\n\n2\nJan 23\nProgramming Foundations Part 1\nVariables, vectors, loops, branches\n\n\n3\nJan 30\nProgramming Foundations Part 2\nFunctions and algorithms\n\n\n4\nFeb 6\nProgramming Foundations Workshop\nReview and practice\n\n\n5\nFeb 13\nData Visualization\nExploratory data visualization with ggplot, customizing plots\n\n\n6\nFeb 20\nData Summaries\nImporting and summarizing data, tidyverse pipes\n\n\n7\nFeb 27\nData Wrangling\nSelecting and filtering data, creating new variables\n\n\n8\nMar 13\nIntro to jsPsych\nMidterm projects due; Implementing a simple experiment using jsPsych\n\n\n9\nMar 20\nExperiment Design and Data Collection\nDesigning more complex experiments with jsPsych, collecting data\n\n\n10\nMar 27\nStatistical Analysis in R\nBasic statistical analysis in R, including t-tests, ANOVAs, and regression analyses on sample datasets\n\n\n11\nApr 3\nIntro to Machine Learning\nSimple machine learning models for classifying or predicting psychological outcomes\n\n\n12\nApr 10\nOption 1\nIntro to Natural Language Processing\nText processing using NLP tools, sentiment analysis\n\n\n12\nApr 10\nOption 2\nAdvanced Visualization Techniques\nInteractive visualizations and web-based tools, visualization of complex data types\n\n\n13\nApr 24\nProject Presentations\nFinal projects due\n\n\n14\nMay 1\nProject Presentations"
   },
   {
     "objectID": "syllabus.html#course-requirements",

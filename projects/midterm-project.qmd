@@ -26,11 +26,11 @@ Turn any normal english text into an encrypted version of the text, and be able 
 
 Solve **2** of the following 3 game problems:
 
-#### Snakes and ladders 
+#### Snakes and ladders
 
 Your task here is to write an algorithm that can simulate playing the depicted Snakes and Ladders board depicted [here](https://www.crumplab.com/rstatsforpsych/imgs/SnakesLadders.png). You should assume that each roll of the dice produces a random number between 1 and 6. After you are able to simulate one played game, you will then write a loop to simulate 1000 games, and estimate the average number of dice rolls needed to successfully complete the game.
 
-#### Tic Tac Toe 
+#### Tic Tac Toe
 
 Imagine that two players make completely random choices when playing tic-tac-toe. Each game will either end in a draw or one of the two players will win. Create a simulation of this “random” version of tic-tac-toe. Out of 10,000 simulations, what proportion of the time is the game won versus drawn?
 

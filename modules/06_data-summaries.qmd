@@ -1,0 +1,21 @@
+---
+title: "Data Summaries"
+---
+
+## Objectives
+
+R and RStudio have their roots in statistical programming, a type of programming focused on solving data analysis problems. In this module, we will learn how to import data files into R and how to summarize their contents. These are usually the first steps you'll include when building a script for data analysis. 
+
+## Readings
+
+You should read this chapter before you come to class:
+
+-   *Applied Data Skills -* [Chapter 4: Data Summaries](https://psyteachr.github.io/ads-v3/04-summary.html)
+
+## In-class exercises
+
+We will follow along with the examples given in the textbook. Create an R project called `data-summaries`, and save today's work in an R markdown report called `summary.Rmd`. If we have time, we will move on to the next module on *Data Wrangling*.
+
+## Weekly assignment
+
+TBD
