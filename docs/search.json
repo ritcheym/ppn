@@ -754,7 +754,7 @@
     "href": "modules/06_data-summaries.html#in-class-exercises",
     "title": "Data Summaries",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called data-summaries, and save today’s work in an R markdown report called summary.Rmd. If we have time, we will move on to the next module on Data Wrangling.",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called data-summaries, and save today’s work in an R markdown report called summary.Rmd. We will also practice reading in a csv file and summarizing key variables using the screentime dataset.\nIn addition, we will review data visualization techniques by writing whiteboard code for three example plots (a bar plot, scatterplot, and histogram), recapping the key components of building up plot layers with the ggplot package.\n\n\n\n\n\n\nKey concepts\n\n\n\ncsv files, importing data, the $ operator, pipes (%&gt;%), count, summarize",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -766,7 +766,7 @@
     "href": "modules/06_data-summaries.html#weekly-assignment",
     "title": "Data Summaries",
     "section": "Weekly assignment",
-    "text": "Weekly assignment\nTBD",
+    "text": "Weekly assignment\nNo homework this week. You should spend this time working on your midterm project.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
