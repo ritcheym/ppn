@@ -21,7 +21,11 @@ Don't worry, each chapter is short!
 
 We will follow along with the examples given in the textbook. Create an R project called `programming-foundations` for this section of the course, and save today's work in an R markdown report called `part-1.Rmd`.
 
-**Key concepts:** character, numeric, combine, vector, element, logical, logical indexing, `<-`, !`=` vs `==`, flow control, while loop, for loop, conditional statements, if statement
+::: {.callout-tip icon="false"}
+## Key concepts
+
+character, numeric, combine, vector, element, logical, logical indexing, `<-`, !`=` vs `==`, flow control, while loop, for loop, conditional statements, if statement
+:::
 
 ## Weekly assignment
 

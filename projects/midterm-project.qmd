@@ -16,6 +16,10 @@ You will be graded on the accuracy and completeness of your code, as well as its
 
 **Use of AI:** Please review the AI policy on the course syllabus. You are permitted to turn to AI if you get stuck on part of the problem. However, you should clearly indicate when and how you have done so, including notes about your thought process. As always, I strongly encourage you to try to work through the problems independently first, and then use AI only as a debugging tool. For the midterm, I am very likely to ask you to explain chunks of your code that I perceive as being AI-assisted, either in class or in an office hours meeting.
 
+::: callout-tip
+The following functions might come in handy as you work through these problems: `sample()`, `all()`, and `any()`. You can look up their syntax in the help window or online.
+:::
+
 ## Questions
 
 ### Question 1: Code Breakers

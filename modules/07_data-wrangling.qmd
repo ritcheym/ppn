@@ -14,8 +14,14 @@ You should read this chapter before you come to class:
 
 ## In-class exercises
 
-We will follow along with the examples given in the textbook. Create an R project called `data-wrangling`, and save today's work in an R markdown report called `wrangle.Rmd`. 
+We will follow along with the examples given in the textbook. Create an R project called `data-wrangling`, and save today's work in an R markdown report called `wrangle.Rmd`.
+
+::: {.callout-tip icon="false"}
+## Key concepts
+
+pipes (`%>%`), summarize, grouping, filter, select, arrange, mutate, missing values
+:::
 
 ## Weekly assignment
 
-Here's the weekly assignment.
+TBD

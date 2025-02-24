@@ -21,7 +21,11 @@ For our first week, you do not to read ahead of the class period. But you should
 
 We will follow along with the examples given in the textbook. In addition, we will make sure everyone is set up with the software and with Canvas.
 
-**Key concepts:** R vs RStudio, base-R, package, function, argument, objects, environment (workspace), help, R markdown, script, knit, chunk, comments, project
+::: {.callout-tip icon="false"}
+## Key concepts
+
+R vs RStudio, base-R, package, function, argument, objects, environment (workspace), help, R markdown, script, knit, chunk, comments, project
+:::
 
 ## Weekly assignment
 

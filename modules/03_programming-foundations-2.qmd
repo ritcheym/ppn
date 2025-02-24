@@ -17,7 +17,11 @@ You should read these chapters before you come to class:
 
 We will follow along with the examples given in the textbook. Open the R project called `programming-foundations`, and save today's work in an R markdown report called `part-2.Rmd`.
 
-**Key concepts:** function, algorithm, pseudo code
+::: {.callout-tip icon="false"}
+## Key concepts
+
+function, algorithm, pseudo code
+:::
 
 ## Weekly assignment
 

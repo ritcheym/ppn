@@ -5,6 +5,17 @@ sidebar: false
 
 For many topics in this class, we are going to be only scratching the surface. Below you can find some links that can help you learn more.
 
+### Useful functions
+
+-   **Basic statistics:** `mean()`, `median()`, `min()`, `max()`, `sum()` calculate basic descriptive statistics on a vector.
+-   **Data dimension checks:** `nrow()`, `ncol()` return the number of rows and columns in a data frame `length()` returns the number of items in an object.
+-   **Data manipulation:** `subset()` allows filtering data based on conditions, `sort()` sorts data in ascending order.
+-   **Data exploration:** `table()` counts frequencies of unique values in a vector, `head()` gives you a preview of the first six parts of an object, and `str()` tells you more about the structure of an object.
+-   **Sampling:** `sample()` generates random samples from a vector.
+-   **Data analysis with dplyr:** `filter()`, `select()`, `mutate()`, `group_by()` are powerful functions for data manipulation within the dplyr package - covered in the [Data Wrangling](/modules/07_data-wrangling.html) module
+-   **Visualization with ggplot2:** `ggplot()` is the primary function to create customized plots using the ggplot2 package - covered in the [Data Visualization](/modules/05_data-visualization.html) module
+-   **[More useful functions](https://ashki23.github.io/r-functions.html)**
+
 ### R cheatsheets
 
 -   Official cheatsheets from [Posit](https://posit.co/resources/cheatsheets/)

@@ -20,7 +20,11 @@ We will also discuss content from this chapter:
 
 We will follow along with the examples given in the textbook. Create an R project called `visualization`, and save today's work in an R markdown report called `plots.Rmd`. We will also go over the dataset that you'll use for your assignment this week.
 
-**Key concepts:** categorical, continuous, ordinal, nominal, numeric, observation, factor, geom, mapping, scales, themes, tidy data
+::: {.callout-tip icon="false"}
+## Key concepts
+
+categorical, continuous, ordinal, nominal, numeric, observation, factor, geom, mapping, scales, themes, tidy data
+:::
 
 ## Weekly assignment
 

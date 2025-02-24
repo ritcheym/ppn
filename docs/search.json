@@ -39,7 +39,7 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "For many topics in this class, we are going to be only scratching the surface. Below you can find some links that can help you learn more.\n\nR cheatsheets\n\nOfficial cheatsheets from Posit\n\n\n\nVersion control with git\n\nGit, GitHub, and Version Control by Matt Crump\nHappy Git with R by Jenny Bryan\n\n\n\nStatistical analysis with R\n\nLearning Statistics with R by Danielle Navarro\nAnswering Questions with Data by Matt Crump, Danielle Navarro, and Jeffrey Suzuki\n\n\n\nData visualization\n\nggplot2: Elegant Graphics for Data Analysis by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen\n\n\n\nSimilar ideas, different language: Resources for learning Python\n\nPython vs R: What’s the Difference?\nLab in Cognition and Perception by Todd Gureckis\n\n\n\nNatural language processing with R\n\nTidy Text Mining by Julia Silge and David Robinson\n\n\n\nAdvanced programming with R\n\nAdvanced R by Hadley Wickham\n\n\n\nBasic computer skills\n\nHow to zip files: mac, windows\nCommon Mac terminal commands\n\n\n\nSearching for datasets\n\nDatasets used in this course\nPsychology datasets published on the Open Science Framework\nArticles with open data published in Psychological Science\nTidy Tuesday multi-purpose datasets\n\n\n\nCoding for all\n\nTeaching coding inclusively\nA brief history of women in computing\nThe context for this course: This course was developed by a woman, using materials that were primarily created by women, and teaching students who are predominantly women. 🙌"
+    "text": "For many topics in this class, we are going to be only scratching the surface. Below you can find some links that can help you learn more.\n\nUseful functions\n\nBasic statistics: mean(), median(), min(), max(), sum() calculate basic descriptive statistics on a vector.\nData dimension checks: nrow(), ncol() return the number of rows and columns in a data frame length() returns the number of items in an object.\nData manipulation: subset() allows filtering data based on conditions, sort() sorts data in ascending order.\nData exploration: table() counts frequencies of unique values in a vector, head() gives you a preview of the first six parts of an object, and str() tells you more about the structure of an object.\nSampling: sample() generates random samples from a vector.\nData analysis with dplyr: filter(), select(), mutate(), group_by() are powerful functions for data manipulation within the dplyr package - covered in the Data Wrangling module\nVisualization with ggplot2: ggplot() is the primary function to create customized plots using the ggplot2 package - covered in the Data Visualization module\nMore useful functions\n\n\n\nR cheatsheets\n\nOfficial cheatsheets from Posit\n\n\n\nVersion control with git\n\nGit, GitHub, and Version Control by Matt Crump\nHappy Git with R by Jenny Bryan\n\n\n\nStatistical analysis with R\n\nLearning Statistics with R by Danielle Navarro\nAnswering Questions with Data by Matt Crump, Danielle Navarro, and Jeffrey Suzuki\n\n\n\nData visualization\n\nggplot2: Elegant Graphics for Data Analysis by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen\n\n\n\nSimilar ideas, different language: Resources for learning Python\n\nPython vs R: What’s the Difference?\nLab in Cognition and Perception by Todd Gureckis\n\n\n\nNatural language processing with R\n\nTidy Text Mining by Julia Silge and David Robinson\n\n\n\nAdvanced programming with R\n\nAdvanced R by Hadley Wickham\n\n\n\nBasic computer skills\n\nHow to zip files: mac, windows\nCommon Mac terminal commands\n\n\n\nSearching for datasets\n\nDatasets used in this course\nPsychology datasets published on the Open Science Framework\nArticles with open data published in Psychological Science\nTidy Tuesday multi-purpose datasets\n\n\n\nCoding for all\n\nTeaching coding inclusively\nA brief history of women in computing\nThe context for this course: This course was developed by a woman, using materials that were primarily created by women, and teaching students who are predominantly women. 🙌"
   },
   {
     "objectID": "projects/final-project.html",
@@ -321,7 +321,7 @@
     "href": "modules/07_data-wrangling.html#in-class-exercises",
     "title": "Data Wrangling",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called data-wrangling, and save today’s work in an R markdown report called wrangle.Rmd.",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called data-wrangling, and save today’s work in an R markdown report called wrangle.Rmd.\n\n\n\n\n\n\nKey concepts\n\n\n\npipes (%&gt;%), summarize, grouping, filter, select, arrange, mutate, missing values",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -333,7 +333,7 @@
     "href": "modules/07_data-wrangling.html#weekly-assignment",
     "title": "Data Wrangling",
     "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "text": "Weekly assignment\nTBD",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -381,7 +381,7 @@
     "href": "modules/05_data-visualization.html#in-class-exercises",
     "title": "Data Visualization",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called visualization, and save today’s work in an R markdown report called plots.Rmd. We will also go over the dataset that you’ll use for your assignment this week.\nKey concepts: categorical, continuous, ordinal, nominal, numeric, observation, factor, geom, mapping, scales, themes, tidy data",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called visualization, and save today’s work in an R markdown report called plots.Rmd. We will also go over the dataset that you’ll use for your assignment this week.\n\n\n\n\n\n\nKey concepts\n\n\n\ncategorical, continuous, ordinal, nominal, numeric, observation, factor, geom, mapping, scales, themes, tidy data",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -441,7 +441,7 @@
     "href": "modules/03_programming-foundations-2.html#in-class-exercises",
     "title": "Programming Foundations Part 2",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Open the R project called programming-foundations, and save today’s work in an R markdown report called part-2.Rmd.\nKey concepts: function, algorithm, pseudo code",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Open the R project called programming-foundations, and save today’s work in an R markdown report called part-2.Rmd.\n\n\n\n\n\n\nKey concepts\n\n\n\nfunction, algorithm, pseudo code",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -501,7 +501,7 @@
     "href": "modules/01_intro.html#in-class-exercises",
     "title": "Introduction to R and RStudio",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. In addition, we will make sure everyone is set up with the software and with Canvas.\nKey concepts: R vs RStudio, base-R, package, function, argument, objects, environment (workspace), help, R markdown, script, knit, chunk, comments, project",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. In addition, we will make sure everyone is set up with the software and with Canvas.\n\n\n\n\n\n\nKey concepts\n\n\n\nR vs RStudio, base-R, package, function, argument, objects, environment (workspace), help, R markdown, script, knit, chunk, comments, project",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -646,7 +646,7 @@
     "href": "modules/02_programming-foundations-1.html#in-class-exercises",
     "title": "Programming Foundations Part 1",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called programming-foundations for this section of the course, and save today’s work in an R markdown report called part-1.Rmd.\nKey concepts: character, numeric, combine, vector, element, logical, logical indexing, &lt;-, != vs ==, flow control, while loop, for loop, conditional statements, if statement",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called programming-foundations for this section of the course, and save today’s work in an R markdown report called part-1.Rmd.\n\n\n\n\n\n\nKey concepts\n\n\n\ncharacter, numeric, combine, vector, element, logical, logical indexing, &lt;-, != vs ==, flow control, while loop, for loop, conditional statements, if statement",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -1040,7 +1040,7 @@
     "href": "projects/midterm-project.html#instructions",
     "title": "Midterm Project",
     "section": "Instructions",
-    "text": "Instructions\nYou will be graded on the accuracy and completeness of your code, as well as its presentation.\nAccuracy: Does the code run? Can someone else (e.g., your professor) download it and run it without making any edits? Does it approach the problem in a logical way?\nCompleteness: Does it solve the problem? Does it work with a variety of different possible inputs or situations?\nPresentation: Did you submit an html file? Does it have headers and explanatory text that describe what you are doing? Does it have a table of contents? Does it have comments that label the different steps?\nUse of AI: Please review the AI policy on the course syllabus. You are permitted to turn to AI if you get stuck on part of the problem. However, you should clearly indicate when and how you have done so, including notes about your thought process. As always, I strongly encourage you to try to work through the problems independently first, and then use AI only as a debugging tool. For the midterm, I am very likely to ask you to explain chunks of your code that I perceive as being AI-assisted, either in class or in an office hours meeting.",
+    "text": "Instructions\nYou will be graded on the accuracy and completeness of your code, as well as its presentation.\nAccuracy: Does the code run? Can someone else (e.g., your professor) download it and run it without making any edits? Does it approach the problem in a logical way?\nCompleteness: Does it solve the problem? Does it work with a variety of different possible inputs or situations?\nPresentation: Did you submit an html file? Does it have headers and explanatory text that describe what you are doing? Does it have a table of contents? Does it have comments that label the different steps?\nUse of AI: Please review the AI policy on the course syllabus. You are permitted to turn to AI if you get stuck on part of the problem. However, you should clearly indicate when and how you have done so, including notes about your thought process. As always, I strongly encourage you to try to work through the problems independently first, and then use AI only as a debugging tool. For the midterm, I am very likely to ask you to explain chunks of your code that I perceive as being AI-assisted, either in class or in an office hours meeting.\n\n\n\n\n\n\nTip\n\n\n\nThe following functions might come in handy as you work through these problems: sample(), all(), and any(). You can look up their syntax in the help window or online.",
     "crumbs": [
       "Home",
       "<b>Projects</b>",
