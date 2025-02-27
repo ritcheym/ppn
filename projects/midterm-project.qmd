@@ -26,9 +26,9 @@ The following functions might come in handy as you work through these problems: 
 
 Turn any normal english text into an encrypted version of the text, and be able to turn any decrypted text back into normal english text. A simple encryption would be to scramble the alphabet such that each letter corresponds to a new randomly chosen (but unique) letter. You should have a function for each, as well as some tests that demonstrate how it works.
 
-### Questions 2 and 3: Playing Games
+### Question 2: Playing Games
 
-Solve **2** of the following 3 game problems:
+Solve **1** of the following 3 game problems. You can solve a second for 10 bonus points.
 
 #### Snakes and ladders
 
