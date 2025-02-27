@@ -285,7 +285,7 @@
     "href": "modules/07_data-wrangling.html",
     "title": "Data Wrangling",
     "section": "",
-    "text": "You will notice that we are skipping ahead in the textbook. This is because many of the key concepts for data wrangling are related to what you just learned in the Data Summaries module. In this module, we will learn how to work with datasets in R. In particular, we will focus on functions for creating new variables and for filtering, grouping, and summarizing data. We will string these functions together using “pipes” to create our data processing workflows.",
+    "text": "You will notice that we are skipping ahead in the textbook. This is because many of the key concepts for data wrangling are related to what you just learned in the Data Summaries module. In this module, we will learn how to work with datasets in R. In particular, we will focus on functions for creating new variables and for filtering, grouping, and summarizing data. We will string these functions together using “pipes” to create our data processing workflows.\n\n\n\n\n\n\nKey concepts\n\n\n\npipes (%&gt;%), summarize, grouping, filter, select, arrange, mutate, missing values",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -297,7 +297,7 @@
     "href": "modules/07_data-wrangling.html#objectives",
     "title": "Data Wrangling",
     "section": "",
-    "text": "You will notice that we are skipping ahead in the textbook. This is because many of the key concepts for data wrangling are related to what you just learned in the Data Summaries module. In this module, we will learn how to work with datasets in R. In particular, we will focus on functions for creating new variables and for filtering, grouping, and summarizing data. We will string these functions together using “pipes” to create our data processing workflows.",
+    "text": "You will notice that we are skipping ahead in the textbook. This is because many of the key concepts for data wrangling are related to what you just learned in the Data Summaries module. In this module, we will learn how to work with datasets in R. In particular, we will focus on functions for creating new variables and for filtering, grouping, and summarizing data. We will string these functions together using “pipes” to create our data processing workflows.\n\n\n\n\n\n\nKey concepts\n\n\n\npipes (%&gt;%), summarize, grouping, filter, select, arrange, mutate, missing values",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -321,7 +321,7 @@
     "href": "modules/07_data-wrangling.html#in-class-exercises",
     "title": "Data Wrangling",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called data-wrangling, and save today’s work in an R markdown report called wrangle.Rmd.\n\n\n\n\n\n\nKey concepts\n\n\n\npipes (%&gt;%), summarize, grouping, filter, select, arrange, mutate, missing values",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called data-wrangling, and save today’s work in an R markdown report called wrangle.Rmd.\nTo keep our programming skills sharp, we will also work in groups to solve the following programming problem.\nCoin flip tracker: Simulate flipping a coin 1000 times. You want to know how many times there are runs of the same side (e.g., 5 heads in a row). Write a function that includes an input for the run length and returns the number of runs that match or exceed that value.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -333,7 +333,7 @@
     "href": "modules/07_data-wrangling.html#weekly-assignment",
     "title": "Data Wrangling",
     "section": "Weekly assignment",
-    "text": "Weekly assignment\nTBD",
+    "text": "Weekly assignment\nSolve the following problems using the concepts you have learned in class. As always, your R markdown report should be organized with headings and comments explaining your work.\n\nCoin flip tracker, revisited: Using the same function you developed in class, figure out how many runs occur for all run lengths between (and including) 2 and 10. Use ggplot to plot the results, using whatever format you think is best.\nFor the rest of the questions, you will use the screentime dataset.\nWhich REGION has the most observations? Use the count() function.\nCalculate a new composite measure of mental well-being, using only 3 questions on the Mental Well-Being Scale (WBIntp,WBClsep, and WBLoved), which all have to do with relationships with other people (see scale). Filter out any observations with missing values.\nUse the summarize() function to compute the mean and 95% confidence intervals of your new measure, split by gender. Plot the results, using whatever format you think is best.\nExtra practice (optional): How closely does this new measure correspond with the original mental well-being measure (mwbi)? One way to tell is by plotting their relationship with one another.\nExtra practice (optional): What other questions could you answer with this dataset? How would you go about it?",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -345,7 +345,7 @@
     "href": "modules/05_data-visualization.html",
     "title": "Data Visualization",
     "section": "",
-    "text": "Now that we have our programming foundation in place, let’s revisit our goal of making our work reproducible, shareable, and beautiful. This week, we’ll discuss how to make data visualizations in R using the {ggplot2} package. This package will allow you to make a large variety of plots, which are useful for exploratory data analysis as well as for generating publication-quality figures. We’ll go over the most common types of data visualizations, as well as principles for when you should use one type of plot versus another.",
+    "text": "Now that we have our programming foundation in place, let’s revisit our goal of making our work reproducible, shareable, and beautiful. This week, we’ll discuss how to make data visualizations in R using the {ggplot2} package. This package will allow you to make a large variety of plots, which are useful for exploratory data analysis as well as for generating publication-quality figures. We’ll go over the most common types of data visualizations, as well as principles for when you should use one type of plot versus another.\n\n\n\n\n\n\nKey concepts\n\n\n\ncategorical, continuous, ordinal, nominal, numeric, observation, factor, geom, mapping, scales, themes, tidy data",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -357,7 +357,7 @@
     "href": "modules/05_data-visualization.html#objectives",
     "title": "Data Visualization",
     "section": "",
-    "text": "Now that we have our programming foundation in place, let’s revisit our goal of making our work reproducible, shareable, and beautiful. This week, we’ll discuss how to make data visualizations in R using the {ggplot2} package. This package will allow you to make a large variety of plots, which are useful for exploratory data analysis as well as for generating publication-quality figures. We’ll go over the most common types of data visualizations, as well as principles for when you should use one type of plot versus another.",
+    "text": "Now that we have our programming foundation in place, let’s revisit our goal of making our work reproducible, shareable, and beautiful. This week, we’ll discuss how to make data visualizations in R using the {ggplot2} package. This package will allow you to make a large variety of plots, which are useful for exploratory data analysis as well as for generating publication-quality figures. We’ll go over the most common types of data visualizations, as well as principles for when you should use one type of plot versus another.\n\n\n\n\n\n\nKey concepts\n\n\n\ncategorical, continuous, ordinal, nominal, numeric, observation, factor, geom, mapping, scales, themes, tidy data",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -381,7 +381,7 @@
     "href": "modules/05_data-visualization.html#in-class-exercises",
     "title": "Data Visualization",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called visualization, and save today’s work in an R markdown report called plots.Rmd. We will also go over the dataset that you’ll use for your assignment this week.\n\n\n\n\n\n\nKey concepts\n\n\n\ncategorical, continuous, ordinal, nominal, numeric, observation, factor, geom, mapping, scales, themes, tidy data",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called visualization, and save today’s work in an R markdown report called plots.Rmd. We will also go over the dataset that you’ll use for your assignment this week.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -405,7 +405,7 @@
     "href": "modules/03_programming-foundations-2.html",
     "title": "Programming Foundations Part 2",
     "section": "",
-    "text": "This week, we’ll expand on last week’s module by discussing how to chain together commands to create functions and programs. We will discuss how to develop an algorithm, which is the list of steps required to solve a problem. Writing an algorithm is like writing a recipe for someone who has never cooked before: you have to be very specific about what ingredients to use, and when and how to add them. We’ll learn how to build these algorithms into our own custom functions and full-fledged programs.",
+    "text": "This week, we’ll expand on last week’s module by discussing how to chain together commands to create functions and programs. We will discuss how to develop an algorithm, which is the list of steps required to solve a problem. Writing an algorithm is like writing a recipe for someone who has never cooked before: you have to be very specific about what ingredients to use, and when and how to add them. We’ll learn how to build these algorithms into our own custom functions and full-fledged programs.\n\n\n\n\n\n\nKey concepts\n\n\n\nfunction, algorithm, pseudo code",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -417,7 +417,7 @@
     "href": "modules/03_programming-foundations-2.html#objectives",
     "title": "Programming Foundations Part 2",
     "section": "",
-    "text": "This week, we’ll expand on last week’s module by discussing how to chain together commands to create functions and programs. We will discuss how to develop an algorithm, which is the list of steps required to solve a problem. Writing an algorithm is like writing a recipe for someone who has never cooked before: you have to be very specific about what ingredients to use, and when and how to add them. We’ll learn how to build these algorithms into our own custom functions and full-fledged programs.",
+    "text": "This week, we’ll expand on last week’s module by discussing how to chain together commands to create functions and programs. We will discuss how to develop an algorithm, which is the list of steps required to solve a problem. Writing an algorithm is like writing a recipe for someone who has never cooked before: you have to be very specific about what ingredients to use, and when and how to add them. We’ll learn how to build these algorithms into our own custom functions and full-fledged programs.\n\n\n\n\n\n\nKey concepts\n\n\n\nfunction, algorithm, pseudo code",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -441,7 +441,7 @@
     "href": "modules/03_programming-foundations-2.html#in-class-exercises",
     "title": "Programming Foundations Part 2",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Open the R project called programming-foundations, and save today’s work in an R markdown report called part-2.Rmd.\n\n\n\n\n\n\nKey concepts\n\n\n\nfunction, algorithm, pseudo code",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Open the R project called programming-foundations, and save today’s work in an R markdown report called part-2.Rmd.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -465,7 +465,7 @@
     "href": "modules/01_intro.html",
     "title": "Introduction to R and RStudio",
     "section": "",
-    "text": "This week, we’ll get started with familiarizing ourselves with R and RStudio. You should come to class with software already installed on your laptop (see below for instructions). During class, we will learn how to interact the RStudio interface. We’ll also talk about what reproducible scientific programming is, and how R markdown reports can be used to make your work reproducible, shareable, and one might even say, beautiful.",
+    "text": "This week, we’ll get started with familiarizing ourselves with R and RStudio. You should come to class with software already installed on your laptop (see below for instructions). During class, we will learn how to interact the RStudio interface. We’ll also talk about what reproducible scientific programming is, and how R markdown reports can be used to make your work reproducible, shareable, and one might even say, beautiful.\n\n\n\n\n\n\nKey concepts\n\n\n\nR vs RStudio, base-R, package, function, argument, objects, environment (workspace), help, R markdown, script, knit, chunk, comments, project",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -477,7 +477,7 @@
     "href": "modules/01_intro.html#objectives",
     "title": "Introduction to R and RStudio",
     "section": "",
-    "text": "This week, we’ll get started with familiarizing ourselves with R and RStudio. You should come to class with software already installed on your laptop (see below for instructions). During class, we will learn how to interact the RStudio interface. We’ll also talk about what reproducible scientific programming is, and how R markdown reports can be used to make your work reproducible, shareable, and one might even say, beautiful.",
+    "text": "This week, we’ll get started with familiarizing ourselves with R and RStudio. You should come to class with software already installed on your laptop (see below for instructions). During class, we will learn how to interact the RStudio interface. We’ll also talk about what reproducible scientific programming is, and how R markdown reports can be used to make your work reproducible, shareable, and one might even say, beautiful.\n\n\n\n\n\n\nKey concepts\n\n\n\nR vs RStudio, base-R, package, function, argument, objects, environment (workspace), help, R markdown, script, knit, chunk, comments, project",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -501,7 +501,7 @@
     "href": "modules/01_intro.html#in-class-exercises",
     "title": "Introduction to R and RStudio",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. In addition, we will make sure everyone is set up with the software and with Canvas.\n\n\n\n\n\n\nKey concepts\n\n\n\nR vs RStudio, base-R, package, function, argument, objects, environment (workspace), help, R markdown, script, knit, chunk, comments, project",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. In addition, we will make sure everyone is set up with the software and with Canvas.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -575,14 +575,14 @@
     "href": "index.html",
     "title": "Programming for Psychology and Neuroscience",
     "section": "",
-    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is currently under construction."
+    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is a work in progress."
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
     "title": "Programming for Psychology and Neuroscience",
     "section": "",
-    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is currently under construction."
+    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is a work in progress."
   },
   {
     "objectID": "index.html#course-description",
@@ -610,7 +610,7 @@
     "href": "modules/02_programming-foundations-1.html",
     "title": "Programming Foundations Part 1",
     "section": "",
-    "text": "This week, we’ll learn the building blocks of programming: How do we represent text, numbers, and vectors in a way that a machine can understand? How do we tell the computer what to do with those variables? In other words, we’re going to learn how to “speak” the computer’s language. Although here we’ll focus specifically on the R language, many of these concepts are shared across programming languages.",
+    "text": "This week, we’ll learn the building blocks of programming: How do we represent text, numbers, and vectors in a way that a machine can understand? How do we tell the computer what to do with those variables? In other words, we’re going to learn how to “speak” the computer’s language. Although here we’ll focus specifically on the R language, many of these concepts are shared across programming languages.\n\n\n\n\n\n\nKey concepts\n\n\n\ncharacter, numeric, combine, vector, element, logical, logical indexing, &lt;-, != vs ==, flow control, while loop, for loop, conditional statements, if statement",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -622,7 +622,7 @@
     "href": "modules/02_programming-foundations-1.html#objectives",
     "title": "Programming Foundations Part 1",
     "section": "",
-    "text": "This week, we’ll learn the building blocks of programming: How do we represent text, numbers, and vectors in a way that a machine can understand? How do we tell the computer what to do with those variables? In other words, we’re going to learn how to “speak” the computer’s language. Although here we’ll focus specifically on the R language, many of these concepts are shared across programming languages.",
+    "text": "This week, we’ll learn the building blocks of programming: How do we represent text, numbers, and vectors in a way that a machine can understand? How do we tell the computer what to do with those variables? In other words, we’re going to learn how to “speak” the computer’s language. Although here we’ll focus specifically on the R language, many of these concepts are shared across programming languages.\n\n\n\n\n\n\nKey concepts\n\n\n\ncharacter, numeric, combine, vector, element, logical, logical indexing, &lt;-, != vs ==, flow control, while loop, for loop, conditional statements, if statement",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -646,7 +646,7 @@
     "href": "modules/02_programming-foundations-1.html#in-class-exercises",
     "title": "Programming Foundations Part 1",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called programming-foundations for this section of the course, and save today’s work in an R markdown report called part-1.Rmd.\n\n\n\n\n\n\nKey concepts\n\n\n\ncharacter, numeric, combine, vector, element, logical, logical indexing, &lt;-, != vs ==, flow control, while loop, for loop, conditional statements, if statement",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called programming-foundations for this section of the course, and save today’s work in an R markdown report called part-1.Rmd.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -718,7 +718,7 @@
     "href": "modules/06_data-summaries.html",
     "title": "Data Summaries",
     "section": "",
-    "text": "R and RStudio have their roots in statistical programming, a type of programming focused on solving data analysis problems. In this module, we will learn how to import data files into R and how to summarize their contents. These are usually the first steps you’ll include when building a script for data analysis.",
+    "text": "R and RStudio have their roots in statistical programming, a type of programming focused on solving data analysis problems. In this module, we will learn how to import data files into R and how to summarize their contents. These are usually the first steps you’ll include when building a script for data analysis.\n\n\n\n\n\n\nKey concepts\n\n\n\ncsv files, importing data, the $ operator, pipes (%&gt;%), count, summarize",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -730,7 +730,7 @@
     "href": "modules/06_data-summaries.html#objectives",
     "title": "Data Summaries",
     "section": "",
-    "text": "R and RStudio have their roots in statistical programming, a type of programming focused on solving data analysis problems. In this module, we will learn how to import data files into R and how to summarize their contents. These are usually the first steps you’ll include when building a script for data analysis.",
+    "text": "R and RStudio have their roots in statistical programming, a type of programming focused on solving data analysis problems. In this module, we will learn how to import data files into R and how to summarize their contents. These are usually the first steps you’ll include when building a script for data analysis.\n\n\n\n\n\n\nKey concepts\n\n\n\ncsv files, importing data, the $ operator, pipes (%&gt;%), count, summarize",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -754,7 +754,7 @@
     "href": "modules/06_data-summaries.html#in-class-exercises",
     "title": "Data Summaries",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called data-summaries, and save today’s work in an R markdown report called summary.Rmd. We will also practice reading in a csv file and summarizing key variables using the screentime dataset.\nIn addition, we will review data visualization techniques by writing whiteboard code for three example plots (a bar plot, scatterplot, and histogram), recapping the key components of building up plot layers with the ggplot package.\n\n\n\n\n\n\nKey concepts\n\n\n\ncsv files, importing data, the $ operator, pipes (%&gt;%), count, summarize",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called data-summaries, and save today’s work in an R markdown report called summary.Rmd. We will also practice reading in a csv file and summarizing key variables using the screentime dataset.\nIn addition, we will review data visualization techniques by writing whiteboard code for three example plots (a bar plot, scatterplot, and histogram), recapping the key components of building up plot layers with the ggplot package.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",

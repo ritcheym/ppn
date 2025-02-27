@@ -6,6 +6,12 @@ title: "Programming Foundations Part 2"
 
 This week, we'll expand on last week's module by discussing how to chain together commands to create functions and programs. We will discuss how to develop an algorithm, which is the list of steps required to solve a problem. Writing an algorithm is like writing a recipe for [someone](https://youtu.be/NywzrUJnmTo?si=Flm_2DChdYCAy7-A&t=34) who has never cooked before: you have to be very specific about what ingredients to use, and when and how to add them. We'll learn how to build these algorithms into our own custom functions and full-fledged programs.
 
+::: {.callout-note icon="false"}
+## Key concepts
+
+function, algorithm, pseudo code
+:::
+
 ## Readings
 
 You should read these chapters before you come to class:
@@ -16,12 +22,6 @@ You should read these chapters before you come to class:
 ## In-class exercises
 
 We will follow along with the examples given in the textbook. Open the R project called `programming-foundations`, and save today's work in an R markdown report called `part-2.Rmd`.
-
-::: {.callout-tip icon="false"}
-## Key concepts
-
-function, algorithm, pseudo code
-:::
 
 ## Weekly assignment
 

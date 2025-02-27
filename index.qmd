@@ -8,7 +8,7 @@ sidebar: false
 This is the course website for *Programming for Psychology and Neuroscience*, developed and taught by [Dr. Maureen Ritchey](https://www.thememolab.org/people/ritchey/) at Boston College. This course will be taught in Spring 2025.
 
 ::: callout-caution
-This website is currently under construction.
+This website is a work in progress.
 :::
 
 ## Course description

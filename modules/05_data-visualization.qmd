@@ -6,6 +6,12 @@ title: "Data Visualization"
 
 Now that we have our programming foundation in place, let's revisit our goal of making our work reproducible, shareable, and beautiful. This week, we'll discuss how to make data visualizations in R using the `{ggplot2}` package. This package will allow you to make a large variety of plots, which are useful for exploratory data analysis as well as for generating publication-quality figures. We'll go over the most common types of data visualizations, as well as principles for when you should use one type of plot versus another.
 
+::: {.callout-note icon="false"}
+## Key concepts
+
+categorical, continuous, ordinal, nominal, numeric, observation, factor, geom, mapping, scales, themes, tidy data
+:::
+
 ## Readings
 
 You should read this chapter before you come to class:
@@ -19,12 +25,6 @@ We will also discuss content from this chapter:
 ## In-class exercises
 
 We will follow along with the examples given in the textbook. Create an R project called `visualization`, and save today's work in an R markdown report called `plots.Rmd`. We will also go over the dataset that you'll use for your assignment this week.
-
-::: {.callout-tip icon="false"}
-## Key concepts
-
-categorical, continuous, ordinal, nominal, numeric, observation, factor, geom, mapping, scales, themes, tidy data
-:::
 
 ## Weekly assignment
 
