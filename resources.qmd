@@ -20,6 +20,12 @@ For many topics in this class, we are going to be only scratching the surface. B
 
 -   Official cheatsheets from [Posit](https://posit.co/resources/cheatsheets/)
 
+### Practice problems
+
+-   [Practice problems, from easy to hard](https://www.crumplab.com/rstatsforpsych/practice-problems.html)
+-   [Project Euler](https://projecteuler.net/)
+-   [R programming exercises](https://www.geeksforgeeks.org/r-programming-exercises-practice-questions-and-solutions/)
+
 ### Version control with git
 
 -   [Git, GitHub, and Version Control](https://www.crumplab.com/psyc3470/compendium/version_control.html) by Matt Crump
@@ -63,4 +69,4 @@ For many topics in this class, we are going to be only scratching the surface. B
 
 -   [Teaching coding inclusively](https://osf.io/preprints/socarxiv/3r2ez_v1)
 -   [A brief history of women in computing](https://hackernoon.com/a-brief-history-of-women-in-computing-e7253ac24306)
--   The context for this course: This course was developed by a woman, using materials that were primarily created by women, and teaching students who are predominantly women. 🙌
+-   The context for this course: This course was developed by a woman, using materials that were created primarily by women, for a student audience that is mostly women. 🙌

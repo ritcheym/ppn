@@ -40,14 +40,16 @@ website:
           - modules/05_data-visualization.qmd
           - modules/06_data-summaries.qmd
           - modules/07_data-wrangling.qmd
-          - text: "<mark>Data Collection</mark>"
+          - modules/08_data-relations.qmd
+          - modules/09_data-tidying.qmd
+          - text: "<mark>Data Analysis</mark>"
+          - modules/10_statistical-analysis.qmd
+          - modules/11_machine-learning.qmd
+          - modules/12_advanced-visualization.qmd
+          - text: "<mark>Additional Topics</mark>"
+          - modules/11_nlp.qmd
           - modules/xx_intro-jspsych.qmd
           - modules/xx_experiment-design.qmd
-          - text: "<mark>Data Analysis</mark>"
-          - modules/09_statistical-analysis.qmd
-          - modules/10_machine-learning.qmd
-          - modules/11_nlp.qmd
-          - modules/12_advanced-visualization.qmd
       - text: "<b>Datasets</b>"
         href: datasets/index.qmd
       - section: "<b>Projects</b>"
