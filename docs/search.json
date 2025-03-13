@@ -285,7 +285,7 @@
     "href": "modules/08_data-relations.html",
     "title": "Data Relations",
     "section": "",
-    "text": "Here’s the objective for this week.",
+    "text": "When we analyze data, we often need to combine data from different sources to get the full picture of what’s going on. For example, you might have a spreadsheet that lists students, their years, majors, and demographic information, and another spreadsheet that lists their grade history. How do you combine these tables into a single dataset? This week, we will discuss the family of “join” functions that allow us to combine different datasets. They use the overlap between datasets to smartly join them together so that you have everything in one place. This will make it easier to summarize and visualize your data going forward.\n\n\n\n\n\n\nKey concepts\n\n\n\njoining functions (left_join, right_join, inner_join, full_join), binding functions (bind_rows), set operations (intersect, union, setdiff), functions for checking your data as you go (glimpse, str, summary)",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -297,7 +297,7 @@
     "href": "modules/08_data-relations.html#objectives",
     "title": "Data Relations",
     "section": "",
-    "text": "Here’s the objective for this week.",
+    "text": "When we analyze data, we often need to combine data from different sources to get the full picture of what’s going on. For example, you might have a spreadsheet that lists students, their years, majors, and demographic information, and another spreadsheet that lists their grade history. How do you combine these tables into a single dataset? This week, we will discuss the family of “join” functions that allow us to combine different datasets. They use the overlap between datasets to smartly join them together so that you have everything in one place. This will make it easier to summarize and visualize your data going forward.\n\n\n\n\n\n\nKey concepts\n\n\n\njoining functions (left_join, right_join, inner_join, full_join), binding functions (bind_rows), set operations (intersect, union, setdiff), functions for checking your data as you go (glimpse, str, summary)",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -321,7 +321,7 @@
     "href": "modules/08_data-relations.html#in-class-exercises",
     "title": "Data Relations",
     "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook. Create an R project called data-relations, and save today’s work in an R markdown report called relations.Rmd.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -333,7 +333,19 @@
     "href": "modules/08_data-relations.html#weekly-assignment",
     "title": "Data Relations",
     "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "text": "Weekly assignment\nSolve the following problems using the concepts you have learned in class. As always, your R markdown report should be organized with headings and comments explaining your work.\n\nComplete the exercise described in the chapter from 7.10.1 through 7.10.4.\nUsing the completes dataframe that you have created, compute some summary statistics:\n\nWhat is the mean and standard deviation for the number of points earned on the exam and essay?\nCreate a table counting how many students earned each grade level for each assessment (e.g., A1, A2, etc).\nNow create a table counting how many students earned each grade for each assessment, collapsing across levels within an alphabet grade (e.g., A, B, C).\nWhat proportion of students earned an A on both the exam and the essay?\n\nWhat is the relationship between students’ grades on the essay and the exam? Use ggplot to create a plot of this relationship.\nFinal project preparation: Refer to the instructions for the final project. You should get started on finding an openly available dataset. Please include in your Markdown report a link to the dataset and a link to the associated paper. If you are not ready to narrow it down, then include a few possible options. You can change your mind later.",
+    "crumbs": [
+      "Home",
+      "<b>Modules</b>",
+      "Data Relations"
+    ]
+  },
+  {
+    "objectID": "modules/08_data-relations.html#chapter-summary",
+    "href": "modules/08_data-relations.html#chapter-summary",
+    "title": "Data Relations",
+    "section": "Chapter summary",
+    "text": "Chapter summary\nThe chapter focuses on combining data from multiple tables (data frames) using dplyr’s join functions. The below summary was created in collaboration with Google Gemini.\nKey Concepts:\n\nRelational Data: Data is often stored in multiple tables that are related to each other.\nKey Variables: Columns that are common between tables and used to link them.\nJoining: The process of combining data from multiple tables based on key variables.\n\nTypes of Joins (with dplyr syntax):\n\nInner Join (inner_join()):\n\nReturns only rows where the key variable(s) match in both tables.\ninner_join(x, y, by = \"common_column\")\nExample: Combining customer orders with customer details, only for customers who have placed orders.\n\nLeft Join (left_join()):\n\nReturns all rows from the left table (x) and matching rows from the right table (y).\nIf a row in x has no match in y, NA values are added for y’s columns.\nleft_join(x, y, by = \"common_column\")\nExample: Adding information about departments to a list of employees, even if some departments have no employees.\n\nRight Join (right_join()):\n\nReturns all rows from the right table (y) and matching rows from the left table (x).\nIf a row in y has no match in x, NA values are added for x’s columns.\nright_join(x, y, by = \"common_column\")\n\nFull Join (full_join()):\n\nReturns all rows from both tables.\nNA values are added where there are no matches.\nfull_join(x, y, by = \"common_column\")\nExample: Combining customer data from two different databases, including all customers from both.\n\nSemi Join (semi_join()):\n\nReturns all rows from x where there are matching values in y, keeping only columns from x.\nsemi_join(x, y, by = \"common_column\")\nExample: Filter the first data set, by the values present in a second data set.\n\nAnti Join (anti_join()):\n\nReturns all rows from x where there are not matching values in y, keeping only columns from x.\nanti_join(x, y, by = \"common_column\")\nExample: find all of the rows in the first data set, that do not have matching values in the second data set.\n\n\nSpecifying Key Variables:\n\nby Argument:\n\nSpecifies the key variable(s).\nIf the key variables have the same name in both tables, use by = \"column_name\".\nIf the key variables have different names, use by = c(\"x_column\" = \"y_column\").\n\n\nHandling Duplicate Column Names:\n\nIf non-key columns have the same name in both tables, dplyr will add suffixes (.x and .y) to distinguish them.\n\nRow and Column Binding:\n\nbind_rows():\n\nCombines data frames vertically (adds rows).\nSyntax: bind_rows(df1, df2, ...)\nRequirement: Data frames must have the same columns (or columns that can be matched by name).\nExample: Merging daily sales data from multiple files.\nIf columns do not match, then NA values will be placed into the combined dataframe.\n\nbind_cols():\n\nCombines data frames horizontally (adds columns).\nSyntax: bind_cols(df1, df2, ...)\nRequirement: Data frames must have the same number of rows.\nCaveat: You will often want to use a join function instead of bind_cols.\n\n\nSet Operations:\n\nintersect():\n\nReturns the rows that are present in both data frames.\nSyntax: intersect(df1, df2)\nExample: Finding common customers between two lists.\n\nunion():\n\nReturns all unique rows from both data frames. This is similar to bind_rows except it removes duplicates.\nSyntax: union(df1, df2)\nExample: Combining customer lists from different sources, removing duplicates.\n\nsetdiff():\n\nReturns the rows that are present in the first data frame but not in the second.\nSyntax: setdiff(df1, df2)\nExample: finding all customers that are in the first customer list, but not the second.\n\n\nKey Takeaways:\n\nJoins are essential for combining related data from multiple tables.\nThe by argument is crucial for specifying the key variables used to link tables.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
