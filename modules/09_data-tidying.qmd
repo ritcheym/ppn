@@ -1,10 +1,16 @@
 ---
-title: "Data Tidying"
+title: "Data Tidying- with fMRI!"
 ---
 
 ## Objectives
 
-Here's the objective for this week.
+This week we're going to polish off our section on data manipulation by working with fMRI data. First we'll go over a couple of key functions that are useful for rearranging data into "tidy" format. Then we will download an openly-available fMRI dataset and learn how to load and visualize fMRI data in R. Finally, we'll apply the skills we've learned to combine and wrangle fMRI datasets and to summarize and visualize their results.
+
+::: {.callout-note icon="false"}
+## Key concepts
+
+tidy data, reshaping functions (`pivot_longer`, `pivot_wider`), fMRI-related concepts including NIfTI file, anatomical image, functional image, voxel, time-point, time-series
+:::
 
 ## Readings
 
@@ -14,8 +20,10 @@ You should read this chapter before you come to class:
 
 ## In-class exercises
 
-In-class exercises
+We will follow along with the examples given in the textbook through section 8.4. Create an R project called `data-tidy`, and save today's work in an R markdown report called `tidy.Rmd`.
+
+Then we will follow along with a set of exercises to learn about interacting with fMRI data in R. [Download](../files/fmri-data-wrangling.Rmd) the `fmri-data-wrangling.Rmd` file to get started. See also the [`haxby01`](../datasets/haxby01.html) page for more information about the dataset.
 
 ## Weekly assignment
 
-Here's the weekly assignment.
+TBD - depending on how far we get in class. It will involve finishing the fMRI data wrangling exercises that we will begin in class.

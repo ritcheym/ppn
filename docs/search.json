@@ -560,7 +560,7 @@
     "href": "datasets/index.html",
     "title": "PPN",
     "section": "",
-    "text": "screentime",
+    "text": "screentime\nhaxby01",
     "crumbs": [
       "Home",
       "<b>Datasets</b>"
@@ -571,25 +571,60 @@
     "href": "datasets/index.html#datasets",
     "title": "PPN",
     "section": "",
-    "text": "screentime",
+    "text": "screentime\nhaxby01",
     "crumbs": [
       "Home",
       "<b>Datasets</b>"
     ]
   },
   {
+    "objectID": "datasets/haxby01.html",
+    "href": "datasets/haxby01.html",
+    "title": "PPN",
+    "section": "",
+    "text": "Haxby, J. V., Gobbini, M. I., Furey, M. L., Ishai, A., Schouten, J. L., & Pietrini, P. (2001). Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science (New York, N.Y.), 293(5539), 2425–2430. link"
+  },
+  {
+    "objectID": "datasets/haxby01.html#paper",
+    "href": "datasets/haxby01.html#paper",
+    "title": "PPN",
+    "section": "",
+    "text": "Haxby, J. V., Gobbini, M. I., Furey, M. L., Ishai, A., Schouten, J. L., & Pietrini, P. (2001). Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science (New York, N.Y.), 293(5539), 2425–2430. link"
+  },
+  {
+    "objectID": "datasets/haxby01.html#open-data",
+    "href": "datasets/haxby01.html#open-data",
+    "title": "PPN",
+    "section": "Open data",
+    "text": "Open data\nDownload a copy of the data."
+  },
+  {
+    "objectID": "datasets/haxby01.html#description",
+    "href": "datasets/haxby01.html#description",
+    "title": "PPN",
+    "section": "Description",
+    "text": "Description\nHaxby et al. (2001) was a landmark study for establishing techniques for analyzing multivariate patterns of fMRI data, and the resulting dataset is commonly used to demonstrate fMRI analysis techniques. The dataset consists of fMRI data from 6 subjects while they viewed different categories of images, including faces, houses, and different kinds of objects. You can read more about the dataset in the paper or in the README file associated with the data.\nFor each of the 6 subjects, there are 3 primary files: an anatomical brain image, a set of BOLD functional images, and the labels that indicate what the subject was viewing for each time-point. In addition, there are 5 mask files that correspond to different regions of interest (ROIs) within the ventral temporal cortex: the ventral temporal cortex (vt), face-sensitive areas (face_vt), house-sensitive areas (house_vt), and variations of those latter two areas."
+  },
+  {
+    "objectID": "datasets/haxby01.html#analysis",
+    "href": "datasets/haxby01.html#analysis",
+    "title": "PPN",
+    "section": "Analysis",
+    "text": "Analysis\nDownload our starter script for working with this dataset in R."
+  },
+  {
     "objectID": "datasets/screentime.html",
     "href": "datasets/screentime.html",
     "title": "PPN",
     "section": "",
-    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. https://doi.org/10.1177/0956797616678438"
+    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. link"
   },
   {
     "objectID": "datasets/screentime.html#paper",
     "href": "datasets/screentime.html#paper",
     "title": "PPN",
     "section": "",
-    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. https://doi.org/10.1177/0956797616678438"
+    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. link"
   },
   {
     "objectID": "datasets/screentime.html#open-data",
@@ -848,61 +883,61 @@
   {
     "objectID": "modules/09_data-tidying.html",
     "href": "modules/09_data-tidying.html",
-    "title": "Data Tidying",
+    "title": "Data Tidying- with fMRI!",
     "section": "",
-    "text": "Here’s the objective for this week.",
+    "text": "This week we’re going to polish off our section on data manipulation by working with fMRI data. First we’ll go over a couple of key functions that are useful for rearranging data into “tidy” format. Then we will download an openly-available fMRI dataset and learn how to load and visualize fMRI data in R. Finally, we’ll apply the skills we’ve learned to combine and wrangle fMRI datasets and to summarize and visualize their results.\n\n\n\n\n\n\nKey concepts\n\n\n\ntidy data, reshaping functions (pivot_longer, pivot_wider), fMRI-related concepts including NIfTI file, anatomical image, functional image, voxel, time-point, time-series",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Tidying"
+      "Data Tidying- with fMRI!"
     ]
   },
   {
     "objectID": "modules/09_data-tidying.html#objectives",
     "href": "modules/09_data-tidying.html#objectives",
-    "title": "Data Tidying",
+    "title": "Data Tidying- with fMRI!",
     "section": "",
-    "text": "Here’s the objective for this week.",
+    "text": "This week we’re going to polish off our section on data manipulation by working with fMRI data. First we’ll go over a couple of key functions that are useful for rearranging data into “tidy” format. Then we will download an openly-available fMRI dataset and learn how to load and visualize fMRI data in R. Finally, we’ll apply the skills we’ve learned to combine and wrangle fMRI datasets and to summarize and visualize their results.\n\n\n\n\n\n\nKey concepts\n\n\n\ntidy data, reshaping functions (pivot_longer, pivot_wider), fMRI-related concepts including NIfTI file, anatomical image, functional image, voxel, time-point, time-series",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Tidying"
+      "Data Tidying- with fMRI!"
     ]
   },
   {
     "objectID": "modules/09_data-tidying.html#readings",
     "href": "modules/09_data-tidying.html#readings",
-    "title": "Data Tidying",
+    "title": "Data Tidying- with fMRI!",
     "section": "Readings",
     "text": "Readings\nYou should read this chapter before you come to class:\n\nApplied Data Skills - Chapter 8: Data Tidying",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Tidying"
+      "Data Tidying- with fMRI!"
     ]
   },
   {
     "objectID": "modules/09_data-tidying.html#in-class-exercises",
     "href": "modules/09_data-tidying.html#in-class-exercises",
-    "title": "Data Tidying",
+    "title": "Data Tidying- with fMRI!",
     "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
+    "text": "In-class exercises\nWe will follow along with the examples given in the textbook through section 8.4. Create an R project called data-tidy, and save today’s work in an R markdown report called tidy.Rmd.\nThen we will follow along with a set of exercises to learn about interacting with fMRI data in R. Download the fmri-data-wrangling.Rmd file to get started. See also the haxby01 page for more information about the dataset.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Tidying"
+      "Data Tidying- with fMRI!"
     ]
   },
   {
     "objectID": "modules/09_data-tidying.html#weekly-assignment",
     "href": "modules/09_data-tidying.html#weekly-assignment",
-    "title": "Data Tidying",
+    "title": "Data Tidying- with fMRI!",
     "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "text": "Weekly assignment\nTBD - depending on how far we get in class. It will involve finishing the fMRI data wrangling exercises that we will begin in class.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
-      "Data Tidying"
+      "Data Tidying- with fMRI!"
     ]
   },
   {

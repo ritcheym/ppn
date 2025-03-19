@@ -1,3 +1,4 @@
 ## Datasets
 
 -   [`screentime`](/datasets/screentime.html)
+-   [`haxby01`](/datasets/haxby01.html)

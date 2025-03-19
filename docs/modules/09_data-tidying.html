@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Tidying – PPN</title>
+<title>Data Tidying- with fMRI! – PPN</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -125,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/index.html"><b>Modules</b></a></li><li class="breadcrumb-item"><a href="../modules/09_data-tidying.html">Data Tidying</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/index.html"><b>Modules</b></a></li><li class="breadcrumb-item"><a href="../modules/09_data-tidying.html">Data Tidying- with fMRI!</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -211,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../modules/09_data-tidying.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Data Tidying</span></a>
+ <span class="menu-text">Data Tidying- with fMRI!</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -307,9 +307,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/index.html"><b>Modules</b></a></li><li class="breadcrumb-item"><a href="../modules/09_data-tidying.html">Data Tidying</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/index.html"><b>Modules</b></a></li><li class="breadcrumb-item"><a href="../modules/09_data-tidying.html">Data Tidying- with fMRI!</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Data Tidying</h1>
+<h1 class="title">Data Tidying- with fMRI!</h1>
 </div>
 
 
@@ -328,7 +328,20 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
-<p>Here’s the objective for this week.</p>
+<p>This week we’re going to polish off our section on data manipulation by working with fMRI data. First we’ll go over a couple of key functions that are useful for rearranging data into “tidy” format. Then we will download an openly-available fMRI dataset and learn how to load and visualize fMRI data in R. Finally, we’ll apply the skills we’ve learned to combine and wrangle fMRI datasets and to summarize and visualize their results.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key concepts
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>tidy data, reshaping functions (<code>pivot_longer</code>, <code>pivot_wider</code>), fMRI-related concepts including NIfTI file, anatomical image, functional image, voxel, time-point, time-series</p>
+</div>
+</div>
 </section>
 <section id="readings" class="level2">
 <h2 class="anchored" data-anchor-id="readings">Readings</h2>
@@ -339,11 +352,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="in-class-exercises" class="level2">
 <h2 class="anchored" data-anchor-id="in-class-exercises">In-class exercises</h2>
-<p>In-class exercises</p>
+<p>We will follow along with the examples given in the textbook through section 8.4. Create an R project called <code>data-tidy</code>, and save today’s work in an R markdown report called <code>tidy.Rmd</code>.</p>
+<p>Then we will follow along with a set of exercises to learn about interacting with fMRI data in R. <a href="../files/fmri-data-wrangling.Rmd">Download</a> the <code>fmri-data-wrangling.Rmd</code> file to get started. See also the <a href="../datasets/haxby01.html"><code>haxby01</code></a> page for more information about the dataset.</p>
 </section>
 <section id="weekly-assignment" class="level2">
 <h2 class="anchored" data-anchor-id="weekly-assignment">Weekly assignment</h2>
-<p>Here’s the weekly assignment.</p>
+<p>TBD - depending on how far we get in class. It will involve finishing the fMRI data wrangling exercises that we will begin in class.</p>
 
 
 </section>
