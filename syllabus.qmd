@@ -45,7 +45,7 @@ In order to participate during class, you must bring a laptop with you. If you d
 ## Schedule
 
 | **Week** | **Date** | **Module** | **Description** |
-|:----------:|:----------:|------------------|-------------------------------|
+|:-------------:|:-------------:|---------------|---------------------------|
 | 1 | Jan 16 | [Intro to Programming with R](modules/01_intro.html) | Installation and familiarization with R and RStudio interface; Data organization, reproducible scientific programming |
 | 2 | Jan 23 | [Programming Foundations Part 1](modules/02_programming-foundations-1.html) | Variables, vectors, loops, branches |
 | 3 | Jan 30 | [Programming Foundations Part 2](modules/03_programming-foundations-2.html) | Functions and algorithms |
@@ -54,7 +54,7 @@ In order to participate during class, you must bring a laptop with you. If you d
 | 6 | Feb 20 | [Data Summaries](modules/06_data-summaries.html) | Importing and summarizing data, tidyverse pipes |
 | 7 | Feb 27 | [Data Wrangling](modules/07_data-wrangling.html) | Selecting and filtering data, creating new variables |
 | 8 | Mar 13 | [Data Relations](modules/08_data-relations.html) | **Midterm projects due;** Combining datasets |
-| 9 | Mar 20 | [Data Tidying & Stats Recap](modules/09_data-tidying.html) | What is "tidy" data and how do we get it; Refresher of basic stats concepts |
+| 9 | Mar 20 | [Data Tidying](modules/09_data-tidying.html) | What is "tidy" data and how do we get it; Working with fMRI data in R |
 | 10 | Mar 27 | [Statistical Analysis in R](modules/10_statistical-analysis.html) | Basic statistical analysis in R, including t-tests, ANOVAs, and regression analyses on sample datasets |
 | 11 | Apr 3 | [Intro to Machine Learning](modules/11_machine-learning.html) | Simple machine learning models for classifying psychological outcomes |
 | 12 | Apr 10 | [Advanced Visualization Techniques](modules/12_advanced-visualization.html) (OR: Project workshop) | Interactive visualizations and web-based tools, visualization of complex data types |

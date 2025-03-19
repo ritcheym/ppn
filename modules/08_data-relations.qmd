@@ -72,14 +72,6 @@ The chapter focuses on combining data from multiple tables (data frames) using `
     -   NA values are added where there are no matches.
     -   `full_join(x, y, by = "common_column")`
     -   Example: Combining customer data from two different databases, including all customers from both.
--   **Semi Join (semi_join()):**
-    -   Returns all rows from x where there are matching values in y, keeping only columns from x.
-    -   `semi_join(x, y, by = "common_column")`
-    -   Example: Filter the first data set, by the values present in a second data set.
--   **Anti Join (anti_join()):**
-    -   Returns all rows from x where there are not matching values in y, keeping only columns from x.
-    -   `anti_join(x, y, by = "common_column")`
-    -   Example: find all of the rows in the first data set, that do not have matching values in the second data set.
 
 **Specifying Key Variables:**
 
@@ -90,7 +82,7 @@ The chapter focuses on combining data from multiple tables (data frames) using `
 
 **Handling Duplicate Column Names:**
 
--   If non-key columns have the same name in both tables, dplyr will add suffixes (.x and .y) to distinguish them.
+-   If non-key columns have the same name in both tables, dplyr will add suffixes (.x and .y) to distinguish them. You can change the suffixes by using the argument `suffix = c(".x", ".y")`.
 
 **Row and Column Binding:**
 
@@ -124,4 +116,5 @@ The chapter focuses on combining data from multiple tables (data frames) using `
 **Key Takeaways:**
 
 -   Joins are essential for combining related data from multiple tables.
+-   Joins work with only two tables at a time. To combine multiple tables, use a pipe to connect multiple calls to a join function.
 -   The `by` argument is crucial for specifying the key variables used to link tables.

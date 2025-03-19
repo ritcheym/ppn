@@ -27,3 +27,72 @@ Then we will follow along with a set of exercises to learn about interacting wit
 ## Weekly assignment
 
 TBD - depending on how far we get in class. It will involve finishing the fMRI data wrangling exercises that we will begin in class.
+
+## Chapter summary
+
+This chapter focuses on the principles of tidy data and how to reshape data using `tidyr`. The below summary was created in collaboration with Google Gemini.
+
+**Key Concepts:**
+
+-   **Tidy Data:** A standard way of structuring datasets that makes them easier to manipulate and analyze.
+-   **Principles of Tidy Data:**
+    -   Each variable forms a column.
+    -   Each observation forms a row.
+    -   Each type of observational unit forms a table.
+-   **Reshaping Data:** Transforming data from a wide format (multiple variables in columns) to a long format (multiple observations in rows), or vice versa.
+
+**Key Functions from `tidyr`:**
+
+-   **`pivot_longer()`:**
+
+    -   Converts data from wide to long format.
+    -   Syntax: `pivot_longer(data, cols, names_to, values_to)`
+        -   `cols`: Columns to pivot.
+        -   `names_to`: Name of the new column that will contain the pivoted column names.
+        -   `values_to`: Name of the new column that will contain the pivoted values.
+    -   Example: Transforming columns representing measurements at different time points into rows.
+
+-   **`pivot_wider()`:**
+
+    -   Converts data from long to wide format.
+    -   Syntax: `pivot_wider(data, names_from, values_from)`
+        -   `names_from`: Column whose values will become column names.
+        -   `values_from`: Column whose values will populate the new columns.
+    -   Example: Transforming rows representing different categories into columns.
+
+-   **`separate()`:**
+
+    -   Splits a single column into multiple columns.
+    -   Syntax: `separate(data, col, into, sep)`
+        -   `col`: Column to separate.
+        -   `into`: Vector of new column names.
+        -   `sep`: Separator character or regular expression.
+    -   Example: Splitting a date column into year, month, and day columns.
+
+-   **`drop_na()`:**
+
+    -   Removes rows with missing values (NA).
+    -   Syntax: `drop_na(data, ...)`
+    -   `...`: Optional columns to check for NAs. If empty, checks all columns.
+
+**Practical Applications:**
+
+-   Preparing data for analysis and visualization.
+-   Standardizing data formats for consistency.
+-   Reshaping data to meet the requirements of specific functions or packages.
+
+**Key Takeaways:**
+
+-   Tidy data is essential for efficient data analysis.
+-   `tidyr` provides powerful tools for reshaping data.
+-   Understanding `pivot_longer()` and `pivot_wider()` is crucial for transforming data between wide and long formats.
+-   `drop_na()` is useful for cleaning data.
+
+**Additional Concepts Related to Processing fMRI Data:**
+
+-   **NIfTI file:** A common file format for storing MRI data.
+-   **Anatomical image:** An image that maps out the anatomical structures of the brain due to its sensitivity to differences between tissue types, e.g., gray and white matter. Typically only one anatomical image is collected, with high spatial resolution to visualize brain structures.
+-   **Functional image:** An image that measures the BOLD (blood oxygen level dependent) signal, which is used as a proxy for brain activity. Typically many functional images are collected to capture how the BOLD signal changes over time, e.g., while a participant completes a cognitive task. Functional images are typically lower in spatial resolution than the anatomical image.
+-   **Voxel:** The spatial unit of measurement for MRI, i.e., a volumetric (3-D) pixel. The smaller the voxel, the higher the resolution and the clearer the image.
+-   **Time-point:** Related to the temporal unit of measurement for functional MRI. We collect many functional images, one per time-point.
+-   **Time-series:** The ordered collection of time-points, reflecting the time-course of the BOLD signal.

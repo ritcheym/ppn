@@ -408,18 +408,6 @@ Key concepts
 <li><code>full_join(x, y, by = "common_column")</code></li>
 <li>Example: Combining customer data from two different databases, including all customers from both.</li>
 </ul></li>
-<li><strong>Semi Join (semi_join()):</strong>
-<ul>
-<li>Returns all rows from x where there are matching values in y, keeping only columns from x.</li>
-<li><code>semi_join(x, y, by = "common_column")</code></li>
-<li>Example: Filter the first data set, by the values present in a second data set.</li>
-</ul></li>
-<li><strong>Anti Join (anti_join()):</strong>
-<ul>
-<li>Returns all rows from x where there are not matching values in y, keeping only columns from x.</li>
-<li><code>anti_join(x, y, by = "common_column")</code></li>
-<li>Example: find all of the rows in the first data set, that do not have matching values in the second data set.</li>
-</ul></li>
 </ul>
 <p><strong>Specifying Key Variables:</strong></p>
 <ul>
@@ -432,7 +420,7 @@ Key concepts
 </ul>
 <p><strong>Handling Duplicate Column Names:</strong></p>
 <ul>
-<li>If non-key columns have the same name in both tables, dplyr will add suffixes (.x and .y) to distinguish them.</li>
+<li>If non-key columns have the same name in both tables, dplyr will add suffixes (.x and .y) to distinguish them. You can change the suffixes by using the argument <code>suffix = c(".x", ".y")</code>.</li>
 </ul>
 <p><strong>Row and Column Binding:</strong></p>
 <ul>
@@ -476,6 +464,7 @@ Key concepts
 <p><strong>Key Takeaways:</strong></p>
 <ul>
 <li>Joins are essential for combining related data from multiple tables.</li>
+<li>Joins work with only two tables at a time. To combine multiple tables, use a pipe to connect multiple calls to a join function.</li>
 <li>The <code>by</code> argument is crucial for specifying the key variables used to link tables.</li>
 </ul>
 

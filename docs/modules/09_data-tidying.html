@@ -301,6 +301,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
   <li><a href="#in-class-exercises" id="toc-in-class-exercises" class="nav-link" data-scroll-target="#in-class-exercises">In-class exercises</a></li>
   <li><a href="#weekly-assignment" id="toc-weekly-assignment" class="nav-link" data-scroll-target="#weekly-assignment">Weekly assignment</a></li>
+  <li><a href="#chapter-summary" id="toc-chapter-summary" class="nav-link" data-scroll-target="#chapter-summary">Chapter summary</a></li>
   </ul>
 </nav>
     </div>
@@ -358,6 +359,84 @@ Key concepts
 <section id="weekly-assignment" class="level2">
 <h2 class="anchored" data-anchor-id="weekly-assignment">Weekly assignment</h2>
 <p>TBD - depending on how far we get in class. It will involve finishing the fMRI data wrangling exercises that we will begin in class.</p>
+</section>
+<section id="chapter-summary" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-summary">Chapter summary</h2>
+<p>This chapter focuses on the principles of tidy data and how to reshape data using <code>tidyr</code>. The below summary was created in collaboration with Google Gemini.</p>
+<p><strong>Key Concepts:</strong></p>
+<ul>
+<li><strong>Tidy Data:</strong> A standard way of structuring datasets that makes them easier to manipulate and analyze.</li>
+<li><strong>Principles of Tidy Data:</strong>
+<ul>
+<li>Each variable forms a column.</li>
+<li>Each observation forms a row.</li>
+<li>Each type of observational unit forms a table.</li>
+</ul></li>
+<li><strong>Reshaping Data:</strong> Transforming data from a wide format (multiple variables in columns) to a long format (multiple observations in rows), or vice versa.</li>
+</ul>
+<p><strong>Key Functions from <code>tidyr</code>:</strong></p>
+<ul>
+<li><p><strong><code>pivot_longer()</code>:</strong></p>
+<ul>
+<li>Converts data from wide to long format.</li>
+<li>Syntax: <code>pivot_longer(data, cols, names_to, values_to)</code>
+<ul>
+<li><code>cols</code>: Columns to pivot.</li>
+<li><code>names_to</code>: Name of the new column that will contain the pivoted column names.</li>
+<li><code>values_to</code>: Name of the new column that will contain the pivoted values.</li>
+</ul></li>
+<li>Example: Transforming columns representing measurements at different time points into rows.</li>
+</ul></li>
+<li><p><strong><code>pivot_wider()</code>:</strong></p>
+<ul>
+<li>Converts data from long to wide format.</li>
+<li>Syntax: <code>pivot_wider(data, names_from, values_from)</code>
+<ul>
+<li><code>names_from</code>: Column whose values will become column names.</li>
+<li><code>values_from</code>: Column whose values will populate the new columns.</li>
+</ul></li>
+<li>Example: Transforming rows representing different categories into columns.</li>
+</ul></li>
+<li><p><strong><code>separate()</code>:</strong></p>
+<ul>
+<li>Splits a single column into multiple columns.</li>
+<li>Syntax: <code>separate(data, col, into, sep)</code>
+<ul>
+<li><code>col</code>: Column to separate.</li>
+<li><code>into</code>: Vector of new column names.</li>
+<li><code>sep</code>: Separator character or regular expression.</li>
+</ul></li>
+<li>Example: Splitting a date column into year, month, and day columns.</li>
+</ul></li>
+<li><p><strong><code>drop_na()</code>:</strong></p>
+<ul>
+<li>Removes rows with missing values (NA).</li>
+<li>Syntax: <code>drop_na(data, ...)</code></li>
+<li><code>...</code>: Optional columns to check for NAs. If empty, checks all columns.</li>
+</ul></li>
+</ul>
+<p><strong>Practical Applications:</strong></p>
+<ul>
+<li>Preparing data for analysis and visualization.</li>
+<li>Standardizing data formats for consistency.</li>
+<li>Reshaping data to meet the requirements of specific functions or packages.</li>
+</ul>
+<p><strong>Key Takeaways:</strong></p>
+<ul>
+<li>Tidy data is essential for efficient data analysis.</li>
+<li><code>tidyr</code> provides powerful tools for reshaping data.</li>
+<li>Understanding <code>pivot_longer()</code> and <code>pivot_wider()</code> is crucial for transforming data between wide and long formats.</li>
+<li><code>drop_na()</code> is useful for cleaning data.</li>
+</ul>
+<p><strong>Additional Concepts Related to Processing fMRI Data:</strong></p>
+<ul>
+<li><strong>NIfTI file:</strong> A common file format for storing MRI data.</li>
+<li><strong>Anatomical image:</strong> An image that maps out the anatomical structures of the brain due to its sensitivity to differences between tissue types, e.g., gray and white matter. Typically only one anatomical image is collected, with high spatial resolution to visualize brain structures.</li>
+<li><strong>Functional image:</strong> An image that measures the BOLD (blood oxygen level dependent) signal, which is used as a proxy for brain activity. Typically many functional images are collected to capture how the BOLD signal changes over time, e.g., while a participant completes a cognitive task. Functional images are typically lower in spatial resolution than the anatomical image.</li>
+<li><strong>Voxel:</strong> The spatial unit of measurement for MRI, i.e., a volumetric (3-D) pixel. The smaller the voxel, the higher the resolution and the clearer the image.</li>
+<li><strong>Time-point:</strong> Related to the temporal unit of measurement for functional MRI. We collect many functional images, one per time-point.</li>
+<li><strong>Time-series:</strong> The ordered collection of time-points, reflecting the time-course of the BOLD signal.</li>
+</ul>
 
 
 </section>

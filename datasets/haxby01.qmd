@@ -4,7 +4,7 @@
 
 ## Open data
 
-[Download](http://data.pymvpa.org/datasets/haxby2001/) a copy of the data.
+[Download](http://data.pymvpa.org/datasets/haxby2001/) a copy of the data. Or use our starter script below to download it through R.
 
 ## Description
 
