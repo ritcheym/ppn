@@ -933,7 +933,7 @@
     "href": "modules/09_data-tidying.html#weekly-assignment",
     "title": "Data Tidying- with fMRI!",
     "section": "Weekly assignment",
-    "text": "Weekly assignment\nTBD - depending on how far we get in class. It will involve finishing the fMRI data wrangling exercises that we will begin in class.",
+    "text": "Weekly assignment\nDownload a modified version of the fmri-data-wrangling script here. This version does NOT require that you download the original data. Instead, download this csv file that contains summary data for each subject. Put these two files in the same folder, and follow the instructions in the script. You will start from the section cleverly labeled Start running from here. Below that section, you will find several questions that you will answer using the data and the skills you have learned so far. Respond to the questions by filling in the chunks that say FILL IN HERE.\nFinal project preparation: Read the paper associated with your final project. Download the data and make sure you are able to load it in to R. Your markdown file should include the code that you used to load it into R.\nWhen you zip your files to submit your assignment, please do not include the original data files. You should include only the Rmd and html report files.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
