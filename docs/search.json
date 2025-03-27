@@ -225,7 +225,7 @@
     "href": "modules/10_statistical-analysis.html",
     "title": "Statistical Analysis in R",
     "section": "",
-    "text": "Here’s the objective for this week.",
+    "text": "We’ve made a lot of progress on working with data in R. Now what? In scientific research, we are interested in testing hypotheses and seeing whether the data are consistent with our hypotheses. In order to do this, we need to know how likely it is that we would have seen this pattern of data by chance (i.e., if our hypothesis wasn’t true). That’s what statistics are for! This week we will go over a few basic statistical tests that are commonly used in psychology and neuroscience research, and see how to implement them in R.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -237,7 +237,7 @@
     "href": "modules/10_statistical-analysis.html#objectives",
     "title": "Statistical Analysis in R",
     "section": "",
-    "text": "Here’s the objective for this week.",
+    "text": "We’ve made a lot of progress on working with data in R. Now what? In scientific research, we are interested in testing hypotheses and seeing whether the data are consistent with our hypotheses. In order to do this, we need to know how likely it is that we would have seen this pattern of data by chance (i.e., if our hypothesis wasn’t true). That’s what statistics are for! This week we will go over a few basic statistical tests that are commonly used in psychology and neuroscience research, and see how to implement them in R.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -249,7 +249,7 @@
     "href": "modules/10_statistical-analysis.html#readings",
     "title": "Statistical Analysis in R",
     "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
+    "text": "Readings\nThere are no readings, but you can look at the slides ahead of time.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -261,7 +261,7 @@
     "href": "modules/10_statistical-analysis.html#in-class-exercises",
     "title": "Statistical Analysis in R",
     "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
+    "text": "In-class exercises\nWe will review basic statistical concepts and learn how to implement statistical tests in R. We will then apply these skills to an open-access psychology dataset.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
