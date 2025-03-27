@@ -225,7 +225,7 @@
     "href": "modules/10_statistical-analysis.html",
     "title": "Statistical Analysis in R",
     "section": "",
-    "text": "We’ve made a lot of progress on working with data in R. Now what? In scientific research, we are interested in testing hypotheses and seeing whether the data are consistent with our hypotheses. In order to do this, we need to know how likely it is that we would have seen this pattern of data by chance (i.e., if our hypothesis wasn’t true). That’s what statistics are for! This week we will go over a few basic statistical tests that are commonly used in psychology and neuroscience research, and see how to implement them in R.",
+    "text": "We’ve made a lot of progress on working with data in R. Now what? In scientific research, we are interested in testing hypotheses and seeing whether the data are consistent with our hypotheses. In order to do this, we need to know how likely it is that we would have seen this pattern of data by chance (i.e., if our hypothesis wasn’t true). That’s what statistics are for! This week we will go over a few basic statistical tests that are commonly used in psychology and neuroscience research, and see how to implement them in R.\n\n\n\n\n\n\nKey concepts\n\n\n\ndescriptive statistics, inferential statistics, null hypothesis, effect size, dependent variable, independent variable, p-value, t-test, ANOVA, within-subjects, between-subjects, main effect, interaction",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -237,7 +237,7 @@
     "href": "modules/10_statistical-analysis.html#objectives",
     "title": "Statistical Analysis in R",
     "section": "",
-    "text": "We’ve made a lot of progress on working with data in R. Now what? In scientific research, we are interested in testing hypotheses and seeing whether the data are consistent with our hypotheses. In order to do this, we need to know how likely it is that we would have seen this pattern of data by chance (i.e., if our hypothesis wasn’t true). That’s what statistics are for! This week we will go over a few basic statistical tests that are commonly used in psychology and neuroscience research, and see how to implement them in R.",
+    "text": "We’ve made a lot of progress on working with data in R. Now what? In scientific research, we are interested in testing hypotheses and seeing whether the data are consistent with our hypotheses. In order to do this, we need to know how likely it is that we would have seen this pattern of data by chance (i.e., if our hypothesis wasn’t true). That’s what statistics are for! This week we will go over a few basic statistical tests that are commonly used in psychology and neuroscience research, and see how to implement them in R.\n\n\n\n\n\n\nKey concepts\n\n\n\ndescriptive statistics, inferential statistics, null hypothesis, effect size, dependent variable, independent variable, p-value, t-test, ANOVA, within-subjects, between-subjects, main effect, interaction",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -261,7 +261,7 @@
     "href": "modules/10_statistical-analysis.html#in-class-exercises",
     "title": "Statistical Analysis in R",
     "section": "In-class exercises",
-    "text": "In-class exercises\nWe will review basic statistical concepts and learn how to implement statistical tests in R. We will then apply these skills to an open-access psychology dataset.",
+    "text": "In-class exercises\nWe will review basic statistical concepts and learn how to implement statistical tests in R. We will then apply these skills to an open-access psychology dataset. Download the stats.Rmd file to get started.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -273,7 +273,7 @@
     "href": "modules/10_statistical-analysis.html#weekly-assignment",
     "title": "Statistical Analysis in R",
     "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "text": "Weekly assignment\nUsing the stats.Rmd file we used in class, complete the following:\n\nUsing the df.avg dataframe, determine whether there was a significant difference in mean vividness for negative and neutral trials. Run the appropriate statistical test and interpret the results. Use ggplot to visualize the results.\nUsing the df.avg dataframe, determine whether there was a significant interaction between emotion and age group on mean vividness. Run the appropriate statistical test and interpret the results. Use ggplot to visualize results.\nDo some internet research to find out how to test whether there is a significant relationship between two continuous variables. Determine whether there was a significant relationship between age and scores on the BDI. Use ggplot to visualize the results.\nCome up with another research question that you could answer with this dataset, and run the appropriate statistical test. Use ggplot to visualize the results.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
