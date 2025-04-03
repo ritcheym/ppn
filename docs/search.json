@@ -957,7 +957,7 @@
     "href": "modules/11_machine-learning.html",
     "title": "Machine Learning",
     "section": "",
-    "text": "Here’s the objective for this week.",
+    "text": "Multiple regression is a statistical technique used to understand how multiple predictor variables influence an outcome variable. It is widely used in psychology and neuroscience to examine relationships between brain activity, cognitive performance, and behavioral variables. This week we are going to learn how to implement a multiple regression model in R and interpret its results. We are also going to discuss how regression models can be used to generate predictions about what outcomes will be observed given a new set of data. This is a primary goal of “machine learning,” a set of methods for using algorithms and statistical models to identify patterns in data and make predictions or decisions about those data.\n\n\n\n\n\n\nKey concepts\n\n\n\nmachine learning, multiple regression, predictors, outcomes, residuals, training set, testing set, cross-validation, generalizability",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -969,7 +969,7 @@
     "href": "modules/11_machine-learning.html#objectives",
     "title": "Machine Learning",
     "section": "",
-    "text": "Here’s the objective for this week.",
+    "text": "Multiple regression is a statistical technique used to understand how multiple predictor variables influence an outcome variable. It is widely used in psychology and neuroscience to examine relationships between brain activity, cognitive performance, and behavioral variables. This week we are going to learn how to implement a multiple regression model in R and interpret its results. We are also going to discuss how regression models can be used to generate predictions about what outcomes will be observed given a new set of data. This is a primary goal of “machine learning,” a set of methods for using algorithms and statistical models to identify patterns in data and make predictions or decisions about those data.\n\n\n\n\n\n\nKey concepts\n\n\n\nmachine learning, multiple regression, predictors, outcomes, residuals, training set, testing set, cross-validation, generalizability",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -981,7 +981,7 @@
     "href": "modules/11_machine-learning.html#readings",
     "title": "Machine Learning",
     "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
+    "text": "Readings\nNo readings this week!",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -993,7 +993,7 @@
     "href": "modules/11_machine-learning.html#in-class-exercises",
     "title": "Machine Learning",
     "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
+    "text": "In-class exercises\nWe will review the concept of regression and how we can use regression to make predictions in a new set of data. We will then apply these skills to an open-access psychology dataset. Download the prediction.Rmd file to get started. You will also want to download this csv file, which contains summary data from the vivid dataset.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -1005,7 +1005,7 @@
     "href": "modules/11_machine-learning.html#weekly-assignment",
     "title": "Machine Learning",
     "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "text": "Weekly assignment\nTBD",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
