@@ -124,10 +124,6 @@ cv_model <- train(mpg ~ hp + wt,
 print(cv_model)
 ```
 
-## Interpret cross-validated results
-
-Here's the **"Interpreting Cross-Validation Output"** section formatted for your R Markdown (`.Rmd`) file. It includes an explanation of the output of `cv_model` and how to interpret key metrics.
-
 ## Understanding the `cv_model` output
 
 Let’s break down each part:
