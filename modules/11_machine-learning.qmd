@@ -22,4 +22,4 @@ We will review the concept of regression and how we can use regression to make p
 
 ## Weekly assignment
 
-TBD
+In class today, we figured out how to run a regression model with the `vivid` dataset. Your homework is to try to predict **memory vividness** in this dataset. Build a model to predict memory vividness *for positively valenced images*, using any of the predictor variables that you think would be useful. How much variability in vividness are you able to explain? Try a few different types of models to see which ones gives you the highest R squared value *with cross-validation* to ensure generalizability*.* You should feel free to explore different combinations of predictors, model types, or data transformations. The student who achieves the highest R squared value will win a very cool brain sticker. 🧠
