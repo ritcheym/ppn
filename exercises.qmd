@@ -1,0 +1,199 @@
+---
+title: "Programming Exercises"
+---
+
+## Overview
+
+Below you can find some programming problems that you can use to test your understanding of programming logic. For each question, first try to guess what the code will produce. Then see if you are correct by actually running the code on your own.
+
+## Exercises
+
+### Question 1: Indexing
+
+```{r eval=FALSE}
+accuracy <- c(1, 0, 1, 1, 0)
+reaction_times <- c(520, 700, 480, 510, 730)
+reaction_times[accuracy == 1]
+```
+
+### Question 2: If-else
+
+```{r eval=FALSE}
+condition <- c("A", "B", "A", "B", "A")
+stimulus <- ifelse(condition == "A", "face", "scene")
+stimulus
+```
+
+### Question 3: Indexing
+
+```{r eval=FALSE}
+condition <- c("A", "B", "A", "B", "A")
+correct <- c(1, 1, 0, 1, 1)
+condition[correct == 1 & condition == "A"]
+```
+
+### Question 4: For loops
+
+```{r eval=FALSE}
+rt1 <- c(500, 480, 530)
+rt2 <- c(520, 490, 500)
+diffs <- numeric(length(rt1))
+for (i in 1:length(rt1)) {
+  diffs[i] <- rt2[i] - rt1[i]
+}
+diffs
+```
+
+### Question 5: While loops
+
+```{r eval=FALSE}
+responses <- c(1, 1, 0, 1, 0, 1, 1)
+i <- 1
+count <- 0
+while (responses[i] == 1) {  # pay attention here to what will make the while loop stop
+  count <- count + 1
+  i <- i + 1
+}
+count
+```
+
+### Question 6: For loops and if-else
+
+```{r eval=FALSE}
+rt <- c(480, 610, 700)
+labels <- character(length(rt))
+for (i in 1:length(rt)) {
+  if (rt[i] < 500) {
+    labels[i] <- "fast"
+  } else if (rt[i] <= 650) {
+    labels[i] <- "medium"
+  } else {
+    labels[i] <- "slow"
+  }
+}
+labels
+```
+
+### Question 7: For loops and if-else
+
+```{r eval=FALSE}
+rt <- c(350, 560, 720, 450)
+flags <- rep(FALSE, length(rt))
+for (i in 1:length(rt)) {
+  if (rt[i] > 500) {
+    if (rt[i] < 700) {
+      flags[i] <- TRUE
+    }
+  }
+}
+flags
+```
+
+### Question 8: Data manipulation
+
+```{r eval=FALSE}
+df <- data.frame(
+  subject = c(1, 1, 2, 2),
+  condition = c("congruent", "incongruent", "congruent", "incongruent"),
+  rt = c(450, 600, 470, 620)
+) 
+
+df.new <- df %>%
+  filter(condition == "incongruent")
+```
+
+### Question 9: Data manipulation
+
+```{r eval=FALSE}
+df <- data.frame(
+  trial = 1:5,
+  response = c("old", "new", "old", "old", "new"),
+  correct = c(TRUE, TRUE, FALSE, TRUE, FALSE)
+)
+
+df.new <- df %>%
+  mutate(score = ifelse(correct, 1, 0))
+
+sum(df.new$score)
+```
+
+### Question 10: Functions
+
+```{r eval=FALSE}
+categorize_rt <- function(rt) {
+  if (is.na(rt)) {
+    return("missing")
+  } else if (rt < 500) {
+    return("fast")
+  } else {
+    return("slow")
+  }
+}
+
+categorize_rt(480)
+```
+
+### Question 11: Data manipulation
+
+```{r eval=FALSE}
+df <- data.frame(
+  trial = 1:5,
+  emotion = c("happy", "sad", "angry", "happy", "sad"),
+  rating = c(5, 3, 4, 4, 2)
+)
+
+df %>%
+  filter(emotion == "happy") %>%
+  mutate(adjusted = rating + 1)
+```
+
+### Question 12: Data summaries
+
+```{r eval=FALSE}
+df <- data.frame(
+  subject = c(1, 1, 2, 2),
+  condition = c("easy", "hard", "easy", "hard"),
+  correct = c(1, 0, 1, 1)
+)
+
+df %>%
+  group_by(condition) %>%
+  summarize(mean_acc = mean(correct))
+```
+
+### Question 13: Data manipulation
+
+```{r eval=FALSE}
+df <- data.frame(
+  trial = 1:4,
+  rt = c(500, 430, 670, 520)
+)
+
+df %>%
+  arrange(rt)
+```
+
+### Question 14: Data visualization
+
+```{r eval=FALSE}
+df <- data.frame(
+  condition = c("A","A","A","A","A","B","B","B","B","B"),
+  rt = c(420, 430, 510, 525, 415, 620, 510, 605, 430, 615)
+)
+
+ggplot(df, aes(x = condition, y = rt)) +
+  geom_boxplot()
+```
+
+### Question 15: Data visualization
+
+```{r eval=FALSE}
+df <- data.frame(
+  subject = c(1,2,3,4,5,1,2,3,4,5),
+  condition = c("easy","easy","easy","easy","easy","hard","hard","hard","hard","hard"),
+  accuracy = c(.8, 1, .75, .6, .8, .5, .7, .8, .4, .2)
+)
+
+ggplot(df, aes(x = condition, y = accuracy, color = factor(subject))) +
+  geom_point()
+```
