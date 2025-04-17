@@ -78,6 +78,18 @@
     ]
   },
   {
+    "objectID": "projects/final-project.html#report-components",
+    "href": "projects/final-project.html#report-components",
+    "title": "Final Project",
+    "section": "Report components",
+    "text": "Report components\nYour final report should include the following:\n\nA description of the research question, what the authors did, and what they found. This should consist of at least one detailed paragraph.\nA link to the paper.\nA link to the dataset.\nCode to directly download the data from the internet. You can model this after the code we used in the stats module.\nA table of summary statistics. This can be modeled after a table included in the paper, or something you create on your own (e.g., if they don’t have an appropriate table). An example of a summary stats table can be found here.\nA statistical analysis. This should be modeled after one of the analyses reported in the paper. Example analyses include t-tests, ANOVAs, and regressions, all of which we covered in our stats module.\nA data visualization. This should reproduce a figure included in the paper, as close as you can get it. Please also include an image of the original figure from the paper.\nYou are also welcome to include other visualizations that you think are interesting or helpful.\nThroughout, you should incorporate concepts that we have discussed in class.\nThroughout, you should include Markdown subheaders and narrative text (i.e., between your code chunks) to organize and describe what you are doing for each step and what you have found.\nIn your code chunks, you should include short comments detailing the steps.\nYou should submit both the Rmd file and the knitted html file.\nAny disclosures about use of AI. Remember that for this project, you should be using AI only for debugging purposes.",
+    "crumbs": [
+      "Home",
+      "<b>Projects</b>",
+      "Final Project"
+    ]
+  },
+  {
     "objectID": "projects/final-project.html#final-presentation",
     "href": "projects/final-project.html#final-presentation",
     "title": "Final Project",
