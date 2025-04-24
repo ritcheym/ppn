@@ -67,7 +67,7 @@
     "href": "syllabus.html#schedule",
     "title": "Syllabus",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\nWeek\nDate\nModule\nDescription\n\n\n\n\n1\nJan 16\nIntro to Programming with R\nInstallation and familiarization with R and RStudio interface; Data organization, reproducible scientific programming\n\n\n2\nJan 23\nProgramming Foundations Part 1\nVariables, vectors, loops, branches\n\n\n3\nJan 30\nProgramming Foundations Part 2\nFunctions and algorithms\n\n\n4\nFeb 6\nProgramming Foundations Workshop\nReview and practice\n\n\n5\nFeb 13\nData Visualization\nExploratory data visualization with ggplot, customizing plots\n\n\n6\nFeb 20\nData Summaries\nImporting and summarizing data, tidyverse pipes\n\n\n7\nFeb 27\nData Wrangling\nSelecting and filtering data, creating new variables\n\n\n8\nMar 13\nData Relations\nMidterm projects due; Combining datasets\n\n\n9\nMar 20\nData Tidying\nWhat is “tidy” data and how do we get it; Working with fMRI data in R\n\n\n10\nMar 27\nStatistical Analysis in R\nBasic statistical analysis in R, including t-tests, ANOVAs, and regression analyses on sample datasets\n\n\n11\nApr 3\nIntro to Machine Learning\nSimple machine learning models for classifying psychological outcomes\n\n\n12\nApr 10\nAdvanced Visualization Techniques (OR: Project workshop)\nInteractive visualizations and web-based tools, visualization of complex data types\n\n\n13\nApr 24\nProject Presentations\nFinal projects due\n\n\n14\nMay 1\nProject Presentations"
+    "text": "Schedule\n\n\n\nWeek\nDate\nModule\nDescription\n\n\n\n\n1\nJan 16\nIntro to Programming with R\nInstallation and familiarization with R and RStudio interface; Data organization, reproducible scientific programming\n\n\n2\nJan 23\nProgramming Foundations Part 1\nVariables, vectors, loops, branches\n\n\n3\nJan 30\nProgramming Foundations Part 2\nFunctions and algorithms\n\n\n4\nFeb 6\nProgramming Foundations Workshop\nReview and practice\n\n\n5\nFeb 13\nData Visualization\nExploratory data visualization with ggplot, customizing plots\n\n\n6\nFeb 20\nData Summaries\nImporting and summarizing data, tidyverse pipes\n\n\n7\nFeb 27\nData Wrangling\nSelecting and filtering data, creating new variables\n\n\n8\nMar 13\nData Relations\nMidterm projects due; Combining datasets\n\n\n9\nMar 20\nData Tidying\nWhat is “tidy” data and how do we get it; Working with fMRI data in R\n\n\n10\nMar 27\nStatistical Analysis in R\nBasic statistical analysis in R, including t-tests, ANOVAs, and regression analyses on sample datasets\n\n\n11\nApr 3\nIntro to Machine Learning\nSimple machine learning models for classifying psychological outcomes\n\n\n12\nApr 10\nIntro to NLP; Review\nInteractive visualizations and web-based tools, visualization of complex data types\n\n\n13\nApr 24\nProject Presentations\nFinal projects due\n\n\n14\nMay 1\nProject Presentations"
   },
   {
     "objectID": "syllabus.html#course-requirements",
@@ -819,14 +819,14 @@
     "href": "index.html",
     "title": "Programming for Psychology and Neuroscience",
     "section": "",
-    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is a work in progress."
+    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course was taught in Spring 2025."
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
     "title": "Programming for Psychology and Neuroscience",
     "section": "",
-    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course will be taught in Spring 2025.\n\n\n\n\n\n\nCaution\n\n\n\nThis website is a work in progress."
+    "text": "This is the course website for Programming for Psychology and Neuroscience, developed and taught by Dr. Maureen Ritchey at Boston College. This course was taught in Spring 2025."
   },
   {
     "objectID": "index.html#course-description",
