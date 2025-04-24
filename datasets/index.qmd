@@ -1,4 +1,15 @@
-## Datasets
+---
+title: "Datasets"
+sidebar: false
+---
+## Datasets used in this course
 
 -   [`screentime`](/datasets/screentime.html)
 -   [`haxby01`](/datasets/haxby01.html)
+-   [`vivid`](/datasets/vivid.html)
+
+## Searching for other datasets
+
+-   Psychology datasets published on the [Open Science Framework](https://osf.io/)
+-   Articles with open data published in [Psychological Science](https://journals.sagepub.com/home/pss)
+-   [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) multi-purpose datasets

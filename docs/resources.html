@@ -138,19 +138,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#readings" id="toc-readings" class="nav-link active" data-scroll-target="#readings">Readings</a></li>
+  <li><a href="#readings" id="toc-readings" class="nav-link active" data-scroll-target="#readings">Readings</a>
+  <ul class="collapse">
+  <li><a href="#textbook-readings" id="toc-textbook-readings" class="nav-link" data-scroll-target="#textbook-readings">Textbook readings</a></li>
+  <li><a href="#articles" id="toc-articles" class="nav-link" data-scroll-target="#articles">Articles</a></li>
+  <li><a href="#coding-for-all" id="toc-coding-for-all" class="nav-link" data-scroll-target="#coding-for-all">Coding for all</a></li>
+  </ul></li>
   <li><a href="#useful-functions" id="toc-useful-functions" class="nav-link" data-scroll-target="#useful-functions">Useful functions</a></li>
   <li><a href="#r-cheatsheets" id="toc-r-cheatsheets" class="nav-link" data-scroll-target="#r-cheatsheets">R cheatsheets</a></li>
+  <li><a href="#working-with-files" id="toc-working-with-files" class="nav-link" data-scroll-target="#working-with-files">Working with files</a></li>
   <li><a href="#practice-problems" id="toc-practice-problems" class="nav-link" data-scroll-target="#practice-problems">Practice problems</a></li>
   <li><a href="#version-control-with-git" id="toc-version-control-with-git" class="nav-link" data-scroll-target="#version-control-with-git">Version control with git</a></li>
   <li><a href="#statistical-analysis-with-r" id="toc-statistical-analysis-with-r" class="nav-link" data-scroll-target="#statistical-analysis-with-r">Statistical analysis with R</a></li>
   <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link" data-scroll-target="#data-visualization">Data visualization</a></li>
-  <li><a href="#similar-ideas-different-language-resources-for-learning-python" id="toc-similar-ideas-different-language-resources-for-learning-python" class="nav-link" data-scroll-target="#similar-ideas-different-language-resources-for-learning-python">Similar ideas, different language: Resources for learning Python</a></li>
   <li><a href="#natural-language-processing-with-r" id="toc-natural-language-processing-with-r" class="nav-link" data-scroll-target="#natural-language-processing-with-r">Natural language processing with R</a></li>
   <li><a href="#advanced-programming-with-r" id="toc-advanced-programming-with-r" class="nav-link" data-scroll-target="#advanced-programming-with-r">Advanced programming with R</a></li>
-  <li><a href="#basic-computer-skills" id="toc-basic-computer-skills" class="nav-link" data-scroll-target="#basic-computer-skills">Basic computer skills</a></li>
-  <li><a href="#searching-for-datasets" id="toc-searching-for-datasets" class="nav-link" data-scroll-target="#searching-for-datasets">Searching for datasets</a></li>
-  <li><a href="#coding-for-all" id="toc-coding-for-all" class="nav-link" data-scroll-target="#coding-for-all">Coding for all</a></li>
+  <li><a href="#resources-for-learning-python" id="toc-resources-for-learning-python" class="nav-link" data-scroll-target="#resources-for-learning-python">Resources for learning Python</a></li>
   </ul>
 </nav>
     </div>
@@ -177,16 +180,31 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>For many topics in this class, we are going to be only scratching the surface. Below you can find some links that can help you learn more.</p>
-<section id="readings" class="level3">
-<h3 class="anchored" data-anchor-id="readings">Readings</h3>
+<section id="readings" class="level2">
+<h2 class="anchored" data-anchor-id="readings">Readings</h2>
+<section id="textbook-readings" class="level3">
+<h3 class="anchored" data-anchor-id="textbook-readings">Textbook readings</h3>
 <ul>
 <li>Emily Nordmann and Lisa DeBruine. <a href="https://psyteachr.github.io/ads-v3/"><em>Applied Data Skills</em></a>. doi:10.5281/zenodo.6365077</li>
 <li>Danielle Navarro. <a href="https://psyr.djnavarro.net/"><em>R for Psychological Science</em></a>.</li>
+</ul>
+</section>
+<section id="articles" class="level3">
+<h3 class="anchored" data-anchor-id="articles">Articles</h3>
+<ul>
 <li>Roth et al.&nbsp;(2025). Ten principles for reliable, efficient, and adaptable coding in psychology and cognitive neuroscience. <em>Nature Communications Psychology</em>. <a href="https://www.nature.com/articles/s44271-025-00236-3">link</a></li>
 </ul>
 </section>
-<section id="useful-functions" class="level3">
-<h3 class="anchored" data-anchor-id="useful-functions">Useful functions</h3>
+<section id="coding-for-all" class="level3">
+<h3 class="anchored" data-anchor-id="coding-for-all">Coding for all</h3>
+<ul>
+<li><a href="https://osf.io/preprints/socarxiv/3r2ez_v1">Teaching coding inclusively</a></li>
+<li><a href="https://hackernoon.com/a-brief-history-of-women-in-computing-e7253ac24306">A brief history of women in computing</a></li>
+</ul>
+</section>
+</section>
+<section id="useful-functions" class="level2">
+<h2 class="anchored" data-anchor-id="useful-functions">Useful functions</h2>
 <ul>
 <li><strong>Basic statistics:</strong> <code>mean()</code>, <code>median()</code>, <code>min()</code>, <code>max()</code>, <code>sum()</code> calculate basic descriptive statistics on a vector.</li>
 <li><strong>Data dimension checks:</strong> <code>nrow()</code>, <code>ncol()</code> return the number of rows and columns in a data frame <code>length()</code> returns the number of items in an object.</li>
@@ -198,81 +216,64 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://ashki23.github.io/r-functions.html"><strong>More useful functions</strong></a></li>
 </ul>
 </section>
-<section id="r-cheatsheets" class="level3">
-<h3 class="anchored" data-anchor-id="r-cheatsheets">R cheatsheets</h3>
+<section id="r-cheatsheets" class="level2">
+<h2 class="anchored" data-anchor-id="r-cheatsheets">R cheatsheets</h2>
 <ul>
 <li>Official cheatsheets from <a href="https://posit.co/resources/cheatsheets/">Posit</a></li>
 </ul>
 </section>
-<section id="practice-problems" class="level3">
-<h3 class="anchored" data-anchor-id="practice-problems">Practice problems</h3>
+<section id="working-with-files" class="level2">
+<h2 class="anchored" data-anchor-id="working-with-files">Working with files</h2>
+<ul>
+<li>How to zip files: <a href="https://support.apple.com/guide/mac-help/zip-and-unzip-files-and-folders-on-mac-mchlp2528/mac">mac</a>, <a href="https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5">windows</a></li>
+<li><a href="https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/">Common Mac terminal commands</a></li>
+</ul>
+</section>
+<section id="practice-problems" class="level2">
+<h2 class="anchored" data-anchor-id="practice-problems">Practice problems</h2>
 <ul>
 <li><a href="https://www.crumplab.com/rstatsforpsych/practice-problems.html">Practice problems, from easy to hard</a></li>
 <li><a href="https://projecteuler.net/">Project Euler</a></li>
 <li><a href="https://www.geeksforgeeks.org/r-programming-exercises-practice-questions-and-solutions/">R programming exercises</a></li>
 </ul>
 </section>
-<section id="version-control-with-git" class="level3">
-<h3 class="anchored" data-anchor-id="version-control-with-git">Version control with git</h3>
+<section id="version-control-with-git" class="level2">
+<h2 class="anchored" data-anchor-id="version-control-with-git">Version control with git</h2>
 <ul>
 <li><a href="https://www.crumplab.com/psyc3470/compendium/version_control.html">Git, GitHub, and Version Control</a> by Matt Crump</li>
 <li><a href="https://happygitwithr.com/">Happy Git with R</a> by Jenny Bryan</li>
 </ul>
 </section>
-<section id="statistical-analysis-with-r" class="level3">
-<h3 class="anchored" data-anchor-id="statistical-analysis-with-r">Statistical analysis with R</h3>
+<section id="statistical-analysis-with-r" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-analysis-with-r">Statistical analysis with R</h2>
 <ul>
 <li><a href="https://learningstatisticswithr.com/book/">Learning Statistics with R</a> by Danielle Navarro</li>
 <li><a href="https://www.crumplab.com/statistics/">Answering Questions with Data</a> by Matt Crump, Danielle Navarro, and Jeffrey Suzuki</li>
 </ul>
 </section>
-<section id="data-visualization" class="level3">
-<h3 class="anchored" data-anchor-id="data-visualization">Data visualization</h3>
+<section id="data-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="data-visualization">Data visualization</h2>
 <ul>
 <li><a href="https://ggplot2-book.org/">ggplot2: Elegant Graphics for Data Analysis</a> by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen</li>
 </ul>
 </section>
-<section id="similar-ideas-different-language-resources-for-learning-python" class="level3">
-<h3 class="anchored" data-anchor-id="similar-ideas-different-language-resources-for-learning-python">Similar ideas, different language: Resources for learning Python</h3>
-<ul>
-<li><a href="https://www.ibm.com/think/topics/python-vs-r">Python vs R: What’s the Difference?</a></li>
-<li><a href="https://cims.nyu.edu/~brenden/courses/labincp/intro.html">Lab in Cognition and Perception</a> by Todd Gureckis</li>
-</ul>
-</section>
-<section id="natural-language-processing-with-r" class="level3">
-<h3 class="anchored" data-anchor-id="natural-language-processing-with-r">Natural language processing with R</h3>
+<section id="natural-language-processing-with-r" class="level2">
+<h2 class="anchored" data-anchor-id="natural-language-processing-with-r">Natural language processing with R</h2>
 <ul>
 <li><a href="https://www.tidytextmining.com/">Tidy Text Mining</a> by Julia Silge and David Robinson</li>
 </ul>
 </section>
-<section id="advanced-programming-with-r" class="level3">
-<h3 class="anchored" data-anchor-id="advanced-programming-with-r">Advanced programming with R</h3>
+<section id="advanced-programming-with-r" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-programming-with-r">Advanced programming with R</h2>
 <ul>
 <li><a href="https://adv-r.hadley.nz/">Advanced R</a> by Hadley Wickham</li>
 </ul>
 </section>
-<section id="basic-computer-skills" class="level3">
-<h3 class="anchored" data-anchor-id="basic-computer-skills">Basic computer skills</h3>
+<section id="resources-for-learning-python" class="level2">
+<h2 class="anchored" data-anchor-id="resources-for-learning-python">Resources for learning Python</h2>
 <ul>
-<li>How to zip files: <a href="https://support.apple.com/guide/mac-help/zip-and-unzip-files-and-folders-on-mac-mchlp2528/mac">mac</a>, <a href="https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5">windows</a></li>
-<li><a href="https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/">Common Mac terminal commands</a></li>
-</ul>
-</section>
-<section id="searching-for-datasets" class="level3">
-<h3 class="anchored" data-anchor-id="searching-for-datasets">Searching for datasets</h3>
-<ul>
-<li><a href="~/datasets">Datasets used in this course</a></li>
-<li>Psychology datasets published on the <a href="https://osf.io/">Open Science Framework</a></li>
-<li>Articles with open data published in <a href="https://journals.sagepub.com/home/pss">Psychological Science</a></li>
-<li><a href="https://github.com/rfordatascience/tidytuesday">Tidy Tuesday</a> multi-purpose datasets</li>
-</ul>
-</section>
-<section id="coding-for-all" class="level3">
-<h3 class="anchored" data-anchor-id="coding-for-all">Coding for all</h3>
-<ul>
-<li><a href="https://osf.io/preprints/socarxiv/3r2ez_v1">Teaching coding inclusively</a></li>
-<li><a href="https://hackernoon.com/a-brief-history-of-women-in-computing-e7253ac24306">A brief history of women in computing</a></li>
-<li>The context for this course: This course was developed by a woman, using materials that were created primarily by women, for a student audience that is mostly women. 🙌</li>
+<li><a href="https://www.ibm.com/think/topics/python-vs-r">Python vs R: What’s the Difference?</a></li>
+<li><a href="https://cims.nyu.edu/~brenden/courses/labincp/intro.html">Lab in Cognition and Perception</a> by Todd Gureckis</li>
 </ul>
 
 

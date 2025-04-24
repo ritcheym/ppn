@@ -689,32 +689,25 @@
     ]
   },
   {
-    "objectID": "datasets/screentime.html",
-    "href": "datasets/screentime.html",
-    "title": "PPN",
+    "objectID": "datasets/index.html",
+    "href": "datasets/index.html",
+    "title": "Datasets",
     "section": "",
-    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. link"
+    "text": "screentime\nhaxby01\nvivid"
   },
   {
-    "objectID": "datasets/screentime.html#paper",
-    "href": "datasets/screentime.html#paper",
-    "title": "PPN",
+    "objectID": "datasets/index.html#datasets-used-in-this-course",
+    "href": "datasets/index.html#datasets-used-in-this-course",
+    "title": "Datasets",
     "section": "",
-    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. link"
+    "text": "screentime\nhaxby01\nvivid"
   },
   {
-    "objectID": "datasets/screentime.html#open-data",
-    "href": "datasets/screentime.html#open-data",
-    "title": "PPN",
-    "section": "Open data",
-    "text": "Open data\nData can be downloaded from the Open Science Framework - Download\nDataset includes usable data from 120,115 participants."
-  },
-  {
-    "objectID": "datasets/screentime.html#key-variables",
-    "href": "datasets/screentime.html#key-variables",
-    "title": "PPN",
-    "section": "Key variables",
-    "text": "Key variables\nVariables are described in the paper, analysis files, as well as in the registered analysis plan.\n\nMental Well-Being\n\nmwbi: Mental well-being (with imputed values) - from the WEMWBS scale\nResponses to individual questions are also included but not listed here.\n\n\n\nDemographics\n\nmale: Is the participant male? (1=male, 0=no)\nminority: Is the participant a minority? (1=yes, 0=no)\ndeprived: Does the participant live in a deprived area? (1=yes, 0=no)\n\n\n\nSummary screentime\n\nweekday_screen: Linear digital screen time (week days)\nweekend_screen: Linear digital screen time (weekend days)\n\n\n\nScreentime by type\n\nwatch_wd: Linear Streaming/Watching (week days)\nwatch_we: Linear StreamIng/Watching (weekend days)\nplay_wd: Linear Playing (week days)\nplay_we: Linear Playing (weekend days)\ncomp_wd: Linear Computing (week days)\ncomp_we: Linear Computing (weekend days)\nsp_wd: Linear Smartphone (week days)\nsp_we: Linear Smartphone (weekend days)"
+    "objectID": "datasets/index.html#searching-for-other-datasets",
+    "href": "datasets/index.html#searching-for-other-datasets",
+    "title": "Datasets",
+    "section": "Searching for other datasets",
+    "text": "Searching for other datasets\n\nPsychology datasets published on the Open Science Framework\nArticles with open data published in Psychological Science\nTidy Tuesday multi-purpose datasets"
   },
   {
     "objectID": "datasets/haxby01.html",
@@ -752,18 +745,32 @@
     "text": "Analysis\nDownload our starter script for working with this dataset in R."
   },
   {
-    "objectID": "datasets/index.html",
-    "href": "datasets/index.html",
+    "objectID": "datasets/screentime.html",
+    "href": "datasets/screentime.html",
     "title": "PPN",
     "section": "",
-    "text": "screentime\nhaxby01"
+    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. link"
   },
   {
-    "objectID": "datasets/index.html#datasets",
-    "href": "datasets/index.html#datasets",
+    "objectID": "datasets/screentime.html#paper",
+    "href": "datasets/screentime.html#paper",
     "title": "PPN",
     "section": "",
-    "text": "screentime\nhaxby01"
+    "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. link"
+  },
+  {
+    "objectID": "datasets/screentime.html#open-data",
+    "href": "datasets/screentime.html#open-data",
+    "title": "PPN",
+    "section": "Open data",
+    "text": "Open data\nData can be downloaded from the Open Science Framework - Download\nDataset includes usable data from 120,115 participants."
+  },
+  {
+    "objectID": "datasets/screentime.html#key-variables",
+    "href": "datasets/screentime.html#key-variables",
+    "title": "PPN",
+    "section": "Key variables",
+    "text": "Key variables\nVariables are described in the paper, analysis files, as well as in the registered analysis plan.\n\nMental Well-Being\n\nmwbi: Mental well-being (with imputed values) - from the WEMWBS scale\nResponses to individual questions are also included but not listed here.\n\n\n\nDemographics\n\nmale: Is the participant male? (1=male, 0=no)\nminority: Is the participant a minority? (1=yes, 0=no)\ndeprived: Does the participant live in a deprived area? (1=yes, 0=no)\n\n\n\nSummary screentime\n\nweekday_screen: Linear digital screen time (week days)\nweekend_screen: Linear digital screen time (weekend days)\n\n\n\nScreentime by type\n\nwatch_wd: Linear Streaming/Watching (week days)\nwatch_we: Linear StreamIng/Watching (weekend days)\nplay_wd: Linear Playing (week days)\nplay_we: Linear Playing (weekend days)\ncomp_wd: Linear Computing (week days)\ncomp_we: Linear Computing (weekend days)\nsp_wd: Linear Smartphone (week days)\nsp_we: Linear Smartphone (weekend days)"
   },
   {
     "objectID": "index.html",
@@ -1296,7 +1303,84 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "For many topics in this class, we are going to be only scratching the surface. Below you can find some links that can help you learn more.\n\nReadings\n\nEmily Nordmann and Lisa DeBruine. Applied Data Skills. doi:10.5281/zenodo.6365077\nDanielle Navarro. R for Psychological Science.\nRoth et al. (2025). Ten principles for reliable, efficient, and adaptable coding in psychology and cognitive neuroscience. Nature Communications Psychology. link\n\n\n\nUseful functions\n\nBasic statistics: mean(), median(), min(), max(), sum() calculate basic descriptive statistics on a vector.\nData dimension checks: nrow(), ncol() return the number of rows and columns in a data frame length() returns the number of items in an object.\nData manipulation: subset() allows filtering data based on conditions, sort() sorts data in ascending order.\nData exploration: table() counts frequencies of unique values in a vector, head() gives you a preview of the first six parts of an object, and str() tells you more about the structure of an object.\nSampling: sample() generates random samples from a vector.\nData analysis with dplyr: filter(), select(), mutate(), group_by() are powerful functions for data manipulation within the dplyr package - covered in the Data Wrangling module\nVisualization with ggplot2: ggplot() is the primary function to create customized plots using the ggplot2 package - covered in the Data Visualization module\nMore useful functions\n\n\n\nR cheatsheets\n\nOfficial cheatsheets from Posit\n\n\n\nPractice problems\n\nPractice problems, from easy to hard\nProject Euler\nR programming exercises\n\n\n\nVersion control with git\n\nGit, GitHub, and Version Control by Matt Crump\nHappy Git with R by Jenny Bryan\n\n\n\nStatistical analysis with R\n\nLearning Statistics with R by Danielle Navarro\nAnswering Questions with Data by Matt Crump, Danielle Navarro, and Jeffrey Suzuki\n\n\n\nData visualization\n\nggplot2: Elegant Graphics for Data Analysis by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen\n\n\n\nSimilar ideas, different language: Resources for learning Python\n\nPython vs R: What’s the Difference?\nLab in Cognition and Perception by Todd Gureckis\n\n\n\nNatural language processing with R\n\nTidy Text Mining by Julia Silge and David Robinson\n\n\n\nAdvanced programming with R\n\nAdvanced R by Hadley Wickham\n\n\n\nBasic computer skills\n\nHow to zip files: mac, windows\nCommon Mac terminal commands\n\n\n\nSearching for datasets\n\nDatasets used in this course\nPsychology datasets published on the Open Science Framework\nArticles with open data published in Psychological Science\nTidy Tuesday multi-purpose datasets\n\n\n\nCoding for all\n\nTeaching coding inclusively\nA brief history of women in computing\nThe context for this course: This course was developed by a woman, using materials that were created primarily by women, for a student audience that is mostly women. 🙌"
+    "text": "For many topics in this class, we are going to be only scratching the surface. Below you can find some links that can help you learn more."
+  },
+  {
+    "objectID": "resources.html#readings",
+    "href": "resources.html#readings",
+    "title": "Resources",
+    "section": "Readings",
+    "text": "Readings\n\nTextbook readings\n\nEmily Nordmann and Lisa DeBruine. Applied Data Skills. doi:10.5281/zenodo.6365077\nDanielle Navarro. R for Psychological Science.\n\n\n\nArticles\n\nRoth et al. (2025). Ten principles for reliable, efficient, and adaptable coding in psychology and cognitive neuroscience. Nature Communications Psychology. link\n\n\n\nCoding for all\n\nTeaching coding inclusively\nA brief history of women in computing"
+  },
+  {
+    "objectID": "resources.html#useful-functions",
+    "href": "resources.html#useful-functions",
+    "title": "Resources",
+    "section": "Useful functions",
+    "text": "Useful functions\n\nBasic statistics: mean(), median(), min(), max(), sum() calculate basic descriptive statistics on a vector.\nData dimension checks: nrow(), ncol() return the number of rows and columns in a data frame length() returns the number of items in an object.\nData manipulation: subset() allows filtering data based on conditions, sort() sorts data in ascending order.\nData exploration: table() counts frequencies of unique values in a vector, head() gives you a preview of the first six parts of an object, and str() tells you more about the structure of an object.\nSampling: sample() generates random samples from a vector.\nData analysis with dplyr: filter(), select(), mutate(), group_by() are powerful functions for data manipulation within the dplyr package - covered in the Data Wrangling module\nVisualization with ggplot2: ggplot() is the primary function to create customized plots using the ggplot2 package - covered in the Data Visualization module\nMore useful functions"
+  },
+  {
+    "objectID": "resources.html#r-cheatsheets",
+    "href": "resources.html#r-cheatsheets",
+    "title": "Resources",
+    "section": "R cheatsheets",
+    "text": "R cheatsheets\n\nOfficial cheatsheets from Posit"
+  },
+  {
+    "objectID": "resources.html#working-with-files",
+    "href": "resources.html#working-with-files",
+    "title": "Resources",
+    "section": "Working with files",
+    "text": "Working with files\n\nHow to zip files: mac, windows\nCommon Mac terminal commands"
+  },
+  {
+    "objectID": "resources.html#practice-problems",
+    "href": "resources.html#practice-problems",
+    "title": "Resources",
+    "section": "Practice problems",
+    "text": "Practice problems\n\nPractice problems, from easy to hard\nProject Euler\nR programming exercises"
+  },
+  {
+    "objectID": "resources.html#version-control-with-git",
+    "href": "resources.html#version-control-with-git",
+    "title": "Resources",
+    "section": "Version control with git",
+    "text": "Version control with git\n\nGit, GitHub, and Version Control by Matt Crump\nHappy Git with R by Jenny Bryan"
+  },
+  {
+    "objectID": "resources.html#statistical-analysis-with-r",
+    "href": "resources.html#statistical-analysis-with-r",
+    "title": "Resources",
+    "section": "Statistical analysis with R",
+    "text": "Statistical analysis with R\n\nLearning Statistics with R by Danielle Navarro\nAnswering Questions with Data by Matt Crump, Danielle Navarro, and Jeffrey Suzuki"
+  },
+  {
+    "objectID": "resources.html#data-visualization",
+    "href": "resources.html#data-visualization",
+    "title": "Resources",
+    "section": "Data visualization",
+    "text": "Data visualization\n\nggplot2: Elegant Graphics for Data Analysis by Hadley Wickham, Danielle Navarro, and Thomas Lin Pedersen"
+  },
+  {
+    "objectID": "resources.html#natural-language-processing-with-r",
+    "href": "resources.html#natural-language-processing-with-r",
+    "title": "Resources",
+    "section": "Natural language processing with R",
+    "text": "Natural language processing with R\n\nTidy Text Mining by Julia Silge and David Robinson"
+  },
+  {
+    "objectID": "resources.html#advanced-programming-with-r",
+    "href": "resources.html#advanced-programming-with-r",
+    "title": "Resources",
+    "section": "Advanced programming with R",
+    "text": "Advanced programming with R\n\nAdvanced R by Hadley Wickham"
+  },
+  {
+    "objectID": "resources.html#resources-for-learning-python",
+    "href": "resources.html#resources-for-learning-python",
+    "title": "Resources",
+    "section": "Resources for learning Python",
+    "text": "Resources for learning Python\n\nPython vs R: What’s the Difference?\nLab in Cognition and Perception by Todd Gureckis"
   },
   {
     "objectID": "styletest.html",
