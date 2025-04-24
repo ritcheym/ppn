@@ -5,6 +5,12 @@ sidebar: false
 
 For many topics in this class, we are going to be only scratching the surface. Below you can find some links that can help you learn more.
 
+### Readings
+
+-   Emily Nordmann and Lisa DeBruine. [*Applied Data Skills*](https://psyteachr.github.io/ads-v3/). doi:10.5281/zenodo.6365077
+-   Danielle Navarro. [*R for Psychological Science*](https://psyr.djnavarro.net/).
+-   Roth et al. (2025). Ten principles for reliable, efficient, and adaptable coding in psychology and cognitive neuroscience. *Nature Communications Psychology*. [link](https://www.nature.com/articles/s44271-025-00236-3)
+
 ### Useful functions
 
 -   **Basic statistics:** `mean()`, `median()`, `min()`, `max()`, `sum()` calculate basic descriptive statistics on a vector.
@@ -14,7 +20,7 @@ For many topics in this class, we are going to be only scratching the surface. B
 -   **Sampling:** `sample()` generates random samples from a vector.
 -   **Data analysis with dplyr:** `filter()`, `select()`, `mutate()`, `group_by()` are powerful functions for data manipulation within the dplyr package - covered in the [Data Wrangling](/modules/07_data-wrangling.html) module
 -   **Visualization with ggplot2:** `ggplot()` is the primary function to create customized plots using the ggplot2 package - covered in the [Data Visualization](/modules/05_data-visualization.html) module
--   **[More useful functions](https://ashki23.github.io/r-functions.html)**
+-   [**More useful functions**](https://ashki23.github.io/r-functions.html)
 
 ### R cheatsheets
 

@@ -14,15 +14,17 @@ website:
       - href: index.qmd
         text: Home
       - syllabus.qmd
-      - resources.qmd
       - modules/index.qmd
+      - datasets/index.qmd
+      - resources.qmd
+      - exercises.qmd
     tools:
       - icon: github
         menu:
           - text: Source Code
             href:  https://github.com/ritcheym/ppn
   back-to-top-navigation: false
-  page-footer: "Last updated January 2024."
+  page-footer: "Last updated April 2025."
     
   sidebar:
     style: "floating"
@@ -50,8 +52,6 @@ website:
           - modules/11_nlp.qmd
           - modules/xx_intro-jspsych.qmd
           - modules/xx_experiment-design.qmd
-      - text: "<b>Datasets</b>"
-        href: datasets/index.qmd
       - section: "<b>Projects</b>"
         contents:
           - projects/midterm-project.qmd
