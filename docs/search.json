@@ -689,6 +689,41 @@
     ]
   },
   {
+    "objectID": "datasets/vivid.html",
+    "href": "datasets/vivid.html",
+    "title": "Dataset: vivid",
+    "section": "",
+    "text": "Faul, L., Ritchey, M., & Kensinger, E. A. (2025). The relationship between subjective vividness and remembered visual characteristics of emotional stimuli across the lifespan. Emotion. https://doi.org/10.1037/emo0001518. link"
+  },
+  {
+    "objectID": "datasets/vivid.html#paper",
+    "href": "datasets/vivid.html#paper",
+    "title": "Dataset: vivid",
+    "section": "",
+    "text": "Faul, L., Ritchey, M., & Kensinger, E. A. (2025). The relationship between subjective vividness and remembered visual characteristics of emotional stimuli across the lifespan. Emotion. https://doi.org/10.1037/emo0001518. link"
+  },
+  {
+    "objectID": "datasets/vivid.html#open-data",
+    "href": "datasets/vivid.html#open-data",
+    "title": "Dataset: vivid",
+    "section": "Open data",
+    "text": "Open data\nDownload a copy of the data. Or use our starter script below to download it directly through R."
+  },
+  {
+    "objectID": "datasets/vivid.html#description",
+    "href": "datasets/vivid.html#description",
+    "title": "Dataset: vivid",
+    "section": "Description",
+    "text": "Description\nIn this study, participants studied emotionally negative, positive, and neutral images. They then completed a memory test for these images, which included measures of:\n\naccuracy of the discrimination between old and new images\nratings of subjective memory vividness\nerrors in reconstructing the visual features of the images (here we’ll look at color saturation).\n\nParticipants were sampled across the lifespan from 19-78 years of age. Thus, this dataset is a rich dataset for looking at the effects of within-subjects and between-subjects variables on multiple dependent measures, as well as relationships between these variables.\nThere are two main files: the Key.csv file, which gives a description of all of the variables included in the dataset, and the Final_Data_307_Participants.csv file, which includes all of the data. The dataset includes a row for every experimental trial for every participant."
+  },
+  {
+    "objectID": "datasets/vivid.html#analysis",
+    "href": "datasets/vivid.html#analysis",
+    "title": "Dataset: vivid",
+    "section": "Analysis",
+    "text": "Analysis\nDownload our starter script for working with this dataset in R."
+  },
+  {
     "objectID": "datasets/index.html",
     "href": "datasets/index.html",
     "title": "Datasets",
@@ -712,65 +747,72 @@
   {
     "objectID": "datasets/haxby01.html",
     "href": "datasets/haxby01.html",
-    "title": "PPN",
+    "title": "Dataset: haxby01",
     "section": "",
     "text": "Haxby, J. V., Gobbini, M. I., Furey, M. L., Ishai, A., Schouten, J. L., & Pietrini, P. (2001). Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science (New York, N.Y.), 293(5539), 2425–2430. link"
   },
   {
     "objectID": "datasets/haxby01.html#paper",
     "href": "datasets/haxby01.html#paper",
-    "title": "PPN",
+    "title": "Dataset: haxby01",
     "section": "",
     "text": "Haxby, J. V., Gobbini, M. I., Furey, M. L., Ishai, A., Schouten, J. L., & Pietrini, P. (2001). Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science (New York, N.Y.), 293(5539), 2425–2430. link"
   },
   {
     "objectID": "datasets/haxby01.html#open-data",
     "href": "datasets/haxby01.html#open-data",
-    "title": "PPN",
+    "title": "Dataset: haxby01",
     "section": "Open data",
-    "text": "Open data\nDownload a copy of the data. Or use our starter script below to download it through R."
+    "text": "Open data\nDownload a copy of the data. Or use our starter script below to download it directly through R."
   },
   {
     "objectID": "datasets/haxby01.html#description",
     "href": "datasets/haxby01.html#description",
-    "title": "PPN",
+    "title": "Dataset: haxby01",
     "section": "Description",
     "text": "Description\nHaxby et al. (2001) was a landmark study for establishing techniques for analyzing multivariate patterns of fMRI data, and the resulting dataset is commonly used to demonstrate fMRI analysis techniques. The dataset consists of fMRI data from 6 subjects while they viewed different categories of images, including faces, houses, and different kinds of objects. You can read more about the dataset in the paper or in the README file associated with the data.\nFor each of the 6 subjects, there are 3 primary files: an anatomical brain image, a set of BOLD functional images, and the labels that indicate what the subject was viewing for each time-point. In addition, there are 5 mask files that correspond to different regions of interest (ROIs) within the ventral temporal cortex: the ventral temporal cortex (vt), face-sensitive areas (face_vt), house-sensitive areas (house_vt), and variations of those latter two areas."
   },
   {
     "objectID": "datasets/haxby01.html#analysis",
     "href": "datasets/haxby01.html#analysis",
-    "title": "PPN",
+    "title": "Dataset: haxby01",
     "section": "Analysis",
     "text": "Analysis\nDownload our starter script for working with this dataset in R."
   },
   {
     "objectID": "datasets/screentime.html",
     "href": "datasets/screentime.html",
-    "title": "PPN",
+    "title": "Dataset: screentime",
     "section": "",
     "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. link"
   },
   {
     "objectID": "datasets/screentime.html#paper",
     "href": "datasets/screentime.html#paper",
-    "title": "PPN",
+    "title": "Dataset: screentime",
     "section": "",
     "text": "Przybylski, A. K., & Weinstein, N. (2017). A Large-Scale Test of the Goldilocks Hypothesis: Quantifying the Relations Between Digital-Screen Use and the Mental Well-Being of Adolescents. Psychological Science, 28(2), 204-215. link"
   },
   {
     "objectID": "datasets/screentime.html#open-data",
     "href": "datasets/screentime.html#open-data",
-    "title": "PPN",
+    "title": "Dataset: screentime",
     "section": "Open data",
     "text": "Open data\nData can be downloaded from the Open Science Framework - Download\nDataset includes usable data from 120,115 participants."
   },
   {
     "objectID": "datasets/screentime.html#key-variables",
     "href": "datasets/screentime.html#key-variables",
-    "title": "PPN",
+    "title": "Dataset: screentime",
     "section": "Key variables",
     "text": "Key variables\nVariables are described in the paper, analysis files, as well as in the registered analysis plan.\n\nMental Well-Being\n\nmwbi: Mental well-being (with imputed values) - from the WEMWBS scale\nResponses to individual questions are also included but not listed here.\n\n\n\nDemographics\n\nmale: Is the participant male? (1=male, 0=no)\nminority: Is the participant a minority? (1=yes, 0=no)\ndeprived: Does the participant live in a deprived area? (1=yes, 0=no)\n\n\n\nSummary screentime\n\nweekday_screen: Linear digital screen time (week days)\nweekend_screen: Linear digital screen time (weekend days)\n\n\n\nScreentime by type\n\nwatch_wd: Linear Streaming/Watching (week days)\nwatch_we: Linear StreamIng/Watching (weekend days)\nplay_wd: Linear Playing (week days)\nplay_we: Linear Playing (weekend days)\ncomp_wd: Linear Computing (week days)\ncomp_we: Linear Computing (weekend days)\nsp_wd: Linear Smartphone (week days)\nsp_we: Linear Smartphone (weekend days)"
+  },
+  {
+    "objectID": "datasets/screentime.html#analysis",
+    "href": "datasets/screentime.html#analysis",
+    "title": "Dataset: screentime",
+    "section": "Analysis",
+    "text": "Analysis\nDownload our starter script for working with this dataset in R."
   },
   {
     "objectID": "index.html",

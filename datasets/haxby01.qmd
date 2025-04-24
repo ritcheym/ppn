@@ -1,10 +1,14 @@
+---
+title: "Dataset: haxby01"
+sidebar: false
+---
 ## Paper
 
 -   Haxby, J. V., Gobbini, M. I., Furey, M. L., Ishai, A., Schouten, J. L., & Pietrini, P. (2001). Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science (New York, N.Y.), 293(5539), 2425–2430. [link](https://doi.org/10.1126/science.1063736)
 
 ## Open data
 
-[Download](http://data.pymvpa.org/datasets/haxby2001/) a copy of the data. Or use our starter script below to download it through R.
+[Download](http://data.pymvpa.org/datasets/haxby2001/) a copy of the data. Or use our starter script below to download it directly through R.
 
 ## Description
 
