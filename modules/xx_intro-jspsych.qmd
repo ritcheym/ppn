@@ -2,18 +2,4 @@
 title: "Introduction to jsPsych"
 ---
 
-## Objectives
-
-Here's the objective for this week.
-
-## Readings
-
-Link to textbook chapter
-
-## In-class exercises
-
-In-class exercises
-
-## Weekly assignment
-
-Here's the weekly assignment.
+Forthcoming. Maybe.

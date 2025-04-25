@@ -166,60 +166,7 @@
     "href": "modules/xx_intro-jspsych.html",
     "title": "Introduction to jsPsych",
     "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Introduction to jsPsych"
-    ]
-  },
-  {
-    "objectID": "modules/xx_intro-jspsych.html#objectives",
-    "href": "modules/xx_intro-jspsych.html#objectives",
-    "title": "Introduction to jsPsych",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Introduction to jsPsych"
-    ]
-  },
-  {
-    "objectID": "modules/xx_intro-jspsych.html#readings",
-    "href": "modules/xx_intro-jspsych.html#readings",
-    "title": "Introduction to jsPsych",
-    "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Introduction to jsPsych"
-    ]
-  },
-  {
-    "objectID": "modules/xx_intro-jspsych.html#in-class-exercises",
-    "href": "modules/xx_intro-jspsych.html#in-class-exercises",
-    "title": "Introduction to jsPsych",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Introduction to jsPsych"
-    ]
-  },
-  {
-    "objectID": "modules/xx_intro-jspsych.html#weekly-assignment",
-    "href": "modules/xx_intro-jspsych.html#weekly-assignment",
-    "title": "Introduction to jsPsych",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Introduction to jsPsych"
-    ]
+    "text": "Forthcoming. Maybe."
   },
   {
     "objectID": "modules/xx_data-summaries-relations.html",
@@ -257,63 +204,14 @@
     "text": "Weekly assignment\nHere’s the weekly assignment."
   },
   {
-    "objectID": "modules/12_advanced-visualization.html",
-    "href": "modules/12_advanced-visualization.html",
-    "title": "Advanced Visualization Techniques",
+    "objectID": "modules/index.html",
+    "href": "modules/index.html",
+    "title": "Modules",
     "section": "",
-    "text": "Here’s the objective for this week.",
+    "text": "To the left, you can find links to all of the course modules. Click one to get started.",
     "crumbs": [
       "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/12_advanced-visualization.html#objectives",
-    "href": "modules/12_advanced-visualization.html#objectives",
-    "title": "Advanced Visualization Techniques",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/12_advanced-visualization.html#readings",
-    "href": "modules/12_advanced-visualization.html#readings",
-    "title": "Advanced Visualization Techniques",
-    "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/12_advanced-visualization.html#in-class-exercises",
-    "href": "modules/12_advanced-visualization.html#in-class-exercises",
-    "title": "Advanced Visualization Techniques",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
-    ]
-  },
-  {
-    "objectID": "modules/12_advanced-visualization.html#weekly-assignment",
-    "href": "modules/12_advanced-visualization.html#weekly-assignment",
-    "title": "Advanced Visualization Techniques",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Advanced Visualization Techniques"
+      "<b>Modules</b>"
     ]
   },
   {
@@ -833,7 +731,7 @@
     "href": "index.html#course-description",
     "title": "Programming for Psychology and Neuroscience",
     "section": "Course description",
-    "text": "Course description\nThis course will provide an introduction to computer programming and its applications to psychology and neuroscience. The goal will be to provide you with the skillset to program experiments and data analyses, as well as an understanding of how these tools are used to facilitate modern research. We will begin with the basics of how to develop algorithms and implement them with programming logic. In a series of hands-on projects, students will learn to program web-based interactive experiments and to analyze psychology and neuroscience datasets using JavaScript and R. Additional topics will include data management, version control, strategies for code debugging, data visualization, and an introduction to machine learning and natural language processing techniques. This course is ideal for students with little to no programming experience, although prior training in statistics is strongly recommended."
+    "text": "Course description\nThis course will provide an introduction to computer programming and its applications to psychology and neuroscience. The goal will be to provide you with the skillset to program experiments and data analyses, as well as an understanding of how these tools are used to facilitate modern research. We will begin with the basics of how to develop algorithms and implement them with programming logic. In a series of hands-on projects, students will learn to analyze psychology and neuroscience datasets using JavaScript and R. Additional topics will include data management, version control, strategies for code debugging, data visualization, and an introduction to machine learning and natural language processing techniques. This course is ideal for students with little to no programming experience, although prior training in statistics is strongly recommended."
   },
   {
     "objectID": "index.html#website-information",
@@ -1150,8 +1048,8 @@
     ]
   },
   {
-    "objectID": "modules/11_nlp.html",
-    "href": "modules/11_nlp.html",
+    "objectID": "modules/12_nlp.html",
+    "href": "modules/12_nlp.html",
     "title": "Natural Language Processing",
     "section": "",
     "text": "Natural language processing (NLP) refers to a family of methods for processing natural (i.e., human) language. In recent years, NLP methods have taken off with the development of large language models that can interpret and generate complex texts. This week, we will take a brief peek into the world of NLP, focusing on basic steps involved in processing written text. As an example, we will conduct a sentiment analysis, which is a method for rating the emotional tone of text– that is, how positive or negative is its meaning.",
@@ -1162,8 +1060,8 @@
     ]
   },
   {
-    "objectID": "modules/11_nlp.html#objectives",
-    "href": "modules/11_nlp.html#objectives",
+    "objectID": "modules/12_nlp.html#objectives",
+    "href": "modules/12_nlp.html#objectives",
     "title": "Natural Language Processing",
     "section": "",
     "text": "Natural language processing (NLP) refers to a family of methods for processing natural (i.e., human) language. In recent years, NLP methods have taken off with the development of large language models that can interpret and generate complex texts. This week, we will take a brief peek into the world of NLP, focusing on basic steps involved in processing written text. As an example, we will conduct a sentiment analysis, which is a method for rating the emotional tone of text– that is, how positive or negative is its meaning.",
@@ -1174,8 +1072,8 @@
     ]
   },
   {
-    "objectID": "modules/11_nlp.html#readings",
-    "href": "modules/11_nlp.html#readings",
+    "objectID": "modules/12_nlp.html#readings",
+    "href": "modules/12_nlp.html#readings",
     "title": "Natural Language Processing",
     "section": "Readings",
     "text": "Readings\nThis week’s demonstration is based on methods described in Text Mining with R.",
@@ -1186,8 +1084,8 @@
     ]
   },
   {
-    "objectID": "modules/11_nlp.html#in-class-exercises",
-    "href": "modules/11_nlp.html#in-class-exercises",
+    "objectID": "modules/12_nlp.html#in-class-exercises",
+    "href": "modules/12_nlp.html#in-class-exercises",
     "title": "Natural Language Processing",
     "section": "In-class exercises",
     "text": "In-class exercises\nWe will go through a demonstration of how to use natural language processing tools to run a sentiment analysis to better understand, what else, but the Eras of Taylor Swift.",
@@ -1198,8 +1096,8 @@
     ]
   },
   {
-    "objectID": "modules/11_nlp.html#weekly-assignment",
-    "href": "modules/11_nlp.html#weekly-assignment",
+    "objectID": "modules/12_nlp.html#weekly-assignment",
+    "href": "modules/12_nlp.html#weekly-assignment",
     "title": "Natural Language Processing",
     "section": "Weekly assignment",
     "text": "Weekly assignment\nNone this week. You should use this time to work on your final project.",
@@ -1210,75 +1108,18 @@
     ]
   },
   {
-    "objectID": "modules/index.html",
-    "href": "modules/index.html",
-    "title": "Modules",
+    "objectID": "modules/xx_advanced-visualization.html",
+    "href": "modules/xx_advanced-visualization.html",
+    "title": "Advanced Visualization Techniques",
     "section": "",
-    "text": "To the left, you can find links to all of the course modules. Click one to get started.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>"
-    ]
+    "text": "Forthcoming. Maybe."
   },
   {
     "objectID": "modules/xx_experiment-design.html",
     "href": "modules/xx_experiment-design.html",
     "title": "Experimental Design & Data Collection",
     "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Experimental Design & Data Collection"
-    ]
-  },
-  {
-    "objectID": "modules/xx_experiment-design.html#objectives",
-    "href": "modules/xx_experiment-design.html#objectives",
-    "title": "Experimental Design & Data Collection",
-    "section": "",
-    "text": "Here’s the objective for this week.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Experimental Design & Data Collection"
-    ]
-  },
-  {
-    "objectID": "modules/xx_experiment-design.html#readings",
-    "href": "modules/xx_experiment-design.html#readings",
-    "title": "Experimental Design & Data Collection",
-    "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Experimental Design & Data Collection"
-    ]
-  },
-  {
-    "objectID": "modules/xx_experiment-design.html#in-class-exercises",
-    "href": "modules/xx_experiment-design.html#in-class-exercises",
-    "title": "Experimental Design & Data Collection",
-    "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Experimental Design & Data Collection"
-    ]
-  },
-  {
-    "objectID": "modules/xx_experiment-design.html#weekly-assignment",
-    "href": "modules/xx_experiment-design.html#weekly-assignment",
-    "title": "Experimental Design & Data Collection",
-    "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
-    "crumbs": [
-      "Home",
-      "<b>Modules</b>",
-      "Experimental Design & Data Collection"
-    ]
+    "text": "Forthcoming. Maybe."
   },
   {
     "objectID": "projects/final-project.html",

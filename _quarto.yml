@@ -48,11 +48,7 @@ website:
           - text: "<mark>Data Analysis</mark>"
           - modules/10_statistical-analysis.qmd
           - modules/11_machine-learning.qmd
-          - text: "<mark>Additional Topics</mark>"
-          - modules/11_nlp.qmd
-          - modules/12_advanced-visualization.qmd
-          - modules/xx_intro-jspsych.qmd
-          - modules/xx_experiment-design.qmd
+          - modules/12_nlp.qmd
       - section: "<b>Projects</b>"
         contents:
           - projects/midterm-project.qmd
