@@ -12,7 +12,7 @@ This week's demonstration is based on methods described in [*Text Mining with R*
 
 ## In-class exercises
 
-We will go through a demonstration of how to use natural language processing tools to run a sentiment analysis to better understand, what else, but the Eras of Taylor Swift.
+We will go through a [demonstration](../files/nlp-swift.html) of how to use natural language processing tools to run a sentiment analysis to better understand, what else, but the Eras of Taylor Swift.
 
 ## Weekly assignment
 

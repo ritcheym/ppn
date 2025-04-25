@@ -6,6 +6,7 @@ project:
     - "!*.Rmd"
   resources:
     - files/*.Rmd
+    - files/*.html
     
 website:
   title: "PPN"
