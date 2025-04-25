@@ -1154,7 +1154,7 @@
     "href": "modules/11_nlp.html",
     "title": "Natural Language Processing",
     "section": "",
-    "text": "Here’s the objective for this week.",
+    "text": "Natural language processing (NLP) refers to a family of methods for processing natural (i.e., human) language. In recent years, NLP methods have taken off with the development of large language models that can interpret and generate complex texts. This week, we will take a brief peek into the world of NLP, focusing on basic steps involved in processing written text. As an example, we will conduct a sentiment analysis, which is a method for rating the emotional tone of text– that is, how positive or negative is its meaning.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -1166,7 +1166,7 @@
     "href": "modules/11_nlp.html#objectives",
     "title": "Natural Language Processing",
     "section": "",
-    "text": "Here’s the objective for this week.",
+    "text": "Natural language processing (NLP) refers to a family of methods for processing natural (i.e., human) language. In recent years, NLP methods have taken off with the development of large language models that can interpret and generate complex texts. This week, we will take a brief peek into the world of NLP, focusing on basic steps involved in processing written text. As an example, we will conduct a sentiment analysis, which is a method for rating the emotional tone of text– that is, how positive or negative is its meaning.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -1178,7 +1178,7 @@
     "href": "modules/11_nlp.html#readings",
     "title": "Natural Language Processing",
     "section": "Readings",
-    "text": "Readings\nLink to textbook chapter",
+    "text": "Readings\nThis week’s demonstration is based on methods described in Text Mining with R.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -1190,7 +1190,7 @@
     "href": "modules/11_nlp.html#in-class-exercises",
     "title": "Natural Language Processing",
     "section": "In-class exercises",
-    "text": "In-class exercises\nIn-class exercises",
+    "text": "In-class exercises\nWe will go through a demonstration of how to use natural language processing tools to run a sentiment analysis to better understand, what else, but the Eras of Taylor Swift.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
@@ -1202,7 +1202,7 @@
     "href": "modules/11_nlp.html#weekly-assignment",
     "title": "Natural Language Processing",
     "section": "Weekly assignment",
-    "text": "Weekly assignment\nHere’s the weekly assignment.",
+    "text": "Weekly assignment\nNone this week. You should use this time to work on your final project.",
     "crumbs": [
       "Home",
       "<b>Modules</b>",
