@@ -643,6 +643,13 @@
     "text": "Searching for other datasets\n\nPsychology datasets published on the Open Science Framework\nArticles with open data published in Psychological Science\nTidy Tuesday multi-purpose datasets"
   },
   {
+    "objectID": "datasets/index.html#other-options",
+    "href": "datasets/index.html#other-options",
+    "title": "Datasets",
+    "section": "Other options",
+    "text": "Other options\nPrevious students have been successful in working with data from the following papers:\n\nBrady, W. J., McLoughlin, K., Doan, T. N., & Crockett, M. J. (2021). How social learning amplifies moral outrage expression in online social networks. Science Advances, 7(33). link - data from Study 3 & 4\nJames, E. L., Bonsall, M. B., Hoppitt, L., Tunbridge, E. M., Geddes, J. R., Milton, A. L., & Holmes, E. A. (2015). Computer game play reduces intrusive memories of experimental trauma via reconsolidation-update mechanisms. Psychological Science, 26(8), 1201–1215. link - data\nPorter, T., Catalán Molina, D., Cimpian, A., Roberts, S., Fredericks, A., Blackwell, L. S., & Trzesniewski, K. (2022). Growth-mindset intervention delivered by teachers boosts achievement in early adolescence. Psychological Science, 33(7), 1086–1096. link - data\nScullin, M. K., Gao, C., & Fillmore, P. (2021). Bedtime music, involuntary musical imagery, and sleep. Psychological Science, 32(7), 985–997. link - data"
+  },
+  {
     "objectID": "datasets/haxby01.html",
     "href": "datasets/haxby01.html",
     "title": "Dataset: haxby01",
